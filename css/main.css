@@ -1,0 +1,66 @@
+
+
+#img_header {
+  width:100%;
+}
+
+#customer {
+    padding:3% 0;
+    background-color:#FCFCFC
+}
+
+.italics
+{
+font-style:italic;
+}
+
+#navigation
+{
+  width:100%
+	margin:0;
+  margin-left: auto ;
+	margin-right: auto ;
+	background: #565656 repeat-x;
+	color:white;	
+}
+
+#nav_header
+{
+	text-align:center;
+	z-index:2;
+	border: 0;	
+}
+
+#nav_header ul
+{
+   margin-left:-30px;
+   padding-top:1.5%;
+}
+
+#nav_header ul li
+{
+	position: relative;
+	display: inline;
+	text-decoration: none;
+ 
+}
+
+#nav_header a
+{
+	color:#fff;	
+	text-decoration: none;
+	font-family: "lucida sans unicode","lucida grande",sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-variant: small-caps;
+	letter-spacing: 3.2pt;
+	word-spacing: 3.0pt;
+	
+}
+
+#nav_header ul li a:hover
+{
+	text-decoration: underline;
+	color: #C4D9D9;
+}
+
