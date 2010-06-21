@@ -2,6 +2,11 @@
   width:100%;
 }
 
+#logo
+{
+  margin-left:0px;
+}
+
 #customer {
     padding:3% 0;
     background-color:#FCFCFC;
@@ -76,5 +81,18 @@ font-style:italic;
 	word-spacing: 3.0pt;
 
 
+}
+
+.details h3
+{
+	font-size: 1.3em;
+  margin-bottom:5px;
+
+
+}
+
+#bg
+{
+  width:100%
 }
 
