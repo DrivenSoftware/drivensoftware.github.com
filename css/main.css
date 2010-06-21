@@ -62,3 +62,19 @@ font-style:italic;
 	color: #C4D9D9;
 }
 
+.details
+{
+	background: #565656 repeat-x;
+  	color:#fff;	
+    width:100%;
+    min-height:100px;
+    font-family: "lucida sans unicode","lucida grande",sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-variant: small-caps;
+	letter-spacing: 3.2pt;
+	word-spacing: 3.0pt;
+
+
+}
+
