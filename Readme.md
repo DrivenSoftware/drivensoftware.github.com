@@ -1,6 +1,10 @@
 Driven Software Website
 =======================
 
+To Deploy
+---------
+
+    ruby deploy.rb
 
 Todo
 ------

@@ -13,7 +13,7 @@
 
     <script type='text/javascript'>
       $(document).ready(function(){
-        $(".tweet").tweet({
+          $(".tweet").tweet({
 username: "garrensmith",
 list: "drivensoftware",
 join_text: "auto",
@@ -28,12 +28,8 @@ auto_join_text_url: "",
 
 });
           });
-        </script> 
-        <link href="js/tweet/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
-
-
-
-
+</script> 
+<link href="js/tweet/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
       </head>
       <body>
         <div class="container_12 ">
@@ -68,12 +64,23 @@ auto_join_text_url: "",
           </div>
           <div id="social" class="grid_8">
             <h1>Driven Software Blogs</h1>
-          </div>
-           <div  class="grid_4">
-            <h2>Driven Software on Twitter</h2>
-            <div class="tweet"></div>
-          </div>
-          <div class="details grid_12">
+            <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAEiNfDWriNPHAQUW-9jieIRRtzKctvpySo8ICS5YcVo_XP-1hXBRIp6tHdve-5wMOI5xo4OdKoAq_eg"></script>
+
+            <script type="text/javascript" src="js/rssdisplayer.js"></script>
+            <script type="text/javascript">
+
+              //USAGE SYNTAX: new rssdisplayer("divid", "rssurl", numberofitems, "displayoptions")
+            new rssdisplayer("rssdiv", "http://feeds.feedburner.com/DrivenSoftwareRssFeed?format=xml", 3, "date , description")
+
+          </script>
+
+
+        </div>
+        <div  class="grid_4">
+          <h2>Driven Software on Twitter</h2>
+          <div class="tweet"></div>
+        </div>
+        <div class="details grid_12">
           <div  class="grid_3">
             <h3>About Us</h3><ul>
               <li>Our History</li>
@@ -110,13 +117,13 @@ auto_join_text_url: "",
           </div>
         </div>
         <!-- <div id="bg" class="grid_4 details">
-            <img src="images/Wireframe.png"/>
-          </div>-->
+          <img src="images/Wireframe.png"/>
+        </div>-->
 
       </div>
 
-               </body>
+    </body>
 
 
-      </html>
+  </html>
 

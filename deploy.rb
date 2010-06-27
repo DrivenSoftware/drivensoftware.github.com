@@ -1,6 +1,7 @@
 require 'net/ftp'
+require 'Find'
 
-@files = ["index.html"]
+@exclude_files = [".DS_STORE","ftp.rb","Readme.md"]
 
 
 Net::FTP.open('drivensoftware.net') do |ftp|
@@ -11,9 +12,12 @@ Net::FTP.open('drivensoftware.net') do |ftp|
     ftp.chdir('/beta')
     puts "changed dir"
     puts "uploading"
-    Dir.foreach('.') do |file|
-       next if File.stat(file).directory?
-          puts "uploading #{file.to_s}"
+    Find.find(Dir.pwd) do |file|
+      next if @exclude_files.include?  File.basename(file)
+      Find.prune if File.basename(file)[0] == ?.
+      next if File.directory? file     
+      
+      puts "uploading #{file.to_s}"
       ftp.put(file)      
     end
     puts "files uploaded"
