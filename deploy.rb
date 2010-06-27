@@ -1,6 +1,14 @@
 require 'net/ftp'
 require 'Find'
 
+class String
+#  http://snippets.dzone.com/posts/show/7419
+  def -(s2)
+    self[/#{Regexp.escape(s2)}/]
+    $' # remainder
+  end  
+end
+
 @exclude_files = [".DS_STORE","ftp.rb","Readme.md"]
 
 
@@ -17,8 +25,10 @@ Net::FTP.open('drivensoftware.net') do |ftp|
       Find.prune if File.basename(file)[0] == ?.
       next if File.directory? file     
       
-      puts "uploading #{file.to_s}"
-      ftp.put(file)      
+     upload_file = file.to_s - Dir.pwd.to_s 
+     puts "uploading #{ upload_file}"
+      
+     ftp.put(file)      
     end
     puts "files uploaded"
   end
