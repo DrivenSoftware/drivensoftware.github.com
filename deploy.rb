@@ -28,7 +28,7 @@ Net::FTP.open('drivensoftware.net') do |ftp|
      upload_file = file.to_s - Dir.pwd.to_s 
      puts "uploading #{ upload_file}"
       
-     ftp.put(file)      
+     ftp.put(upload_file)      
     end
     puts "files uploaded"
   end
