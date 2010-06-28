@@ -1,3 +1,9 @@
+body{
+  font-size:12pt;
+  background-color:#EBF0E7;
+}
+
+
 #img_header {
   width:100%;
 }
@@ -5,16 +11,26 @@
 #logo
 {
   margin-left:0px;
-}
+  }
 
 #customer {
+    height:254px;
+
     padding:3% 0;
-    background-color:#FCFCFC;
-}
+     margin:auto;   
+
+
+  }
+#header_bg {
+    height:254px;
+    background-color:#f3f2f2;
+    margin:0px;    
+   }
 
 .italics
 {
 font-style:italic;
+color:black;
 }
 
 #navigation
@@ -84,11 +100,25 @@ font-style:italic;
 
 }
 
+
+
+.details a
+{
+  color:#fff
+ 	text-decoration: none;
+
+}
+
+.details ul
+{
+	text-decoration: none;
+
+}
+
 .details h3
 {
 	font-size: 1.3em;
   margin-bottom:5px;
- 
 
 }
 
