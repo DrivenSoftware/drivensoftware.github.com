@@ -3,6 +3,10 @@ body{
   background-color:#EBF0E7;
 }
 
+.bg_color {
+  background-color:#F3F2F2;
+}
+
 
 #img_header {
   width:100%;
@@ -83,7 +87,9 @@ color:black;
 	color: #C4D9D9;
 }
 
-.details
+
+
+#details
 {
 	background: #565656 repeat-x;
   	color:#fff;	
@@ -102,20 +108,32 @@ color:black;
 
 
 
-.details a
+#details a
 {
-  color:#fff
+  color:#fff;
  	text-decoration: none;
 
 }
 
-.details ul
+#details ul
 {
 	text-decoration: none;
+  list-style-type: none;
+ }
 
+ #details li
+ {
+    margin:0;
 }
 
-.details h3
+#details ul li a:hover
+{
+	text-decoration: underline;
+	color: #C4D9D9;
+}
+
+
+#details h3
 {
 	font-size: 1.3em;
   margin-bottom:5px;
