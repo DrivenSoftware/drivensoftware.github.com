@@ -14,4 +14,4 @@ Todo
 * Complete other sections
 * Create content for all pages
 * Create automated task to upload pages
-
+* Look at Shopify.com integration
