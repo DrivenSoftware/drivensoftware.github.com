@@ -6,6 +6,13 @@ To Deploy
 
     ruby deploy.rb
 
+Test
+----
+
+* test1
+* test2
+
+
 Todo
 ------
 
