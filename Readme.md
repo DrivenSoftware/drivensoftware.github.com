@@ -20,25 +20,20 @@ Todo
 * Look at Shopify.com integration
 * Move DS website to new GitHub organisation repos.
 
+* Garren
+  * Create demo url to test on
+  * Colours
+  * Create automated task to upload pages
+  * Move website to Driven Software org
 
-Todo
-------
+* KJT
+  * Write first draft of ClientPortfolio section
+  * Write first draft of AboutUs-History section
+  * Write first draft of AboutUs-OurPeople section
+  * Write first draft of AboutUs-OurApproach section
+  * Write first draft of WhatWeDo-ImmersiveCoaching section
+  * Write first draft of WhatWeDo-Consulting section
+  * Write first draft of WhatWeDo-Training section
 
-* 
-**GRS**
-* Create demo url to test on
-* Colours
-* Create automated task to upload pages
-* Move website to Driven Software org
-
-**KJT**
-* Write first draft of ClientPortfolio section
-* Write first draft of AboutUs-History section
-* Write first draft of AboutUs-OurPeople section
-* Write first draft of AboutUs-OurApproach section
-* Write first draft of WhatWeDo-ImmersiveCoaching section
-* Write first draft of WhatWeDo-Consulting section
-* Write first draft of WhatWeDo-Training section
-
-[DONE]
-* Create GitHub account for DS
+* DONE
+  * Create GitHub account for DS
