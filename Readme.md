@@ -1,6 +1,13 @@
 Driven Software Website
 =======================
 
+To switch repo
+--------------
+    go to .git/config
+    replace url with git@github.com:DrivenSoftware/Driven-Software-Website.git
+    continue as usual
+
+
 To Deploy
 ---------
 
