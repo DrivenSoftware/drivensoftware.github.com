@@ -8,7 +8,6 @@ To Deploy
 
 Todo
 ----
-**ALL**
 * Create Resources-TrainingMaterial section (be able to upload content here)
 * Create Resources-Blogs section (aggregate blogs here)
 * Create Podcasts section (upload recorded podcasts here)
