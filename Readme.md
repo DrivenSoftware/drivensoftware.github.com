@@ -10,17 +10,15 @@ Todo
 ----
 
 * Create Resources-TrainingMaterial section (be able to upload content here)
-* test2
+* Create Resources-Blogs section (aggregate blogs here)
+* Create Podcasts section (upload recorded podcasts here)
 
 
 Todo
 ------
 
 **ALL**
-* Create Resources-TrainingMaterial section (be able to upload content here)
-* Create Resources-Blogs section (aggregate blogs here)
-* Create Podcasts section (upload recorded podcasts here)
-* Record a test podcast using iPhone and MacBook to see if good enough quality to publish
+* * ** Record a test podcast using iPhone and MacBook to see if good enough quality to publish
 * Create OpenSource section (link to GitHub projects)
 * Create Projects section (**ALL**)
 * Create ContactUs section (contact form* email info@drivensoftware.net, contact numbers)
