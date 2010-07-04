@@ -6,10 +6,10 @@ To Deploy
 
     ruby deploy.rb
 
-Test
+Todo
 ----
 
-* test1
+* Create Resources-TrainingMaterial section (be able to upload content here)
 * test2
 
 
