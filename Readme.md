@@ -9,7 +9,7 @@ To Deploy
 Todo
 ------
 
-[*]
+**ALL**
 * Create Resources-TrainingMaterial section (be able to upload content here)
 * Create Resources-Blogs section (aggregate blogs here)
 * Create Podcasts section (upload recorded podcasts here)
@@ -22,12 +22,13 @@ Todo
 * Look at Shopify.com integration
 * Move DS website to new GitHub organisation repos.
 
-[GRS]
+**GRS**
 * Create demo url to test on
 * Colours
 * Create automated task to upload pages
+* Move website to Driven Software org
 
-[KJT]
+**KJT**
 * Write first draft of ClientPortfolio section
 * Write first draft of AboutUs-History section
 * Write first draft of AboutUs-OurPeople section
