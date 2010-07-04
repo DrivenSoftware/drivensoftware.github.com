@@ -20,6 +20,7 @@ Todo
 * Request a new batch of client endorsements from clients
 * Find a way to load a random new endorsement quote on each page load
 * Look at Shopify.com integration
+* Move DS website to new GitHub organisation repos.
 
 [GRS]
 * Create demo url to test on
