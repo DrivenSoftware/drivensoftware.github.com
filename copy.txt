@@ -1,0 +1,37 @@
+ABOUT US
+========
+
+Our History
+-----------
+todo
+
+Our People
+----------
+todo
+
+Our Approach
+------------
+todo
+
+CLIENT PORTFOLIO
+================
+These are the clients that Driven Software has successfully assisted:
+
+{company logos}
+
+Feel free to [contact us] for direct client references/endorsements.
+
+
+WHAT WE DO
+==========
+
+Driven Software KickStart
+
+The Driven Software KickStart program is a dynamic, proven and fully customisable system that is guaranteed to turn any group of developers into a high performance agile team that not only delivers on time, every time, but loves doing it.
+
+Using a multi-mode learning approach which mixes presentations, workshops, one on one mentorship and immersive coaching techniques, we can take your vision for business success and provide your people with the skills and value system that can transform your ideas into reality in a sustainable, reliable and enjoyable way.
+
+
+Driven Software KickStart Init
+
+Have a new idea, but not sure where to start? KickStart Init is designed for businesses that the vision but not the development capacity to achieve it. We work closely with you to understand your needs and then, using elements from the KickStart program, assist with building a team from the ground up and/or outsourcing/partnering where desirable.
