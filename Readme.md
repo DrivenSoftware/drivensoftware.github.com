@@ -6,7 +6,11 @@ Website
 
 To see [demo](http://drivensoftware.net/beta/)
 
+To Setup
+--------
 
+  sudo gem install jekyll
+  sudo gem install glynn
 
 To switch repo
 --------------
@@ -14,11 +18,24 @@ To switch repo
     replace url with git@github.com:DrivenSoftware/Driven-Software-Website.git
     continue as usual
 
+To Add new page
+---------------
+
+Set this tag for the layout page
+  ---
+  layout: default
+  ---
+
+
+To Test
+-------
+
+  jekyll --server
 
 To Deploy
 ---------
 
-    ruby deploy.rb
+    glynn
 
 Todo
 ----
@@ -32,11 +49,9 @@ Todo
 
 
 * Garren
-  * Create automated task to upload pages
   * javascript dropdown menus at the top
   * Find a way to load a random new endorsement quote on each page load
-  * Compile from static pages -> full website
-
+ 
 * KJT
   * Write first draft of ClientPortfolio section
   * Write first draft of AboutUs-History section
@@ -50,3 +65,6 @@ Todo
 
 
 * DONE
+  * Create automated task to upload pages
+  * Compile from static pages -> full website
+
