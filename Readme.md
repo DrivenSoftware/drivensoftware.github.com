@@ -26,19 +26,16 @@ Todo
 * Create Resources-Blogs section (aggregate blogs here)
 * Create Podcasts section (upload recorded podcasts here)
 * Record a test podcast using iPhone and MacBook to see if good enough quality to publish
-* Create OpenSource section (link to GitHub projects)
-* Create Projects section 
+* Create OpenSourceProjects section (link to GitHub projects)
 * Create ContactUs section (contact form* email info@drivensoftware.net, contact numbers)
-* Request a new batch of client endorsements from clients
-* Find a way to load a random new endorsement quote on each page load
 * Look at Shopify.com integration
-* Move DS website to new GitHub organisation repos.
+
 
 * Garren
-  * Create demo url to test on
-  * Colours
   * Create automated task to upload pages
-  * Move website to Driven Software org
+  * javascript dropdown menus at the top
+  * Find a way to load a random new endorsement quote on each page load
+  * Compile from static pages -> full website
 
 * KJT
   * Write first draft of ClientPortfolio section
@@ -48,6 +45,8 @@ Todo
   * Write first draft of WhatWeDo-ImmersiveCoaching section
   * Write first draft of WhatWeDo-Consulting section
   * Write first draft of WhatWeDo-Training section
+  * Request a new batch of client endorsements from clients
+
+
 
 * DONE
-  * Create GitHub account for DS
