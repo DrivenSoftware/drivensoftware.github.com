@@ -1,25 +1,6 @@
 ABOUT US
 ========
 
-Our History
------------
-todo
-
-Our People
-----------
-todo
-
-Our Approach
-------------
-todo
-
-CLIENT PORTFOLIO
-================
-These are the clients that Driven Software has successfully assisted:
-
-{company logos}
-
-Feel free to [contact us] for direct client references/endorsements.
 
 
 WHAT WE DO
