@@ -4,13 +4,19 @@ title: Client Portfolio
 permalink: /ClientPortfolio/
 ---
 
-# Driven Software's Client Portfolio
 
-These are the clients that Driven Software has successfully assisted:
-
-{company logos}
-
-Feel free to [ContactUs] for direct client references/endorsements.
+# Our Client Portfolio
 
 
-TODO
+These are some of the clients that Driven Software has successfully assisted:
+
+![FirstRand Bank](/images/client-logos/RMB.png "FirstRand")
+![DeBeers](/images/client-logos/DeBeers.png "DeBeers")
+![Blue Label Telecoms](/images/client-logos/BlueLabel.png "Blue Label")
+![DraftFCB](/images/client-logos/DraftFcb.png "DraftFCB")
+![GijimaAst](/images/client-logos/GijimaAst.png "GijimaAst")
+![Impala Platinum](/images/client-logos/Implats.png "Implats")
+![Anglo Platinum](/images/client-logos/AngloPlatinum.png "Amplats")
+
+
+Feel free to [contact us](/pages/ContactUs "Contact Driven Software") for direct client references and endorsements.
