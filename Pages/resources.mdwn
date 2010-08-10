@@ -4,9 +4,7 @@ title: Resources
 permalink: /Resources/
 ---
 
-# Resources
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-TODO
+* [Training Material](/pages/Resources/TrainingMaterial "Driven Software's Training Material") - Browse some of the training material we provide to our clients
+* [Blogs](/pages/Resources/Blogs "Driven Software Employee's Blogs") - Read and subscribe to our employee's online blogs
+* [Podcasts](/pages/Resources/Podcasts "The Driven Podcast") - Subscribe to our regular podcast feature
+* [Open Source Projects](/pages/Resources/OpenSourceProjects "Driven Software Open Source") - Driven's free source code contributions

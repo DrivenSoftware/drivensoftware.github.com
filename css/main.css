@@ -1,47 +1,44 @@
 body{
-  font-size:12pt;
-  background-color:#EBF0E7;
+    font-size:12pt;
+    background-color:#EBF0E7;
 }
 
 .bg_color {
-  background-color:#F3F2F2;
+    background-color:#F3F2F2;
 }
 
-
 #img_header {
-  width:100%;
+    width:100%;
 }
 
 #logo
 {
-  margin-left:0px;
-  }
+    margin-left:0px;
+}
 
 #customer {
     height:254px;
-
     padding:3% 0;
-     margin:auto;   
+    margin:auto;
+}
 
-
-  }
 #header_bg {
     height:254px;
     background-color:#f3f2f2;
     margin:0px;    
-   }
+}
 
 .italics
 {
-font-style:italic;
-color:black;
+    font-style:italic;
+    color:black;
 }
 
 #navigation
 {
-  width:100%;
+    width:100%;
 	margin:0;
-  margin-left: auto ;
+    margin-left: auto ;
 	margin-right: auto ;
 	background: #565656 repeat-x;
 	color:white;	
@@ -72,8 +69,8 @@ color:black;
 {
 	color:#fff;	
 	text-decoration: none;
-	font-family: "lucida sans unicode","lucida grande",sans-serif;
-	font-size: 12px;
+	font-family: "Verdana", "Geneva", sans-serif;
+	font-size: 14px;
 	font-weight: bold;
 	font-variant: small-caps;
 	letter-spacing: 3.2pt;
@@ -106,8 +103,6 @@ color:black;
 
 }
 
-
-
 #details a
 {
   color:#fff;
@@ -138,6 +133,24 @@ color:black;
 	font-size: 1.3em;
   margin-bottom:5px;
 
+}
+
+#footer a
+{
+ 	color:#fff;
+	text-decoration: none;
+	font-family: "Verdana", "Geneva", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-variant: small-caps;
+	letter-spacing: 2.2pt;
+	word-spacing: 2.0pt;
+}
+
+#footer ul a
+{
+ 	font-size: 10px;
+    font-weight: normal;
 }
 
 #bg
