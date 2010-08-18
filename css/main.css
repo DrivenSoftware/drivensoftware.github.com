@@ -84,6 +84,31 @@ body{
 	color: #C4D9D9;
 }
 
+ul.nav_list li ul.nav_2 {  
+     list-style: none;  
+     position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/  
+     left: 0; top: 35px;  
+     background: #333;  
+     margin: 0; padding: 0;  
+     display: none;  
+     float: left;  
+     width: 170px;  
+     border: 1px solid #111;  
+ }  
+
+ ul.nav_list li ul.nav_2 li{  
+     margin: 0; padding: 0;  
+     border-top: 1px solid #252525; /*--Create bevel effect--*/  
+     border-bottom: 1px solid #444; /*--Create bevel effect--*/  
+     clear: both;  
+     width: 170px;  
+ }  
+ html ul.nav_list li ul.nav_2 li a {  
+     float: left;  
+     width: 145px;  
+     background: #333 url(dropdown_linkbg.gif) no-repeat 10px center;  
+     padding-left: 20px;  
+ }  
 
 
 #details
@@ -168,3 +193,6 @@ div#base {
   margin-bottom: 10px;
   margin-bottom: 0px;
 }
+
+  
+

@@ -1,4 +1,16 @@
 
+<script type="text/javascript">
+  $(function(){
+      $('.nav_2').hide();
+
+      $('#about, #services, #resources, #gallery').hover(function(event){
+        $(this).next().toggle('slow')
+
+          });
+
+        });
+  
+</script>
       <div id="header_bg" class="grid_12">
         <div class="clear"></div>
         <div id="logo" class="grid_8">
@@ -15,13 +27,46 @@
 
       <div id="navigation" class="grid_12">
         <div id="nav_header">
-          <ul>
+          <ul class="nav_list">
             <li><a id ="home" href="/"  class="active" >Home</a></li>
-            <li><a id ="about" href="/Pages/About">About Us</a></li>
-            <li><a id ="gallery" href="/Pages/ClientPortfolio" >Client Portfolio</a></li>
-            <li><a id ="services" href="/Pages/WhatWeDo">What we do</a></li>
-            <li><a id ="resources" href="/Pages/Resources">Resources</a></li>
-            <li><a id ="contact" href="/Pages/ContactUs">Contact Us</a></li>
+            <li><a id ="about" href="/Pages/About">About Us</a>
+             <ul class="nav_2">
+                <li> <a href="/Pages/About/History">Our History</a></li>
+            <li> <a href="/Pages/About/People">Our People</a></li>
+            <li> <a href="/Pages/About/Approach">Our Approach</a></li>
+
+            </ul>
+            
+            </li>
+            <li><a id ="gallery" href="/Pages/ClientPortfolio" >Client Portfolio</a>
+             <ul class="nav_2">
+                <li>  <a href="/Pages/ClientPortfolio">View All</a></li>
+
+            </ul>
+            
+            
+            </li>
+            <li><a id ="services" href="/Pages/WhatWeDo">What we do</a>
+             <ul class="nav_2">
+                <li> <a href="/Pages/WhatWeDo/ImmersiveCoaching">Immersive Coaching</a></li>
+            <li> <a href="/Pages/WhatWeDo/Consulting">Consulting</a></li>
+            <li> <a href="/Pages/WhatWeDo/Training">Training</a></li>
+
+            </ul>
+            
+            </li>
+            <li><a id ="resources" href="/Pages/Resources">Resources</a>
+             <ul class="nav_2">
+                <li> <a href="/Pages/Resources/TrainingMaterial">Training Material</a></li>
+            <li> <a href="/Pages/Resources/Blogs">Blogs</a></li>
+            <li> <a href="/Pages/Resources/Podcasts">Podcasts</a></li>
+            <li> <a href="/Pages/Resources/OpenSourceProjects">Open Source Projects</a></li>
+
+            </ul>
+            
+            </li>
+            <li><a id ="contact" href="/Pages/ContactUs">Contact Us</a>
+           </li>
 
           </ul>
 
