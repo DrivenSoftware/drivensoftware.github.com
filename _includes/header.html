@@ -3,75 +3,80 @@
   $(function(){
       $('.nav_2').hide();
 
-      $('#about, #services, #resources, #gallery').hover(function(event){
-        $(this).next().toggle('slow')
+      $('#nav_header li').hover(function(event){
+        //$(this).next().show('slow')
+        $('ul', this).slideDown(400);  
 
-          });
-
+        },
+        function(event){
+        $('ul', this).slideUp(400); 
         });
-  
-</script>
-      <div id="header_bg" class="grid_12">
-        <div class="clear"></div>
-        <div id="logo" class="grid_8">
-          <img id="img_header" src="/images/header2.png" alt="Driven Software Header"/>
-        </div>
 
-        <div id="customer" class="grid_4">
-          <p class="italics"> "Driven Software is an awesome company, their work is so great. I wish I could have more of them working here more often"
-          </p> -- Henry Otterman, Awesome Software
-        </div>
+
+      });
+
+    </script>
+    <div id="header_bg" class="grid_12">
+      <div class="clear"></div>
+      <div id="logo" class="grid_8">
+        <img id="img_header" src="/images/header2.png" alt="Driven Software Header"/>
       </div>
 
-      <div class="clear"></div>
+      <div id="customer" class="grid_4">
+        <p class="italics"> "Driven Software is an awesome company, their work is so great. I wish I could have more of them working here more often"
+        </p> -- Henry Otterman, Awesome Software
+      </div>
+    </div>
 
-      <div id="navigation" class="grid_12">
-        <div id="nav_header">
-          <ul class="nav_list">
-            <li><a id ="home" href="/"  class="active" >Home</a></li>
-            <li><a id ="about" href="/Pages/About">About Us</a>
-             <ul class="nav_2">
-                <li> <a href="/Pages/About/History">Our History</a></li>
+    <div class="clear"></div>
+
+    <div id="navigation" class="grid_12">
+      <div id="nav_header">
+        <ul id="nav">
+          <li><a id ="home" href="/"  class="active" >Home</a></li>
+          <li><a id ="about" href="/Pages/About">About Us</a>
+          <ul >
+            <li> <a href="/Pages/About/History">Our History</a></li>
             <li> <a href="/Pages/About/People">Our People</a></li>
             <li> <a href="/Pages/About/Approach">Our Approach</a></li>
 
-            </ul>
-            
-            </li>
-            <li><a id ="gallery" href="/Pages/ClientPortfolio" >Client Portfolio</a>
-             <ul class="nav_2">
-                <li>  <a href="/Pages/ClientPortfolio">View All</a></li>
+          </ul>
 
-            </ul>
-            
-            
-            </li>
-            <li><a id ="services" href="/Pages/WhatWeDo">What we do</a>
-             <ul class="nav_2">
-                <li> <a href="/Pages/WhatWeDo/ImmersiveCoaching">Immersive Coaching</a></li>
-            <li> <a href="/Pages/WhatWeDo/Consulting">Consulting</a></li>
-            <li> <a href="/Pages/WhatWeDo/Training">Training</a></li>
-
-            </ul>
-            
-            </li>
-            <li><a id ="resources" href="/Pages/Resources">Resources</a>
-             <ul class="nav_2">
-                <li> <a href="/Pages/Resources/TrainingMaterial">Training Material</a></li>
-            <li> <a href="/Pages/Resources/Blogs">Blogs</a></li>
-            <li> <a href="/Pages/Resources/Podcasts">Podcasts</a></li>
-            <li> <a href="/Pages/Resources/OpenSourceProjects">Open Source Projects</a></li>
-
-            </ul>
-            
-            </li>
-            <li><a id ="contact" href="/Pages/ContactUs">Contact Us</a>
-           </li>
+          </li>
+          <li><a id ="gallery" href="/Pages/ClientPortfolio" >Client Portfolio</a>
+          <ul >
+            <li>  <a href="/Pages/ClientPortfolio">View All</a></li>
 
           </ul>
 
-        </div>
+
+          </li>
+          <li><a id ="services" href="/Pages/WhatWeDo">What we do</a>
+          <ul >
+            <li> <a href="/Pages/WhatWeDo/ImmersiveCoaching">Immersive Coaching</a></li>
+            <li> <a href="/Pages/WhatWeDo/Consulting">Consulting</a></li>
+            <li> <a href="/Pages/WhatWeDo/Training">Training</a></li>
+
+          </ul>
+
+          </li>
+          <li><a id ="resources" href="/Pages/Resources">Resources</a>
+          <ul >
+            <li> <a href="/Pages/Resources/TrainingMaterial">Training Material</a></li>
+            <li> <a href="/Pages/Resources/Blogs">Blogs</a></li>
+            <li> <a href="/Pages/Resources/Podcasts">Podcasts</a></li>
+            <li> <a href="/Pages/Resources/OpenSourceProjects">Open Source</a></li>
+
+          </ul>
+
+          </li>
+          <li><a id ="contact" href="/Pages/ContactUs">Contact Us</a>
+          </li>
+
+        </ul>
 
       </div>
 
-      <div class="clear"></div>
+    </div>
+
+    <div class="clear"></div>
