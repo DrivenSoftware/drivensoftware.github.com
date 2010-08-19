@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<clients>
+  <client>
+  <msg>Great work once again by driven </msg>
+  <name>Garren Smith, Cool Software</name>
+</client>
+ <client>
+  <msg>What would I have done without you guys</msg>
+  <name>Kevin Tretheway, We write good code Software</name>
+</client>
+ <client>
+  <msg>Keep rocking it!</msg>
+  <name>Garren Smith, Nice Software</name>
+</client>
+
+</clients>
