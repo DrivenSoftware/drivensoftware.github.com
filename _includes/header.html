@@ -5,11 +5,11 @@
 
       $('#nav_header li').hover(function(event){
         //$(this).next().show('slow')
-        $('ul', this).slideDown(400);  
+        $('ul', this).slideDown(200);
 
         },
         function(event){
-        $('ul', this).slideUp(400); 
+        $('ul', this).slideUp(300); 
         });
 
       $.get('clients.xml',function(d){
@@ -35,7 +35,7 @@
 <div id="header_bg" class="grid_12">
   <div class="clear"></div>
   <div id="logo" class="grid_8">
-    <img id="img_header" src="images/header2.png" alt="Driven Software Header"/>
+    <img id="img_header" src="/images/header2.png" alt="Driven Software Header"/>
   </div>
 
   <div id="customer" class="grid_4">
