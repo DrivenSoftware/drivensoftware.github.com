@@ -1,8 +1,0 @@
-destination: ./_site
-auto:       true 
-lsi:         false
-server_port: 4000
-ftp_host: drivensoftware.net
-ftp_dir: /beta
-username: garrens
-password: Passw0rd
