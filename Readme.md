@@ -5,6 +5,7 @@ Website
 --------
 
 To see [demo](http://drivensoftware.net/beta/)
+Hopefully [github demo](http://drivensoftware.github.com should) work
 
 To Setup
 --------
