@@ -1,209 +1,224 @@
-body{
-    font-size:12pt;
-    background-color:#EBF0E7;
+/*
+Copyright (c) 2011, Driven Software. All rights reserved.
+
+Created by Anthony van Beek : http://www.blahblahblah.co.za
+
+*/
+
+
+
+html {
+	background:#292929;
 }
 
-.bg_color {
-    background-color:#F3F2F2;
+body {
+	background: url("../images/backgrad.png") repeat-x scroll 0 0 transparent;
+	font-family: "Trebuchet MS", sans-serif;
 }
 
-#img_header {
-    width:100%;
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
 }
 
-#logo
-{
-    margin-left:0px;
+#header {
+
+height:278px;
+overflow:hidden
 }
 
-#customer {
-    height:254px;
-    padding:3% 0;
-    margin:auto;
+#navbar {
+	background: url("../images/navbar.jpg") repeat scroll 0 0 transparent;
+	height: 32px;
 }
 
-#header_bg {
-    height:254px;
-    background-color:#f3f2f2;
-    margin:0px;    
+#navbar a {
+/*	color:#2b1500;*/
 }
 
-.italics
-{
-    font-style:italic;
-    color:black;
+#content {
+    background: none repeat scroll 0 0 #E2DACB;
+    margin: 0 70px;
+    padding: 20px 20px 1px;
+		font-size: 14px;
 }
 
-#navigation
-{
-    width:100%;
-	margin:0;
-    margin-left: auto ;
-	margin-right: auto ;
-	background: #565656 repeat-x;
-	color:white;	
+.clearboth {
+	clear:both;
 }
 
- /* remove the list style */  
- #nav {  
-     margin:0;   
-     padding:0;   
-     list-style:none;  
- }     
-       
-     /* make the LI display inline */  
-     /* it's position relative so that position absolute */  
-     /* can be used in submenu */  
-     #nav li {  
-         float:left;   
-         display:block;   
-         width:150px;   
-         background:#565656;   
-         position:relative;  
-         z-index:500;   
-         margin:0 1px;  
-     }  
-           
-     /* this is the parent menu */  
-     #nav li a {  
-         display:block;   
-         padding:8px 5px 0 5px;   
-         font-weight:700;    
-         height:23px;   
-         text-decoration:none;   
-         color:#fff;   
-         text-align:center;   
-           
-     }  
-   
-     #nav li a:hover {  
-         color:#fff;  
-     }  
-       
-     /* you can make a different style for default selected value */  
-     #nav a.selected {  
-         color:#f00;  
-     }  
-       
-         /* submenu, it's hidden by default */  
-         #nav ul {  
-             position:absolute;   
-             left:0;   
-             display:none;   
-             margin:0 0 0 -1px;   
-             padding:0;   
-             list-style:none;  
-         }  
-           
-         #nav ul li {  
-             width:150px;   
-             float:left;   
-             border-top:1px solid #fff;  
-         }  
-           
-         /* display block will make the link fill the whole area of LI */  
-         #nav ul a {  
-             display:block;    
-             height:15px;  
-             padding: 8px 5px;  
-             color: #F3F2F2;
-             
-         }  
-           
-         #nav ul a:hover {  
-             text-decoration:underline;    
-         }  
-   
- /* fix ie6 small issue */  
- /* we should always avoid using hack like this */  
- /* should put it into separate file : ) */  
- *html #nav ul {  
-     margin:0 0 0 -2px;  
- }  
+p {
+	margin-bottom: 1em;
+	text-align: justify;
+}
 
+#footer {
+    background: url("../images/footer.jpg") repeat scroll 0 0 transparent;
+    height: 93px;
+    text-align: center;
+}
 
-#details
-{
-	background: #565656 repeat-x;
-  	color:#fff;	
-    width:100%;
-    min-height:100px;
-    font-family: "lucida sans unicode","lucida grande",sans-serif;
-	font-size: 12px;
+#copyright {
+color: #AAAAAA;
+    font-size: 12px;
+    position: relative;
+    top: 68px;
+}
+
+#copyright a {
+	color: #FFFFFF;
+}
+
+#copyright a:hover {
+	color: #85c300;
+}
+
+/* --------------- Styling --------------------- */
+
+h1 {
+	color:#906c3a;
+	font-size:2em;
+}
+
+h2 {
+	color:#906c3a;
+	font-size:1.8em;
+}
+
+h3 {
+	color:#906c3a;
+	font-size:1.6em;
+}
+
+h4 {
+	color:#906c3a;
+	font-size:1.4em;
+}
+
+h5 {
+	color:#906c3a;
+	font-size:1.2em;
+}
+
+h6 {
+	color:#906c3a;
+	font-size:1em;
+}
+
+OL {
+	list-style-position: outside;
+	list-style-type: upper-roman;
+	margin-left: 20px;
+}
+
+OL OL { list-style-type: upper-alpha; }
+OL OL OL { list-style-type: decimal; }
+OL OL OL OL { list-style-type: lower-alpha; }
+OL OL OL OL OL { list-style-type: lower-roman; }
+
+li {
+    list-style: inherit;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+dl {
+}
+
+dt {
 	font-weight: bold;
-	font-variant: small-caps;
-	letter-spacing: 3.2pt;
-	word-spacing: 3.0pt;
-
- margin-top:1.5%;
-
 }
 
-#details a
-{
-  color:#fff;
- 	text-decoration: none;
-
+dd {
+	margin-left: 20px;
 }
 
-#details ul
-{
-	text-decoration: none;
-  list-style-type: none;
- }
-
- #details li
- {
-    margin:0;
+em {
+	font-style:italic;
 }
 
-#details ul li a:hover
-{
-	text-decoration: underline;
-	color: #C4D9D9;
+#content a {
+	color:#906C3A;
+	border-bottom:1px dotted #906c3a;
+	text-decoration:none;
 }
 
-
-#details h3
-{
-	font-size: 1.3em;
-  margin-bottom:5px;
-
+#content a:hover {
+	color:#fb8e00;
+	border-bottom:1px dotted #fb8e00;
 }
 
-#footer a
-{
- 	color:#fff;
-	text-decoration: none;
-	font-family: "Verdana", "Geneva", sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	font-variant: small-caps;
-	letter-spacing: 2.2pt;
-	word-spacing: 2.0pt;
+code {
+	font-family:#Courier New, monospace;
 }
 
-#footer ul a
-{
- 	font-size: 10px;
-    font-weight: normal;
+strong {
+	font-weight:bold;
 }
 
-#bg
-{
-  width:100%
+blockquote {
+background-color: #FAEBBC;
+    background-image: url("../images/openquote1.gif");
+    background-position: left top;
+    background-repeat: no-repeat;
+    border: 1px solid #E1CC89;
+    color: #906C3A;
+    margin: 5px 0;
+    padding: 8px;
+    text-indent: 23px;
+  }
+blockquote span {
+		display: block;
+		background-image: url("../images/closequote1.gif");
+		background-repeat: no-repeat;
+		background-position: bottom right;
+	}
+	
+table {
+  border-collapse: collapse;
 }
 
-div#base {
-  position: absolute;
-  z-index: 0;
-  width: 96%;
-  text-align: center;
-  display: block;
-  margin-top: -80px;
-  margin-bottom: 10px;
-  margin-bottom: 0px;
+caption, th, td {
+  padding: .2em .8em;
+  border: 1px solid #E2DACB;
 }
 
-  
+caption {
+  background: #906C3A;
+  font-weight: bold;
+  font-size: 1.1em;
+	color:#FAEBBC;
+}
 
+th {
+  background: none repeat scroll 0 0 #F3CE7D;
+    color: #906C3A;
+    font-weight: bold;
+}
+
+td {
+   background: none repeat scroll 0 0 #FAEBBC;
+    color: #906C3A;
+}
+
+img.alignright {
+background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C9C2B5;
+    float: right;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+img.alignleft {
+background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C9C2B5;
+    float: left;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#content a.img {
+border:none;
+}

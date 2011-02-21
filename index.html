@@ -2,52 +2,42 @@
 layout: default
 ---
 
-       <div id="marketing" class="grid_12 bg_color">
+    <h1>Driven Software Blogs</h1>
 
-           <a href="/Pages/About/Approach">
-                <img id="img_marketing" src="images/kickstart-80-2.png" alt="Driven Software KickStart Program"/>
-            </a>
-        </div>
-        <div class="clear"></div>
-        <div id="social" class="grid_8 bg_color">
-          <h1>Driven Software Blogs</h1>
-          <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAEiNfDWriNPHAQUW-9jieIRRtzKctvpySo8ICS5YcVo_XP-1hXBRIp6tHdve-5wMOI5xo4OdKoAq_eg"></script>
+	    <script type="text/javascript"
+	            src="http://www.google.com/jsapi?key=ABQIAAAAEiNfDWriNPHAQUW-9jieIRRtzKctvpySo8ICS5YcVo_XP-1hXBRIp6tHdve-5wMOI5xo4OdKoAq_eg"></script>
 
-          <script type="text/javascript" src="js/rssdisplayer.js"></script>
-          <script type="text/javascript">
+	    <script type="text/javascript" src="js/rssdisplayer.js"></script>
 
-            //USAGE SYNTAX: new rssdisplayer("divid", "rssurl", numberofitems, "displayoptions")
-          new rssdisplayer("rssdiv", "http://feeds.feedburner.com/DrivenSoftwareRssFeed?format=xml", 1, "date , description")
+	    <script type="text/javascript">
 
-          </script>
+	        //USAGE SYNTAX: new rssdisplayer("divid", "rssurl", numberofitems, "displayoptions")
+	        new rssdisplayer("rssdiv", "http://feeds.feedburner.com/DrivenSoftwareRssFeed?format=xml", 1, "date , description")
 
-
-        </div>
-        <div  class="grid_4 bg_color">
-          <h2>Driven Software on Twitter</h2>
-          <script src="js/tweet/jquery.tweet.js" type="text/javascript"></script> 
-
-          <script type='text/javascript'>
-            $(document).ready(function(){
-                $(".tweet").tweet({
-                      username: "garrensmith",
-                      list: "drivensoftware",
-                      join_text: "auto",
-                      avatar_size: 32,
-                      count: 10,
-                      loading_text: "Loading Tweets...",
-                      auto_join_text_default: "",
-                      auto_join_text_ed: "",
-                      auto_join_text_ing: "",
-                      auto_join_text_reply: "",
-                      auto_join_text_url: ""
-                  });
-                });
-              </script> 
-
-              <div class="tweet"></div>
-            </div>
-            
+	    </script>
 
 
 
+        <h2>Driven Software on Twitter</h2>
+
+	    <script src="js/tweet/jquery.tweet.js" type="text/javascript"></script>
+
+	    <script type='text/javascript'>
+	        $(document).ready(function() {
+	            $(".tweet").tweet({
+	                username: "garrensmith",
+	                list: "drivensoftware",
+	                join_text: "auto",
+	                avatar_size: 32,
+	                count: 10,
+	                loading_text: "Loading Tweets...",
+	                auto_join_text_default: "",
+	                auto_join_text_ed: "",
+	                auto_join_text_ing: "",
+	                auto_join_text_reply: "",
+	                auto_join_text_url: ""
+	            });
+	        });
+	    </script>
+
+	    <div class="tweet"></div>
