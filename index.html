@@ -2,42 +2,19 @@
 layout: default
 ---
 
-    <h1>Driven Software Blogs</h1>
+<div class='feature_box' id='feature_right'>
+  {% include featured.html %}
+</div>
 
-	    <script type="text/javascript"
-	            src="http://www.google.com/jsapi?key=ABQIAAAAEiNfDWriNPHAQUW-9jieIRRtzKctvpySo8ICS5YcVo_XP-1hXBRIp6tHdve-5wMOI5xo4OdKoAq_eg"></script>
-
-	    <script type="text/javascript" src="js/rssdisplayer.js"></script>
-
-	    <script type="text/javascript">
-
-	        //USAGE SYNTAX: new rssdisplayer("divid", "rssurl", numberofitems, "displayoptions")
-	        new rssdisplayer("rssdiv", "http://feeds.feedburner.com/DrivenSoftwareRssFeed?format=xml", 1, "date , description")
-
-	    </script>
+        
+<h1>Driven Software Blogs</h1>
 
 
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAEiNfDWriNPHAQUW-9jieIRRtzKctvpySo8ICS5YcVo_XP-1hXBRIp6tHdve-5wMOI5xo4OdKoAq_eg"></script>
+<script type="text/javascript" src="js/rssdisplayer.js"></script>
+<script type="text/javascript">
+    //USAGE SYNTAX: new rssdisplayer("divid", "rssurl", numberofitems, "displayoptions")
+    new rssdisplayer("rssdiv", "http://feeds.feedburner.com/DrivenSoftwareRssFeed?format=xml", 1, "date , description")
+</script>
 
-        <h2>Driven Software on Twitter</h2>
 
-	    <script src="js/tweet/jquery.tweet.js" type="text/javascript"></script>
-
-	    <script type='text/javascript'>
-	        $(document).ready(function() {
-	            $(".tweet").tweet({
-	                username: "garrensmith",
-	                list: "drivensoftware",
-	                join_text: "auto",
-	                avatar_size: 32,
-	                count: 10,
-	                loading_text: "Loading Tweets...",
-	                auto_join_text_default: "",
-	                auto_join_text_ed: "",
-	                auto_join_text_ing: "",
-	                auto_join_text_reply: "",
-	                auto_join_text_url: ""
-	            });
-	        });
-	    </script>
-
-	    <div class="tweet"></div>

@@ -22,9 +22,8 @@ body {
 }
 
 #header {
-
-height:278px;
-overflow:hidden
+    height:278px;
+    overflow:hidden
 }
 
 #navbar {
@@ -40,7 +39,7 @@ overflow:hidden
     background: none repeat scroll 0 0 #E2DACB;
     margin: 0 70px;
     padding: 20px 20px 1px;
-		font-size: 14px;
+	font-size: 14px;
 }
 
 .clearboth {
@@ -59,7 +58,7 @@ p {
 }
 
 #copyright {
-color: #AAAAAA;
+    color: #AAAAAA;
     font-size: 12px;
     position: relative;
     top: 68px;
@@ -75,35 +74,16 @@ color: #AAAAAA;
 
 /* --------------- Styling --------------------- */
 
-h1 {
-	color:#906c3a;
-	font-size:2em;
+h1, h2, h3, h4, h5, h6 {
+    color:#906c3a;
 }
 
-h2 {
-	color:#906c3a;
-	font-size:1.8em;
-}
-
-h3 {
-	color:#906c3a;
-	font-size:1.6em;
-}
-
-h4 {
-	color:#906c3a;
-	font-size:1.4em;
-}
-
-h5 {
-	color:#906c3a;
-	font-size:1.2em;
-}
-
-h6 {
-	color:#906c3a;
-	font-size:1em;
-}
+h1 { font-size:2em;   }
+h2 { font-size:1.8em; }
+h3 { font-size:1.6em; }
+h4 { font-size:1.4em; }
+h5 { font-size:1.2em; }
+h6 { font-size:1em;   }
 
 OL {
 	list-style-position: outside;
@@ -159,8 +139,8 @@ strong {
 }
 
 blockquote {
-background-color: #FAEBBC;
-    background-image: url("../images/openquote1.gif");
+    background-color: #FAEBBC;
+    background-image: url("/images/openquote1.gif");
     background-position: left top;
     background-repeat: no-repeat;
     border: 1px solid #E1CC89;
@@ -168,28 +148,29 @@ background-color: #FAEBBC;
     margin: 5px 0;
     padding: 8px;
     text-indent: 23px;
-  }
+}
+
 blockquote span {
-		display: block;
-		background-image: url("../images/closequote1.gif");
-		background-repeat: no-repeat;
-		background-position: bottom right;
-	}
+    display: block;
+	background-image: url("/images/closequote1.gif");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
 	
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 caption, th, td {
-  padding: .2em .8em;
-  border: 1px solid #E2DACB;
+    padding: .2em .8em;
+    border: 1px solid #E2DACB;
 }
 
 caption {
-  background: #906C3A;
-  font-weight: bold;
-  font-size: 1.1em;
-	color:#FAEBBC;
+    background: #906C3A;
+    font-weight: bold;
+    font-size: 1.1em;
+    color:#FAEBBC;
 }
 
 th {
@@ -224,8 +205,28 @@ border:none;
 }
 
 
-.contentimage {
-  margin-top: 1.1em;
-  margin-right: -.2em;
+.feature_box {
   float: right;
+  border-radius: 10px;
+}
+
+#content .feature_box h5 {
+  padding: 0.3em 0.5em;
+  border-bottom: 2px solid #d9d3b5;
+  margin-bottom: 0em;
+  background: #DDDBD6;
+}
+
+.feature_box h2 a {
+  margin: 0 0.2em;
+}
+
+#feature_left {
+  width: 29em;
+}
+
+#feature_right {
+  width: 16em;
+  margin-left: 1em;
+  overflow-y: hidden;
 }
