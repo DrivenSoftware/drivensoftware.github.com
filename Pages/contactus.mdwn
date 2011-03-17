@@ -4,5 +4,27 @@ title: Contact Us
 permalink: /ContactUs/
 ---
 
+<div style="float: right; width:340px; margin: 10px; padding: 5px;">
+    <img src="/images/content/southafrica.jpg">
+</div>
 
-If you need to get hold of the Driven Software team, please pop us an email - info@drivensoftware.net and we will get straight back to you.
+# Contact Us
+
+If you need to get hold of the Driven Software team, please pop us an email at <a href="mailto:info@drivensoftware.net">info@drivensoftware.net</a> and we will get straight back to you.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div style="width:100px; margin: 10px; padding: 0px;">
+</div>

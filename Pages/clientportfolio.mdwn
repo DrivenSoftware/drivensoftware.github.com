@@ -19,4 +19,15 @@ These are some of the clients that Driven Software has successfully assisted:
 ![Anglo Platinum](/images/client-logos/AngloPlatinum.png "Amplats")
 
 
-Feel free to [contact us](/pages/ContactUs "Contact Driven Software") for direct client references and endorsements.
+This is what our clients have to say about us...
+
+> You can count on Driven Software to provide an unrivalled service in terms of knowledge, expertise and quality. More importantly you can count on it regularly.
+
+<br>
+
+> Driven Software taught our team great design methods and patterns. This changed our development style dramatically. We covered quite a few topics we didn't even know that we didn't know. This has been a very worthwhile investment in time and effort.
+
+<br>
+---
+
+Feel free to [contact us](/pages/ContactUs "Contact Driven Software") for direct client references.

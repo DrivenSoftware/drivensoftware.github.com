@@ -4,9 +4,40 @@ title: About - Our People
 permalink: /About/People/
 ---
 
-### Driven Software's People
+# Driven Software's People
 
-![Kevin Trethewey](/images/people/kevint.png "Kevin Trethewey") TODO : Write text
+---
+
+<div style="float: right; width: 120px; margin: 15px; padding: 5px;">
+    <img src="/images/people/kevint.jpg">
+</div>
 
 
-![Garren Smith](/images/people/garrens.png "Garren Smith") TODO : Get photo, Write text
+## Kevin Trethewey
+
+Kevin has a strong technical background after more than a decade in the software industry as a developer and architect.
+
+Over the course of his career he has had the opportunity to work in and observe projects and teams in vastly different environments, and seen vastly differing levels of success amongst them.
+
+###Specialties
+Through this experience Kevin has developed an eye for what works and what doesn't, and a passion for assisting and empowering companies to adopt and adapt to an Agile way of life
+
+---
+
+<div style="float: right; width: 125px; margin: 15px; padding: 5px;">
+    <img src="/images/people/garrens.jpg">
+</div>
+
+
+## Garren Smith
+
+After qualifying as an electrical engineer, Garren entered the world of embedded development and .Net solutions. He soon started exploring other development platforms and environments. Garren has developed a passion for Ruby and server-side JavaScript using node.js.
+
+He currently spends his days working with teams implementing agile methodologies to improve their efficiency. At night the gloves come off as he programs on his favorite open source projects.
+
+
+<br>
+
+
+<div style="width:100px; margin: 10px; padding: 0px;">
+</div>

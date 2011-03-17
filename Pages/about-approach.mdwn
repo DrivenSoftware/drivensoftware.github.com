@@ -4,13 +4,18 @@ title: About - Our Approach
 permalink: /About/Approach/
 ---
 
-# KickStart(TM) your team...
+
+# Driven Software's Approach
+
+<div style=" margin: 35px; padding: 5px;">
+    <img src="/images/content/kickstart.jpg">
+</div>
+
 
 One of the fundamental principles of our approach is to recognise that every company, every team and every project is different. There is no one size fits all solution to building software well, only principles and practices that when used in the right combinations for the specific circumstances will result in success.
 
-The Driven Software KickStart program is a dynamic, proven and repeatable system that is guaranteed to turn any group of software professionals into a high performance agile team that not only delivers on time, every time, but loves doing it.
+We have developed a program (we call it **KickStart**), which is a dynamic, proven and repeatable system that is guaranteed to turn any group of software professionals into a high performance agile team that not only delivers on time, every time, but loves doing it.
 
 Using a multi-mode learning approach which mixes presentations, workshops, one on one mentorship and immersive coaching techniques, we can take your vision for business success and provide your people with the skills and value system that can transform your ideas into reality in a sustainable, reliable and enjoyable way.
 
-Contact us on kickstart@drivensoftware.net, or call Kevin Trethewey on +27 (0) 82 579 9154 to find out more about this program.
-
+But don't just hear it from us - take a look at what [our clients have to say](/Pages/ClientPortfolio "Our Clients") about us.

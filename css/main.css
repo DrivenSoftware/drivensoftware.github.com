@@ -222,3 +222,10 @@ background: none repeat scroll 0 0 #FFFFFF;
 #content a.img {
 border:none;
 }
+
+
+.contentimage {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}

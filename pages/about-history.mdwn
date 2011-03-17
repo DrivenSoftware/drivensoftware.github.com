@@ -4,8 +4,22 @@ title: About - Our History
 permalink: /About/History/
 ---
 
+<div style="float: right; width: 175px; margin: 5px; padding: 5px;">
+    <img src="/images/content/history.jpg">
+</div>
+
 # Driven Software's History
 
-The company was founded in 2008 by [Kevin Trethewey](http://kevint.drivensoftware.com/ "Kevin's Blog"). After many years of keenly observing the projects and people he worked with as a developer and consultant he formed a vision of creating a company that specialised in helping people to change the way they looked at software and how it should be produced.
+
+The company was founded in 2008 by [Kevin Trethewey](/Pages/About/People "Our People") out of a vision to create a company that specialised in helping people to change the way they looked at software and how to produce it.
 
 Since then, adopting and adapting tools and techniques from both in the field experience and formalised teaching from eXtreme Programming, Scrum, Kanban and other Agile philosophies, Driven Software has helped [many teams](/Pages/ClientPortfolio "Client Porfolio") to sustainably and repeatedly produce amazing results. 
+
+The core focus of the company is on matching the needs of the business and customers with the engineering principles and practices that are required for success in an agile environment.
+
+
+<br>
+
+
+<div style="width:100px; margin: 10px; padding: 0px;">
+</div>
