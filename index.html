@@ -2,19 +2,7 @@
 layout: default
 ---
 
-<div class='feature_box' id='feature_right'>
-  {% include featured.html %}
-</div>
-
-        
-<h1>Driven Software Blogs</h1>
-
-
-<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAEiNfDWriNPHAQUW-9jieIRRtzKctvpySo8ICS5YcVo_XP-1hXBRIp6tHdve-5wMOI5xo4OdKoAq_eg"></script>
-<script type="text/javascript" src="js/rssdisplayer.js"></script>
-<script type="text/javascript">
-    //USAGE SYNTAX: new rssdisplayer("divid", "rssurl", numberofitems, "displayoptions")
-    new rssdisplayer("rssdiv", "http://feeds.feedburner.com/DrivenSoftwareRssFeed?format=xml", 1, "date , description")
-</script>
-
+{% include featured.html %}
+{% include home.html %}
+{% include blogs.html %}
 
