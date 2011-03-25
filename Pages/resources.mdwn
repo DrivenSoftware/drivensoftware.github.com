@@ -4,7 +4,11 @@ title: Resources
 permalink: /Resources/
 ---
 
+Coming Soon
+
+<!--
 * [Training Material](/pages/Resources/TrainingMaterial "Driven Software's Training Material") - Browse some of the training material we provide to our clients
 * [Blogs](/pages/Resources/Blogs "Driven Software Employee's Blogs") - Read and subscribe to our employee's online blogs
 * [Podcasts](/pages/Resources/Podcasts "The Driven Podcast") - Subscribe to our regular podcast feature
 * [Open Source Projects](/pages/Resources/OpenSourceProjects "Driven Software Open Source") - Driven's free source code contributions
+-->

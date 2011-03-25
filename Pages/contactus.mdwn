@@ -4,8 +4,8 @@ title: Contact Us
 permalink: /ContactUs/
 ---
 
-<div style="float: right; width:340px; margin: 10px; padding: 5px;">
-    <img src="/images/content/southafrica.jpg">
+<div style="float: right; width:180px; margin: 10px; padding: 5px;">
+    <img src="/images/content/contactus.jpg">
 </div>
 
 # Contact Us
