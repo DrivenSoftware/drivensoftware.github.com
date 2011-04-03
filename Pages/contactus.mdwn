@@ -10,8 +10,7 @@ permalink: /ContactUs/
 
 # Contact Us
 
-If you need to get hold of the Driven Software team, please pop us an email at <a href="mailto:info@drivensoftware.net">info@drivensoftware.net</a> and we will get straight back to you.
-
+If you need to get hold of the Driven Software team, please pop us an email at <a href="mailto:info@drivensoftware.net">info@drivensoftware.net</a>
 <br>
 <br>
 <br>
