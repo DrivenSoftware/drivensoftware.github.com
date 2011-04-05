@@ -1,0 +1,8 @@
+---
+layout: default
+title: Training Programs
+permalink: /Training/
+---
+
+### Driven Software's Training Programs...
+* [Getting To Grips with Git](/pages/Training/Git "Getting to Grips with Git") - Getting to Grips with Git

@@ -4,7 +4,11 @@ title: Resources
 permalink: /Resources/
 ---
 
-Coming Soon
+<div>
+    <img src="/images/content/underconstruction.png">
+</div>
+
+
 
 <!--
 * [Training Material](/pages/Resources/TrainingMaterial "Driven Software's Training Material") - Browse some of the training material we provide to our clients
@@ -12,3 +16,26 @@ Coming Soon
 * [Podcasts](/pages/Resources/Podcasts "The Driven Podcast") - Subscribe to our regular podcast feature
 * [Open Source Projects](/pages/Resources/OpenSourceProjects "Driven Software Open Source") - Driven's free source code contributions
 -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div style="width:100px; margin: 10px; padding: 0px;">
+</div>
