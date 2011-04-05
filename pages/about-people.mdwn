@@ -34,7 +34,7 @@ Through experience Kevin has developed an eye for what works and what doesn't, a
 
 After qualifying as an electrical engineer, Garren entered the world of embedded development and .Net solutions. He soon started exploring other development platforms and environments. Garren has developed a passion for Ruby and server-side JavaScript using node.js.
 
-He currently spends his days working with teams implementing agile methodologies to improve their efficiency. At night the gloves come off as he programs on his favorite open source projects.
+He currently spends his days working with teams implementing agile methodologies to improve their efficiency. At night the gloves come off as he programs on his favourite open source projects.
 
 ###Specialties
 Garren has a talent for helping teams to work together and remain friends, deliver software that end users want to use, and continually improve their development skills so that every day they write better code than the day before.

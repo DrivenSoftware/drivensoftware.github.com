@@ -6,6 +6,9 @@ permalink: /WhatWeDo/GitTraining/
 
 # Getting to Grips with Git
 
+<img src="/images/git/shaft.png" style="float:left; width: 300px"/>
+
+
 [Git](http://git-scm.com/) is a source control system that is very fast, allows for easy branching and is fully distributed. This allows a development team to work collaboratively without stepping on each other's toes, keeping all changes version controlled, and having a master trunk that is ready to go into production at any time.
 
 Getting to Grips with Git is one of our latest training courses. We will help you get up and running with Git with a balanced mixture of theory around git and practical sessions to get you over the initial learning curve of using Git.
