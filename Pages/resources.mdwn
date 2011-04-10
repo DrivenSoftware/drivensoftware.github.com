@@ -4,9 +4,35 @@ title: Resources
 permalink: /Resources/
 ---
 
-<div>
-    <img src="/images/content/underconstruction.png">
-</div>
+
+### Presentations
+<br>
+
+These are presentations we have given to companies or development communities in the recent past...
+
+* [Agile introduction](/resources/presentations/agile - what is it all about.pdf "Agile, what is it all about?") - A general introduction to Agile through the eyes of Extreme Programming (XP), Scrum and Kanban  
+* [Domain Driven Design](/resources/presentations/ddd.pdf "Domain Driven Design") - A high level introduction to some of the concepts
+* [Rocking with Nodejs](https://github.com/garrensmith/Rocking-with-Nodejs "Rocking with Nodejs") - Garren's presentation at Rubyfuza 2011 and JSinSA 2011
+* [Git Introduction](https://github.com/garrensmith/git_intro_presentation "Git Introduction") - A presentation on the basics of git
+<br>
+<br>
+
+
+### Samples and OSS work
+<br>
+
+* [Driven.SimpleSamples.Dotnet](https://github.com/DrivenSoftware/Driven.SimpleSamples.Dotnet "Driven.SimpleSamples.Dotnet") - A collection of C# samples of common .NET concepts
+* [DrivenMetrics](https://github.com/garrensmith/DrivenMetrics "DrivenMetrics") - A .net command line metrics tool
+* [Jody](https://github.com/garrensmith/Jody "Jody") - A basic BDD Framework for Node.js
+* [BuildMachine](https://github.com/garrensmith/BuildMachine "BuildMachine") - A CI Server using nodejs
+
+
+
+
+<br>
+
+---
+If you would like us to present any of these again at your company or community group, then please [contact us](/pages/ContactUs "Contact Driven Software").
 
 
 
@@ -35,6 +61,7 @@ permalink: /Resources/
 <br>
 <br>
 <br>
+
 
 
 <div style="width:100px; margin: 10px; padding: 0px;">
