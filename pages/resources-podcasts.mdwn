@@ -7,7 +7,9 @@ permalink: /Resources/Podcasts/
 # The Driven to Distraction Podcast
 
 <br>
-<br>
+A short sharp chat on all South African developer happenings. Subscribe below.
+
+<br><hr>
 
 ##Episode 001  - The Fail Episode
 <br>
@@ -38,4 +40,6 @@ Get episode 001 [here](http://drivensoftware.github.com/resources/distraction/Dt
 Send us your link/comments - distraction@drivensoftware.net
 
 
+[![Subscribe](/images/content/rss-feed.png "Subscribe to Driven to Distraction")](/resources/distraction/index.xml)
 
+<br/>
