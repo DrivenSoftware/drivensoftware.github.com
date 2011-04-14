@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+		<title>Driven to Distraction</title>
+		<link>http://drivensoftware.com/Pages/Resources/Podcasts/</link>
+		<description>A short sharp chat on all South African developer happenings. Brought to you by Driven Software.</description>
+		<language>en-za</language>
+		<copyright>© Copyright 2011 Driven Software. All rights reserved.</copyright>
+		<lastBuildDate>Mon, 11 Apr 2011 16:00:00 GMT</lastBuildDate>
+		<webMaster>distraction@drivensoftware.net</webMaster>
+		<ttl>1</ttl>
+		<item>
+			<title>001 - The Fail Episode</title>
+			<description>Our first attempt, we'll improve and grow it from here...</description>
+			<pubDate>Mon, 11 Apr 2011 16:00:00 GMT</pubDate>
+			<enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.001.m4a" length="" type="audio/m4a"/>
+		</item>
+	</channel>
+</rss>

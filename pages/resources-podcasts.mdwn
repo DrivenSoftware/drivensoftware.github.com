@@ -11,7 +11,7 @@ permalink: /Resources/Podcasts/
 
 ##Episode 001  - The Fail Episode
 <br>
-Get episode 001 [here](/resources/distraction/DtoD.001.m4a).
+Get episode 001 [here](http://drivensoftware.github.com/resources/distraction/DtoD.001.m4a)
 
 ### FYIs
 
