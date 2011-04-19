@@ -6,10 +6,47 @@ permalink: /Resources/Podcasts/
 
 # The Driven to Distraction Podcast
 
-<br>
+<br/>
 A short sharp chat on all South African developer happenings. Subscribe below.
 
-<br><hr>
+<br/><br/>
+
+##Episode 002  - The its definitely worth a try Episode
+<br>
+Get episode 002 [here](http://drivensoftware.github.com/resources/distraction/DtoD.002.m4a)
+<br/>
+### FYIs
+* [Rails 3.1 coffeescript](http://mzan.si/6Jcl)
+* [Rails installer for windows](http://www.railsinstaller.org/)
+* [Introduction to Redis](http://try.redis-db.com/)
+* [Introduction to Algorithms](http://algorithms.openmymind.net/)
+* [Local Blackberry app master competition](http://blackberryappmaster.co.za/)
+<br/> <br/>
+### COMMUNITY
+<br/>
+#### Reportback:  Architect Forum: noSql Slides
+
+* [NoSql Overview - Kevin](http://drivensoftware.github.com/resources/distraction/nosql.zip) 
+* [Couchdb by Garren](http://coucharch.heroku.com) - Use the arrow keys to navigate
+* [Redis by Chris Springs](http://drivensoftware.github.com/resources/distraction/redis.pdf)
+
+<br/>
+#### Ruby on Beer
+
+The Johannesburg Ruby user group. Meets the first Tuesday of every month. Also, beer. [Google Group](http://groups.google.com/group/rubyorgza)
+#### Microsoft Community Night:
+The community night is held every second Tuesday of every month at the Microsoft offices in Johannesburg.
+Free Pizza & Beer
+
+1. Information Worker 
+2. Programming Languages User Group 
+3. SQL User Group 
+4. Game Dev User Group 
+5. UX User Group
+6. MobiZa
+7. Joburg js
+
+<br/><br/>
 
 ##Episode 001  - The Fail Episode
 <br>

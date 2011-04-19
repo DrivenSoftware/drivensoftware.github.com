@@ -6,7 +6,7 @@
 		<description>A short sharp chat on all South African developer happenings. Brought to you by Driven Software.</description>
 		<language>en-za</language>
 		<copyright>© Copyright 2011 Driven Software. All rights reserved.</copyright>
-		<lastBuildDate>Mon, 11 Apr 2011 16:00:00 GMT</lastBuildDate>
+		<lastBuildDate>Mon, 19 Apr 2011 16:00:00 GMT</lastBuildDate>
 		<webMaster>distraction@drivensoftware.net</webMaster>
 		<ttl>1</ttl>
 		<item>
@@ -15,5 +15,12 @@
 			<pubDate>Mon, 11 Apr 2011 16:00:00 GMT</pubDate>
 			<enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.001.m4a" length="" type="audio/m4a"/>
 		</item>
+    <item>
+			<title>002 - The its definitely worth a try Episode</title>
+			<description>We back and we have more useful links and event news</description>
+			<pubDate>Tue, 19 Apr 2011 16:00:00 GMT</pubDate>
+			<enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.002.m4a" length="" type="audio/m4a"/>
+		</item>
+
 	</channel>
 </rss>
