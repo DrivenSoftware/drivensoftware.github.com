@@ -77,6 +77,6 @@ Get episode 001 [here](http://drivensoftware.github.com/resources/distraction/Dt
 Send us your link/comments - distraction@drivensoftware.net
 
 
-[![Subscribe](/images/content/rss-feed.png "Subscribe to Driven to Distraction")](/resources/distraction/index.xml)
+[![Subscribe](/images/content/rss-feed.png "Subscribe to Driven to Distraction")](http://feeds.feedburner.com/drivensoftware/distraction)
 
 <br/>

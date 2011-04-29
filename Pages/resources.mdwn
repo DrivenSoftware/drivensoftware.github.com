@@ -6,4 +6,5 @@ permalink: /Resources/
 
 ### About Driven Software...
 * [Podcast](/pages/Resources/Podcast "Driven to Distraction") - The new Driven to Distraction Podcast
+* [Blogs & Articles](/pages/Resources/Blogs "Blogs & Articles") - Blogs & Articles
 * [Presentations & Source Code](/pages/Resources/Presentations "Presentations & Source Code") - Presentations & Source Code

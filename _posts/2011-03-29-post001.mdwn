@@ -1,0 +1,9 @@
+---
+layout: default
+title: First Post!
+date: April 29 2011 8:27 PM
+category: KevinT
+permalink: /Resources/Blogs/KevinT/FirstPost.html
+---
+
+first post

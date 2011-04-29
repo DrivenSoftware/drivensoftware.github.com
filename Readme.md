@@ -4,20 +4,20 @@ Driven Software Website
 Website
 --------
 
-To see [demo](http://drivensoftware.net/beta/)
-Hopefully [github demo](http://drivensoftware.github.com should) work
+To see [demo](http://drivensoftware.github.com)
 
 To Setup
 --------
 
-  sudo gem install jekyll
-  sudo gem install glynn
+sudo gem install jekyll
+sudo gem install glynn
 
 To switch repo
 --------------
-    go to .git/config
-    replace url with git@github.com:DrivenSoftware/Driven-Software-Website.git
-    continue as usual
+
+go to .git/config
+replace url with git@github.com:DrivenSoftware/Driven-Software-Website.git
+continue as usual
 
 To Add new page
 ---------------

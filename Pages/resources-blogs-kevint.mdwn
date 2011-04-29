@@ -1,0 +1,23 @@
+---
+layout: default
+title: Kevin Trethewey's Bliki
+permalink: /Resources/Blogs/KevinT/index.html
+---
+
+# Things I have learned whilst NOT building software
+</br>
+
+{% for post in site.posts %}
+
+
+{% if post.category == "KevinT" %}
+
+- [{{ post.title }}]({{ post.url }} "{{ post.title }}"), last edited {{ post.date | date: "%A, %B, %d, %Y." }}
+
+{% endif %}
+
+{% endfor %}
+
+</br>
+
+<div class="subscribe"><a href="http://feeds.feedburner.com/MrMinimalist">Subscribe via RSS</a></div>
