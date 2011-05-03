@@ -1,0 +1,15 @@
+---
+layout: default
+title: Resources
+permalink: /KB/
+---
+
+# The Driven Software Knowledge Base
+
+<br/>
+A collection of online content created by the team from Driven Software...
+
+
+* [The Driven 2 Distraction Podcast](/pages/KB/Distraction "Driven to Distraction")
+* [Blogs & Articles](/pages/KB/Personal "Blogs & Articles")
+* [Presentations & Source Code](/pages/KB/Presentations "Presentations & Source Code")

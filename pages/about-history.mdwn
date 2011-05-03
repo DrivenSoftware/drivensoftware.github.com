@@ -9,7 +9,7 @@ permalink: /About/History/
 </div>
 
 # Driven Software's History
-
+<br>
 
 The company was founded in 2008 by [Kevin Trethewey](/Pages/About/People "Our People") out of a vision to create a company that specialised in helping people to change the way they looked at software and how to produce it.
 

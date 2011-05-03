@@ -4,5 +4,6 @@ title: Coaching
 permalink: /Coaching/
 ---
 
-### Team Coaching...
+# Team Coaching...
+<br>
 * [Immersive Coaching](/pages/Coaching/Immersive "Immersive Coaching") - Find out about Driven Software's approach

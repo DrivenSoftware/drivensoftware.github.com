@@ -2,7 +2,7 @@
 layout: default
 title: Formatting Test
 date: April 29 2011 8:27 PM
-category: Test
+category: Ignore
 permalink: /Resources/Blogs/KevinT/FormattingTest.html
 ---
 

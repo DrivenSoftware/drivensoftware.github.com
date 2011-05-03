@@ -6,7 +6,7 @@ permalink: /About/Clients/
 
 
 # Our Client Portfolio
-
+<br>
 
 These are some of the clients that Driven Software has successfully assisted:
 

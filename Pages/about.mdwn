@@ -4,7 +4,8 @@ title: About Driven Software
 permalink: /About/
 ---
 
-### About Driven Software... 
+# About Driven Software...
+<br>
 * [Our History](/pages/About/History "The History of Driven Software") - Find out where Driven Software originated
 * [Our People](/pages/About/People "The People Of Driven Software") - Find out about the people behind the Company
 * [Our Approach](/pages/About/Approach "The Approach of Driven Software") - What makes Driven Software different?

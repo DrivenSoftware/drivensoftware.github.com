@@ -1,0 +1,16 @@
+---
+layout: default
+title: Knowledge Base - Blogs
+permalink: /KB/Personal/
+---
+
+# The Driven Software Knowledge Base
+
+<br/>
+Personal sites maintained by Driven team members...
+
+
+<!--
+- [Kevin Trethewey's Bliki](/pages/KB/Blogs/KevinT "Things I have learned whilst NOT building software")
+-->
+- [Garren Smith's Homepage](http://www.garrensmith.com/)

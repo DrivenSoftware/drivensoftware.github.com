@@ -1,0 +1,36 @@
+---
+layout: default
+title: Knowledge Base - Podcasts
+permalink: /KB/Distraction/
+---
+
+# The Driven 2 Distraction Podcast
+
+<br/>
+A short sharp chat on all South African developer happenings. Subscribe below.
+
+<br/><br/>
+
+
+{% for post in site.posts %}
+
+
+{% if post.category != "Ignore" %}
+
+- [{{ post.title }}]({{ post.url }} "{{ post.title }}"), published {{ post.date | date: "%A, %B, %d, %Y." }}
+
+{% endif %}
+
+{% endfor %}
+
+
+<br>
+<br>
+
+Send us your link/comments - distraction@drivensoftware.net
+
+
+[![Subscribe](/images/content/rss-feed.png "Subscribe to Driven to Distraction")](http://feeds.feedburner.com/drivensoftware/distraction)
+[![Subscribe via iTunes](/images/content/rss-feed-apple.png "Subscribe to Driven to Distraction via iTunes")](http://itunes.apple.com/za/podcast/driven-to-distraction/id432317707)
+
+<br/><br/>

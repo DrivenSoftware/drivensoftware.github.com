@@ -1,0 +1,29 @@
+---
+layout: default
+title: Episode 001  - The Fail Episode
+date: April 11 2011
+category: Distraction
+description: Our first attempt, we'll improve and grow it from here...
+filename: DtoD.001.m4a
+---
+
+##Episode 001  - The Fail Episode
+<br>
+Get episode 001 [here](http://drivensoftware.github.com/resources/distraction/DtoD.001.m4a)
+
+### FYIs
+
+* [How is it even possible for code to be this bad?](http://mzan.si/Wg2n) by Gojko Adzic
+* [Mongly](http://www.mongly.com)
+* [joburg-js](http://mzan.si/nxm4)
+* Martin Cronje looking for developers [@poppify](http://www.twitter.com/poppify)
+* [Aslam Khan's blog](http://aslamkhan.net)
+<br>
+<br>
+
+### COMMUNITY EVENTS
+
+* 12 April - Microsoft SQL UG meeting, 18h30 at the Microsoft offices in Bryanston.
+* 12 April Agile Forum - Test driven development with practical refactoring tips, Otto Behrens, Finworks. [jcse](http://jcse.org.za)
+* 14 April Architecture forum, Demystifying the hype around NoSQL. [jcse](http://jcse.org.za)
+* 7 May - "Saturday of SQL" same guys, same location. [Sql Saturday](http://www.sqlsaturday.com)

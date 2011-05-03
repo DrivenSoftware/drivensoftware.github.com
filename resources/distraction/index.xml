@@ -1,3 +1,6 @@
+---
+layout: nil
+---
 <?xml version="1.0"?>
 <rss version="2.0">
 	<channel>
@@ -9,18 +12,16 @@
 		<lastBuildDate>Mon, 19 Apr 2011 16:00:00 GMT</lastBuildDate>
 		<webMaster>distraction@drivensoftware.net</webMaster>
 		<ttl>1</ttl>
-		<item>
-			<title>001 - The Fail Episode</title>
-			<description>Our first attempt, we'll improve and grow it from here...</description>
-			<pubDate>Mon, 11 Apr 2011 16:00:00 GMT</pubDate>
-			<enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.001.m4a" length="" type="audio/m4a"/>
-		</item>
-    <item>
-			<title>002 - The its definitely worth a try Episode</title>
-			<description>We back and we have more useful links and event news</description>
-			<pubDate>Tue, 19 Apr 2011 16:00:00 GMT</pubDate>
-			<enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.002.m4a" length="" type="audio/m4a"/>
-		</item>
-
+        {% for post in site.posts %}
+            {% if post.category != "Ignore" %}
+            <item>
+                <title>{{ post.title }}</title>
+                <description>{{ post.description }}</description>
+                <pubDate>{{ post.date }}</pubDate>
+                <link>http://www.drivensoftware.com{{ post.url }}</link>
+                <enclosure url="http://drivensoftware.github.com/resources/distraction/{{ post.filename }}" length="" type="audio/m4a"/>
+            </item>
+            {% endif %}
+        {% endfor %}
 	</channel>
 </rss>
