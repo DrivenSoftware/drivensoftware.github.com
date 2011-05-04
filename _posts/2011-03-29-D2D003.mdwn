@@ -3,7 +3,7 @@ layout: default
 title: Episode 003 - All about us
 date: May 3 2011
 category: Distraction
-description: xxxxxx
+description: All about us. In this episode we introduce ourselves as well as talk a bit about Jekyll.
 filename: DtoD.003.m4a
 ---
 
@@ -23,7 +23,7 @@ Kevin Trethewey & Garren Smith
 
 ###FYIs
 <br>
-* [Jekyll](https://github.com/mojombo/jekyll)
+* [Jekyll](http://jekyllrb.com/)
 * [Source code for DrivenSoftware.com](https://github.com/DrivenSoftware/drivensoftware.github.com)
 * [Source code for Garren's homepage](https://github.com/garrensmith/garrensmith.github.com)
 * [Source code for Kevin's bliki](https://github.com/KevinT/kevint.github.com) (a work in progress)
