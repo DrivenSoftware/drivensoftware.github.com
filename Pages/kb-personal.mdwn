@@ -10,7 +10,5 @@ permalink: /KB/Personal/
 Personal sites maintained by Driven team members...
 
 
-<!--
-- [Kevin Trethewey's Bliki](/pages/KB/Blogs/KevinT "Things I have learned whilst NOT building software")
--->
-- [Garren Smith's Homepage](http://www.garrensmith.com/)
+- [Kevin Trethewey](http://www.kevintrethewey.com "Things I have learned whilst NOT building software")
+- [Garren Smith](http://www.garrensmith.com/)
