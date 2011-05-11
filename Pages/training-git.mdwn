@@ -32,4 +32,4 @@ If you want to learn more or find out when the next training day is, send us an 
 
 ## Git Pamphlet
 
-A detailed pamphlet can be downloaded [here](http://drivensoftware.github.com/resources/git/git.pdf)
+A detailed pamphlet can be downloaded [here](/resources/git/Git.pdf)
