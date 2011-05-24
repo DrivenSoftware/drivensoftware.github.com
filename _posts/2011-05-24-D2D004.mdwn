@@ -1,0 +1,40 @@
+---
+layout: default
+title: Episode 004 - Back on track
+date: May 24 2011
+category: Distraction
+description: Take 2, after our previously planned recording was aborted on the launch pad
+filename: DtoD.004.m4a
+---
+
+<div style=" margin: 10px; padding: 5px;">
+    <img src="/images/content/distraction.png">
+</div>
+
+##Episode 004  - Back on track
+<br>
+Get episode 004 [here](http://feeds.feedburner.com/drivensoftware/distraction)
+
+
+Unfortunately no Rob Mclean as promised, we'll try and get him on the show as soon as possible...
+
+
+###FYIs
+<br>
+* [Rails Active Admin](http://activeadmin.info/)
+* [Readability](https://www.readability.com/addons)
+* [Instapaper](http://www.instapaper.com)
+* [The Architecture of Open Source Applications](http://www.aosabook.org/en/index.html)
+* [Visualizing the entire flow - Jimmy Bogard](http://mzan.si/h9HT)
+<br>
+
+### COMMUNITY
+<br>
+* [Beer Night](http://freebeer.linux.co.za/)
+* [OpenGroup's EA Forum](www.opengroup.org)
+<br>
+
+###NOTES
+<br>
+
+If you enjoy the show, please tell a friend - and send us your feedback - distraction@drivensoftware.net

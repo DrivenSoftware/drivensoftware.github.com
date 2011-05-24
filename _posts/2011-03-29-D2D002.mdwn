@@ -7,9 +7,13 @@ description: We're back and we have more useful links and event news
 filename: DtoD.002.m4a
 ---
 
+<div style=" margin: 10px; padding: 5px;">
+    <img src="/images/content/distraction.png">
+</div>
+
 ##Episode 002  - The its definitely worth a try Episode
 <br>
-Get episode 002 [here](http://drivensoftware.github.com/resources/distraction/DtoD.002.m4a)
+Get episode 002 [here](http://feeds.feedburner.com/drivensoftware/distraction)
 <br/>
 ### FYIs
 * [Rails 3.1 coffeescript](http://mzan.si/6Jcl)
