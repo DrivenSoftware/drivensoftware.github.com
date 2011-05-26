@@ -18,4 +18,4 @@ We have developed a program (we call it **KickStart**), which is a dynamic, prov
 
 Using a multi-mode learning approach which mixes presentations, workshops, one on one mentorship and immersive coaching techniques, we can take your vision for business success and provide your people with the skills and value system that can transform your ideas into reality in a sustainable, reliable and enjoyable way.
 
-But don't just hear it from us - take a look at what [our clients have to say](/Pages/ClientPortfolio "Our Clients") about us.
+But don't just hear it from us - take a look at what [our clients have to say](/Pages/About/Clients "Our Clients") about us.
