@@ -1,0 +1,37 @@
+---
+layout: default
+title: Episode 005 - eXtreme Programming? Sounds dodgy...
+date: June 14 2011
+category: Distraction
+description: The first in a series discussing eXtreme Programming
+filename: DtoD.005.m4a
+---
+
+<div style=" margin: 10px; padding: 5px;">
+    <img src="/images/content/distraction.png">
+</div>
+
+##Episode 005  - eXtreme Programming? Sounds dodgy...
+<br>
+Get episode 005 [here](http://feeds.feedburner.com/drivensoftware/distraction)
+
+
+### COMMUNITY
+<br>
+* [Ruby Mini-Conference](http://mzan.si/B4T6)
+* [Martin Cronje's Slidedeck - 10 ways to make your code rock](http://mzan.si/liMI)
+<br>
+
+
+### THE eXtreme Programming SERIES (PART 1 OF MANY)
+<br>
+
+
+> "Listening, Testing, Coding, Designing. That's all there is to software. Anyone who tells you different is selling something."
+> - Kent Beck
+    
+
+###NOTES
+<br>
+
+If you enjoy the show, please tell a friend - and send us your feedback - distraction@drivensoftware.net
