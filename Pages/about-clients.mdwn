@@ -10,13 +10,13 @@ permalink: /About/Clients/
 
 These are some of the clients that Driven Software has successfully assisted:
 
-![FirstRand Bank](/images/client-logos/RMB.png "FirstRand")
-![DeBeers](/images/client-logos/DeBeers.png "DeBeers")
-![Blue Label Telecoms](/images/client-logos/BlueLabel.png "Blue Label")
-![DraftFCB](/images/client-logos/DraftFcb.png "DraftFCB")
-![GijimaAst](/images/client-logos/GijimaAst.png "GijimaAst")
-![Impala Platinum](/images/client-logos/Implats.png "Implats")
-![Anglo Platinum](/images/client-logos/AngloPlatinum.png "Amplats")
+![FirstRand Bank](/images/client-logos/rmb.png "FirstRand")
+![DeBeers](/images/client-logos/debeers.png "DeBeers")
+![Blue Label Telecoms](/images/client-logos/bluelabel.png "Blue Label")
+![DraftFCB](/images/client-logos/draftfcb.png "DraftFCB")
+![GijimaAst](/images/client-logos/gijimaast.png "GijimaAst")
+![Impala Platinum](/images/client-logos/implats.png "Implats")
+![Anglo Platinum](/images/client-logos/angloplatinum.png "Amplats")
 
 
 This is what our clients have to say about us...

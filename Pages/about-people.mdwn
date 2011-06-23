@@ -1,0 +1,65 @@
+---
+layout: default
+title: About - Our People
+permalink: /About/People/
+---
+
+# Driven Software's People
+
+---
+
+<div style="float: right; width: 120px; margin: 15px; padding: 5px;">
+    <img src="/images/people/kevint.jpg">
+</div>
+
+
+## Kevin Trethewey
+
+Kevin has a strong technical background after more than a decade in the software industry as a developer and architect.
+
+Over the course of his career he has had the opportunity to work in and observe projects and teams in vastly different environments, and seen vastly differing levels of success amongst them.
+
+###Specialties
+Through experience Kevin has developed an eye for what works and what doesn't, and a drive for assisting and empowering companies (and people!) to embrace and adapt to an Agile way of life
+
+---
+
+<div style="float: right; width: 125px; margin: 15px; padding: 5px;">
+    <img src="/images/people/garrens.jpg">
+</div>
+
+<br>
+
+## Garren Smith
+
+After qualifying as an electrical engineer, Garren entered the world of embedded development and .Net solutions. He soon started exploring other development platforms and environments. Garren has developed a passion for Ruby and server-side JavaScript using node.js.
+
+He currently spends his days working with teams implementing agile methodologies to improve their efficiency. At night the gloves come off as he programs on his favourite open source projects.
+
+###Specialties
+Garren has a talent for helping teams to work together and remain friends, deliver software that end users want to use, and continually improve their development skills so that every day they write better code than the day before.
+
+
+---
+
+<div style="float: right; width: 125px; margin: 15px; padding: 5px;">
+    <img src="/images/people/you.jpg">
+</div>
+
+<br>
+
+## You?
+One of the strengths of Driven is that we regularly partner with some of the most talented people in the software industry. If you have a software development background and are passionate about people, give us a shout - we would love to hear from you.
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div style="width:100px; margin: 10px; padding: 0px;">
+</div>
