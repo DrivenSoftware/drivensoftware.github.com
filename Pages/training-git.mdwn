@@ -28,8 +28,8 @@ Tired of checking code into SVN that's only half done? Not able to branch and me
 
 ## Register for Getting to Grips with Git
 
-If you want to learn more or find out when the next training day is, send us an email at <a href="mailto:info@drivensoftware.net">info@drivensoftware.net</a> or follow us on [twitter](http://www.twitter.com/drivensoftware) for announcements.
+If you want to learn more or find out when the next training day is, send us an email at <a href="mailto:info@drivensoftware.com">info@drivensoftware.com</a> or follow us on [twitter](http://www.twitter.com/drivensoftware) for announcements.
 
 ## Git Pamphlet
 
-A detailed pamphlet can be downloaded [here](http://drivensoftware.net/resources/git/Git.pdf)
+A detailed pamphlet can be downloaded [here](http://drivensoftware.com/resources/git/Git.pdf)
