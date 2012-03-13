@@ -4,32 +4,39 @@ title: What we do - Training
 permalink: /Training/Git/
 ---
 
-# Getting to Grips with Git
+# Git Course
 
-<img src="/images/git/shaft.png" style="float:left; width: 300px"/>
+<img src="/images/git/git_icon.png" style="float:left; width: 300px;margin-right:25px"/>
+
+## What is Git?
+
+[Git](http://git-scm.com/) is a distributed version control system that allows a development team to work collaboratively without stepping on each other's toes, tracking all changes and making it very easy to share them effectively. It is far more effective than traditional Version Control Systems (CVS, Subversion, TFS etc).
 
 
-[Git](http://git-scm.com/) is a source control system that is very fast, allows for easy branching and is fully distributed. This allows a development team to work collaboratively without stepping on each other's toes, keeping all changes version controlled, and having a master trunk that is ready to go into production at any time.
+## Who is the course aimed at?
 
-Getting to Grips with Git is one of our latest training courses. We will help you get up and running with Git with a balanced mixture of theory around git and practical sessions to get you over the initial learning curve of using Git.
+Developers, Testers, Designers - anyone working in a collaborative team environment, particularly when the team is geographically distributed.
 
-## Who is it aimed at?
-
-Tired of checking code into SVN that's only half done? Not able to branch and merge easily? Annoyed that the senior developers cannot check the junior developers' code before allowing it into the version control? Wanting more control over your source control? Tired of this old frustrating way of working? Getting to Grips with Git is for you!
 
 ## What do we cover?
 
-* Git basics, installing Git and setting up a good merge editor
-* Understanding Git and distributed version control
-* Migrating away from old version controls without doing damage
-* Work flows that support collaboration
-* Understanding and using [Gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
+We will help you get up and running with Git with a balanced mixture of theory and practical sessions, split over two morning sessions...
+
+### SESSION ONE : USE
+At the end of session one attendees will understand the major features of Git and have the knowledge to use it effectively.
+
+### SESSION TWO : ADOPT
+At the end of the second session attendees will be able to use Git at a more advanced level.
+They will know how to transition to Git from other version control systems, integrate it with external applications as well as how to adapt their team process to best leverage it.
+
+(Session Two is typically run two weeks after Session One and attendance is optional)
+
 <br />
 
-## Register for Getting to Grips with Git
+## Register for the Driven Git Course
 
 If you want to learn more or find out when the next training day is, send us an email at <a href="mailto:info@drivensoftware.com">info@drivensoftware.com</a> or follow us on [twitter](http://www.twitter.com/drivensoftware) for announcements.
 
 ## Git Pamphlet
 
-A detailed pamphlet can be downloaded [here](http://drivensoftware.com/resources/git/Git.pdf)
+A detailed pamphlet can be downloaded [here](http://drivensoftware.com/resources/git/DrivenGitCourseBrochure.pdf)
