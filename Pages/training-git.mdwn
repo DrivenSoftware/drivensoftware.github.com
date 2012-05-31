@@ -6,7 +6,7 @@ permalink: /Training/Git/
 
 # Git Course
 
-<img src="/images/git/git_icon.png" style="float:left; width: 300px;margin-right:25px"/>
+<img src="http://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" style="float:left; width: 300px;margin-right:25px"/>
 
 ## What is Git?
 
@@ -21,15 +21,14 @@ Developers, Testers, Designers - anyone working in a collaborative team environm
 ## What do we cover?
 
 We will help you get up and running with Git with a balanced mixture of theory and practical sessions, split over two morning sessions...
+Driven’s Git Workshop Course is a practical, hands-on, one day program split into two sessions...
 
 ### SESSION ONE : USE
 At the end of session one attendees will understand the major features of Git and have the knowledge to use it effectively.
 
 ### SESSION TWO : ADOPT
-At the end of the second session attendees will be able to use Git at a more advanced level.
-They will know how to transition to Git from other version control systems, integrate it with external applications as well as how to adapt their team process to best leverage it.
-
-(Session Two is typically run two weeks after Session One and attendance is optional)
+At the end of the second session attendees will understand more about using Git in a collaborative environment.
+They will be aware of how to transition to Git from other version control systems, integrate it with external applications as well as common patterns for adapting their team process to best leverage it.
 
 <br />
 
