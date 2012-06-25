@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Knowledge Base - Podcasts
-permalink: /KB/Distraction/
+title: Podcast - driven2distraction
+permalink: /Podcast/driven2distraction/
 ---
 
 <div style=" margin: 10px; padding: 5px;">

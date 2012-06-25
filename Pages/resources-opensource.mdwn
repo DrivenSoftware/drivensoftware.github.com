@@ -1,0 +1,39 @@
+---
+layout: default
+title: Resources - Open Source
+permalink: /Resources/OpenSource/
+---
+
+<br>
+
+### Code Samples and OSS work
+<br>
+
+* [Driven.SimpleSamples.Dotnet](https://github.com/DrivenSoftware/Driven.SimpleSamples.Dotnet "Driven.SimpleSamples.Dotnet") - A collection of C# samples of common .NET concepts
+* [DrivenMetrics](https://github.com/garrensmith/DrivenMetrics "DrivenMetrics") - A .net command line metrics tool
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div style="width:100px; margin: 10px; padding: 0px;">
+</div>

@@ -1,0 +1,31 @@
+---
+layout: default
+title: Offering - Professional Services
+permalink: /Offering/Services/
+---
+
+Custom software development can be a daunting undertaking - particularly for companies who's core focus is not software. Driven Software works closely with such companies, helping them to identify their risks and effectively manage them through on site consulting, coaching, mentorship and personalised training.
+
+Our services include...
+Placements
+Placing skilled, experienced and knowledgeable professionals who can work with teams – skilling them up and providing onsite guidance/support
+Strategic consulting
+Consulting and advising on agile engineering principles & practices
+Advising on the company’s future technology choice and technical architecture direction
+Evaluating and interfacing with the companies’ outsource partners – both on an ad-hoc or ongoing basis
+Team Coaching
+ Assist in company-wide agile adoption and the implementation thereof
+Technical Solutions
+ Reviewing a company’s existing codebase and system architecture
+Training
+Customise targeting training on agile principles based on the clients specific needs and circumstances
+Providing technical training on selected technologies
+
+{Insert a downloadable document with elevator pitch in a similar format as used for training brochure} 
+
+
+<br>
+
+
+<div style="width:100px; margin: 10px; padding: 0px;">
+</div>

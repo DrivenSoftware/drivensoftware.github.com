@@ -1,9 +1,0 @@
----
-layout: default
-title: Training Programs
-permalink: /Training/
----
-
-### Driven Software's Training Programs...
-* [Git Course](/pages/Training/Git "Git Course")
-

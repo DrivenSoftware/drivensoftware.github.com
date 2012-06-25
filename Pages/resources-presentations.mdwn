@@ -1,0 +1,52 @@
+---
+layout: default
+title: Resources - Presentations
+permalink: /Resources/Presentations/
+---
+
+<br>
+
+### Presentations
+<br>
+
+These are presentations we have given to companies or development communities in the recent past...
+
+* [Agile introduction](/resources/presentations/agile - what is it all about.pdf "Agile, what is it all about?") - A general introduction to Agile through the eyes of Extreme Programming (XP), Scrum and Kanban
+* [Domain Driven Design](/resources/presentations/ddd.pdf "Domain Driven Design") - A high level introduction to some of the concepts
+* [Rocking with Nodejs](https://github.com/garrensmith/Rocking-with-Nodejs "Rocking with Nodejs") - Garren's presentation at Rubyfuza 2011 and JSinSA 2011
+* [Git Introduction](https://github.com/garrensmith/git_intro_presentation "Git Introduction") - A presentation on the basics of git
+<br>
+<br>
+
+
+<br>
+
+---
+If you would like us to present any of these again at your company or community group, then please [contact us](/pages/ContactUs "Contact Driven Software").
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div style="width:100px; margin: 10px; padding: 0px;">
+</div>
