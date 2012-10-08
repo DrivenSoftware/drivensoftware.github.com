@@ -5,7 +5,7 @@ permalink: /Workshops/driven2know-IntroToAgileBusiness/
 ---
 
 <div style="float: right; width: 200px; margin: 25px; padding: 5px;">
-    <img src="/images/content/Principles of Scrum.jpg">
+    <img src="/images/content/principles of scrum.jpg">
 </div>
 
 # What is Agile: A business perspective?

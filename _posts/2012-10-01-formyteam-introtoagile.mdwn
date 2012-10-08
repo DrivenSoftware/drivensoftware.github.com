@@ -3,7 +3,7 @@ layout: default
 title:  Introduction to Agile
 subtitle: What do we cover?
 category: formyteam
-image: /images/content/Scrum Simulation.jpg
+image: /images/content/scrum simulation.jpg
 weight: 2
 ---
 

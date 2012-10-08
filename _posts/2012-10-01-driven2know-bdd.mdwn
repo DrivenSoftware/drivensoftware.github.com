@@ -3,7 +3,7 @@ layout: default
 title:  Specification by Example (aka BDD)
 subtitle: What do we cover?
 category: driven2know
-image: /images/content/BDD.jpg
+image: /images/content/bdd.jpg
 weight: 5
 ---
 Teams working in an Agile environment commonly use Stories to track and prioritize feature requirements. But given an individual Story, how do you know when you are done with it? Enter "Executable Specifications". Creating acceptance criteria for a Story tells you where to start and when to stop. Automating them allows you to regularly test that nothing has broken. Executable Specifications are the missing glue that ties the pipeline together.

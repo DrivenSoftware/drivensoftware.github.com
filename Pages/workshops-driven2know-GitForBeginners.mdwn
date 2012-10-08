@@ -4,7 +4,7 @@ title: Git for Beginners
 permalink: /Workshops/driven2know-GitForBeginners/
 ---
 
-<img src="/images/content/Git-Logo-2Color.png" class="image_left"/>
+<img src="/images/content/git-logo-2color.png" class="image_left"/>
 
 ## What do we cover?
 

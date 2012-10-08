@@ -12,7 +12,7 @@ Custom software development can be a daunting undertaking - particularly for com
 Our services include...
 
 <div>
-    <img style="width:750px;" src="/images/content/Services Fishbone.png">
+    <img style="width:750px;" src="/images/content/services fishbone.png">
 </div>
 
 ##Tactical Placements<br>

@@ -5,7 +5,7 @@ permalink: /Workshops/driven2know-IntroToAgileScrum/
 ---
 
 # Introduction to Agile : Scrum
-<img src="/images/content/Scrum Simulation.jpg" class="image_left"/>
+<img src="/images/content/scrum simulation.jpg" class="image_left"/>
 ## What do we cover?
 
 The workshop is aimed at exposing teams to a new and innovative way forward - one that uses Agile principles and Scrum methodology.  By using LEGO, learning is enhanced by means of team interaction and simulating business challenges.
