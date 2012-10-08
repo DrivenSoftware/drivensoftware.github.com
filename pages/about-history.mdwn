@@ -6,6 +6,10 @@ permalink: /About/History/
 # Driven Software's History
 <br>
 
+<div style="float: right; width: 175px; margin: 5px; padding: 5px;">
+    <img src="/images/content/history.jpg">
+</div>
+
 Driven was founded in 2008 with a vision to create a company that specialised in helping people to change the way they looked at software and how to produce it.
 
 The core focus of Driven is to identify, analyse and advise on the potential synergies and disparities within the business- and development environment.  This is performed effectively using the engineering principles and practices that are required for success in an agile environment.
