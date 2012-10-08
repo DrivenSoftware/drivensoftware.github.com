@@ -1,0 +1,28 @@
+---
+layout: default
+title: Introduction to Agile, A Business Perspective
+permalink: /Workshops/driven2know-IntroToAgileBusiness/
+---
+
+<div style="float: right; width: 200px; margin: 25px; padding: 5px;">
+    <img src="/images/content/Principles of Scrum.jpg">
+</div>
+
+# What is Agile: A business perspective?
+Agile is, without a doubt, a wave that is taking the development of software and technology to a whole new level.  If these same core principles were applied towards business as a whole, imagine the power of harnessing the true potential of the individuals that make up your organisation.  The workshop shares the concepts of Agile, the direction in which business is moving and logical principles that could be implemented towards achieving your organisations’ vision.
+# Who is the course aimed at?
+Business executives, manager, decision makers, project managers - anyone working in a collaborative team environment, particularly when the team is dispersed across an organisation.
+# What do we cover?
+We will facilitate learning the principles of agile with a balanced mixture of theory and practical sessions.  We explore the direction in which the business world is progressing and provide principles which cover building the right organisation, building the right thing and building the right organisation.
+At the end of this workshop, delegates will understand the principles of agile on a technical level and more about using these principles within the organisation as a whole.
+Furthermore, we will explore why this mind-shift in the way we approach our people and business is necessary and why it makes sense when considering the current business and people dynamic.
+Register for the Driven “Agile: A business perspective” Course
+If you want to learn more or find out when the next training day is, [contact us](/pages/ContactUs "Contact Driven Software") or follow us on [twitter](http://www.twitter.com/drivensoftware) for announcements.
+# “Agile: A business perspective” Pamphlet
+<br>
+
+[A detailed pamphlet can be downloaded here](/resources/downloadabledocuments/Driven - Agile_A business perspective Brochure.pdf)
+
+<br>
+<br>
+<br>

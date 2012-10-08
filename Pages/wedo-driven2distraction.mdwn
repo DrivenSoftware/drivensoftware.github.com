@@ -1,0 +1,13 @@
+---
+layout: default
+title: We Do - driven2distraction
+permalink: /WeDo/driven2distraction/
+---
+
+<div style=" margin: 10px; padding: 5px;">
+    <a href="http://driven2distraction.co.za"><img src="/images/content/distraction.png"></a>
+</div>
+
+The Driven2Distraction Podcast has moved to its own website:
+
+[Driven2Distraction](http://www.driven2distraction.co.za)

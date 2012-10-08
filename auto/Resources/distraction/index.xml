@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>Driven to Distraction</title>
+		<link>http://drivensoftware.com/Pages/Resources/Podcasts/</link>
+		<description>A short sharp chat on all South African developer happenings. Brought to you by Driven Software.</description>
+		<language>en-za</language>
+		<copyright>© Copyright 2011 Driven Software. All rights reserved.</copyright>
+		<lastBuildDate>Mon, 19 Apr 2011 16:00:00 GMT</lastBuildDate>
+		<webMaster>distraction@drivensoftware.com</webMaster>
+		<ttl>1</ttl>
+        <itunes:image href="http://ww.drivensoftware.com/images/content/distraction-itunes.jpg" />
+        
+            
+            <item>
+                <title>We've Moved!</title>
+                <description>We've moved to www.driven2distraction.co.za</description>
+                <pubDate>2012-03-11 00:00:00 +0200</pubDate>
+                <link>http://www.drivensoftware.com/Distraction/2012/03/11/MOVED.html</link>
+                <enclosure url="http://drivensoftware.github.com/resources/distraction/Moved.m4a" length="" type="audio/m4a"/>
+            </item>
+            
+        
+            
+            <item>
+                <title>Episode 005 - eXtreme Programming? Sounds dodgy...</title>
+                <description>The first in a series discussing eXtreme Programming</description>
+                <pubDate>2011-06-14 00:00:00 +0200</pubDate>
+                <link>http://www.drivensoftware.com/Distraction/2011/06/14/D2D005.html</link>
+                <enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.005.m4a" length="" type="audio/m4a"/>
+            </item>
+            
+        
+            
+            <item>
+                <title>Episode 004 - Back on track</title>
+                <description>Take 2, after our previously planned recording was aborted on the launch pad</description>
+                <pubDate>2011-05-24 00:00:00 +0200</pubDate>
+                <link>http://www.drivensoftware.com/Distraction/2011/05/24/D2D004.html</link>
+                <enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.004.m4a" length="" type="audio/m4a"/>
+            </item>
+            
+        
+            
+            <item>
+                <title>Episode 003 - All about us</title>
+                <description>All about us. In this episode we introduce ourselves as well as talk a bit about Jekyll.</description>
+                <pubDate>2011-05-03 00:00:00 +0200</pubDate>
+                <link>http://www.drivensoftware.com/Distraction/2011/05/03/D2D003.html</link>
+                <enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.003.m4a" length="" type="audio/m4a"/>
+            </item>
+            
+        
+            
+        
+            
+            <item>
+                <title>Episode 002  - Its definitely worth a try</title>
+                <description>We're back and we have more useful links and event news</description>
+                <pubDate>2011-04-19 00:00:00 +0200</pubDate>
+                <link>http://www.drivensoftware.com/Distraction/2011/04/19/D2D002.html</link>
+                <enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.002.m4a" length="" type="audio/m4a"/>
+            </item>
+            
+        
+            
+            <item>
+                <title>Episode 001  - The Fail Episode</title>
+                <description>Our first attempt, we'll improve and grow it from here...</description>
+                <pubDate>2011-04-11 00:00:00 +0200</pubDate>
+                <link>http://www.drivensoftware.com/Distraction/2011/04/11/D2D001.html</link>
+                <enclosure url="http://drivensoftware.github.com/resources/distraction/DtoD.001.m4a" length="" type="audio/m4a"/>
+            </item>
+            
+        
+	</channel>
+</rss>

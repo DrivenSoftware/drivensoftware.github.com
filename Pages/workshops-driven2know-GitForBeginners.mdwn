@@ -1,0 +1,18 @@
+---
+layout: default
+title: Git for Beginners
+permalink: /Workshops/driven2know-GitForBeginners/
+---
+
+<img src="/images/content/Git-Logo-2Color.png" class="image_left"/>
+
+## What do we cover?
+
+We will help you get up and running with Git with a balanced mixture of theory and practical sessions. Driven's Git Workshop Course is a practical, hands-on, one day program.
+[more info...](/Pages/Workshops/driven2know-GitForBeginners)
+<br>
+
+<br>
+<br>
+<br>
+<br>

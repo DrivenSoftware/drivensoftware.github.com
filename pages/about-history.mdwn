@@ -3,11 +3,6 @@ layout: default
 title: About - Our History
 permalink: /About/History/
 ---
-
-<div style="float: right; width: 175px; margin: 5px; padding: 5px;">
-    <img src="/images/content/history.jpg">
-</div>
-
 # Driven Software's History
 <br>
 

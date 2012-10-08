@@ -1,0 +1,19 @@
+---
+layout: default
+title: Specification by Example / BDD
+permalink: /Workshops/driven2know-SpecificationByExample/
+---
+
+# Specification by Example / BDD
+<br>
+<img src="/images/content/BDD.jpg" class="image_left"/>
+## What do we cover?
+
+Teams working in an Agile environment commonly use Stories to track and prioritize feature requirements. But given an individual Story, how do you know when you are done with it? Enter "Executable Specifications". Creating acceptance criteria for a Story tells you where to start and when to stop. Automating them allows you to regularly test that nothing has broken. Executable Specifications are the missing glue that ties the pipeline together.
+
+In this workshop attendees use C#, SpecFlow and NUnit to code a real-world example, demonstrating one way of achieving success. Common pitfalls and anti-patterns that you should try to avoid are also covered.
+
+<br>
+<br>
+<br>
+<br>
