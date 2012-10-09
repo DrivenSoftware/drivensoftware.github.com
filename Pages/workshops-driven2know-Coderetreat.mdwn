@@ -6,7 +6,7 @@ permalink: /Workshops/driven2know-Coderetreat/
 
 # Code Retreat
 <br>
-<img src="/images/content/code retreat.jpg" class="image_left"/>
+<img src="/images/content/conway.jpg" class="image_left"/>
 
 ## What do we cover?
 

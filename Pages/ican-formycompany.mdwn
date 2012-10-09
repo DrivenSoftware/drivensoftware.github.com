@@ -4,8 +4,6 @@ title: What Can I Do - For My Company?
 permalink: /ICan/ForMyCompany/
 ---
 
-More information coming soon.
-
 {% for weight in (1..10) %}
   {% for post in site.posts %}
       {% if post.category == "formycompany" %}
