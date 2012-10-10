@@ -8,11 +8,10 @@ Created by Anthony van Beek : http://www.blahblahblah.co.za
 
 
 html {
-	background:#292929;
+	background:#fff;
 }
 
 body {
-	background: url("../images/backgrad.png") repeat-x scroll 0 0 transparent;
 	font-family: "Trebuchet MS", sans-serif;
 }
 
