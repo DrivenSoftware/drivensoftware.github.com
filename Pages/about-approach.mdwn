@@ -24,7 +24,7 @@ We believe in a disciplined and holistic approach, firmly grounded in the specif
 One of the fundamental principles of our approach is to recognise that every company, every team and every project is different. There is no one size fits all solution to building software well, only principles and practices that when used in the right combinations for the specific circumstances will result in success.
 
 <div style=" margin: 35px; padding: 5px;">
-    <img src="/images/content/pdca.jpg">
+    <img src="/images/content/pdca.png">
 </div>
 
 Vision:	Establish a broad sense of the requirements and scope to uncover how and where we can add value
