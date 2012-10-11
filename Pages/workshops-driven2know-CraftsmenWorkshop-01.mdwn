@@ -59,4 +59,4 @@ The event is best for senior and mid-level software developers and architects in
 <br>
 ### Register
 <br>
-To register, email [driven2know@drivensoftware.com](mailto:driven2know@drivensoftware.com). Seats are limited so register now to avoid disappointment.
+To register, email [driven2know@drivensoftware.com]((mailto:driven2know@drivensoftware.com?subject=Register%20for%20Software%20Craftsman%20Workshop&body=Please%20send%20me%20a%20registration%20form!)). Seats are limited so register now to avoid disappointment.
