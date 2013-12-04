@@ -23,8 +23,11 @@ permalink: /Workshops/driven2know-scw-02/
 
 <img src="/images/content/scw/greg-young.jpg" class="image_left"/>
 
-**Greg Young** is an independent consultant, entrepreneur, trainer, and well known speaker at international conferences. He is credited for having coined the term "CQRS" (Command Query Responsibility Segregation). Greg is the lead architect on Event Store, an open source, functional database. He's a regular contributor to codebetter.com where he writes about CQRS, DDD, Event Sourcing and other topics.
-<br><br><br><br><br><br><br><br>
+**Greg Young** is an independent consultant, entrepreneur, trainer, and well known speaker at international conferences. He is credited for having coined the term "CQRS" (Command Query Responsibility Segregation).
+
+Greg is the lead architect on Event Store, an open source, functional database. He's a regular contributor to codebetter.com where he writes about CQRS, DDD, Event Sourcing and other topics.
+
+<br><br><br><br>
 
 
 ### Agenda  
