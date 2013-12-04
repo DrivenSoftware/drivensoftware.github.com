@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inaugural driven2know Software Craftsman Workshop
+title: A driven2know Software Craftsman Workshop
 permalink: /Workshops/driven2know-scw-02/
 ---
 
@@ -36,7 +36,3 @@ The event is best for senior and mid-level software developers and architects in
 ### Register
 
 To register, email [driven2know@drivensoftware.com](mailto:driven2know@drivensoftware.com?subject=Register%20for%20Software%20Craftsman%20Workshop&body=Please%20send%20me%20a%20registration%20form!!). Seats are limited so register now to avoid disappointment.
-
-### CQRS Beers
-
-As part of the event we will also be hosting a free community dinner: [CQRS Beers](http://cqrsbeersjhb.eventbrite.com/). Follow the link to register.
