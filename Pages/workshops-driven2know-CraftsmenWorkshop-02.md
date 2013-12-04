@@ -15,7 +15,7 @@ permalink: /Workshops/driven2know-scw-02/
 ### Event Details
 - Date:   February 2014
 - Venue:  General Sandton area, final venue TBD
-- Cost:   TBC
+- Cost:   TBA
 
 *Seats are limited, so register now to avoid disappointment.*
 
