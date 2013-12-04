@@ -21,7 +21,7 @@ permalink: /Workshops/driven2know-scw-02/
 
 ### Greg Young
 
-<img src="/images/content/scw/vaughnvernon.png" class="image_left"/>
+<img src="/images/content/scw/greg-young.jpg" class="image_left"/>
 
  **Greg Young** is...
 
