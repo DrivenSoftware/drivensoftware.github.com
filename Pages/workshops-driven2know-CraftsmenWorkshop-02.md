@@ -13,25 +13,33 @@ permalink: /Workshops/driven2know-scw-02/
 
 <br>
 ### Event Details
+<br>
+
 - Format: 3-day full day workshop
 - Date:   February 2014 (Exact dates to be finalised)
 - Venue:  General Sandton area, final venue TBD
 - Cost:   TBA
 
+<br>
+
 *Seats are limited, so register now to avoid disappointment.*
 
+<img src="/images/content/scw/greg-young.jpg" class="image_left"/>
+<br>
 ### Greg Young
 
-<img src="/images/content/scw/greg-young.jpg" class="image_left"/>
+<br>
 
 **Greg Young** is an independent consultant, entrepreneur, trainer, and well known speaker at international conferences. He is credited for having coined the term "CQRS" (Command Query Responsibility Segregation).
 
 Greg is the lead architect on [Event Store](http://geteventstore.com/), an open source, functional database. He's a regular contributor to [codebetter.com](http://codebetter.com/gregyoung/) where he writes about CQRS, DDD, Event Sourcing and other topics.
 
-<br><br><br><br>
-
+<br><br><br>
 
 ### Agenda  
+
+<br>
+
 - **Day 1**
 	- Thinking in Message Loops
 	- Building out a Process Manager (kata)
@@ -54,6 +62,7 @@ Greg is the lead architect on [Event Store](http://geteventstore.com/), an open 
 	- RESTful Systems
 	- Occasionally Connected Systems
  
+<br>
 
 ### Who should attend
 The event is best for senior and mid-level software developers and architects interested in software craftsmanship and learning domain modeling using the Domain-Driven Design (DDD) approach.
