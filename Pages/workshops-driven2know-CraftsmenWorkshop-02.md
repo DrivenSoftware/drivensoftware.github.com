@@ -16,7 +16,7 @@ permalink: /Workshops/driven2know-scw-02/
 - Format: 3-day full day workshop
 - Date:   February 2014 (Exact dates to be finalised)
 - Venue:  General Sandton area, final venue TBD
-- Cost:   TBA
+- Cost:   R7999
 
 *Seats are limited, so register now to avoid disappointment.*
 
