@@ -1,0 +1,14 @@
+{
+  "name": "DrivenWebsite",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "start": "jekyll serve -D -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-less": "^1.3.3",
+    "twitter-bootstrap-3.0.0": "^3.0.0"
+  }
+}
