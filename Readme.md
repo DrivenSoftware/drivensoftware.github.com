@@ -18,7 +18,7 @@ To Add new page
 Set this tag for the layout page
 <pre>
 ---
-layout: default
+layout: new
 ---
 </pre>
 
