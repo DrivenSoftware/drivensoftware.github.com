@@ -4,36 +4,26 @@ Driven Software Website
 Website
 --------
 
-To see [demo](http://drivensoftware.github.com)
-
 To Setup
 --------
+Have Node and Ruby installed.
 
-sudo gem install jekyll
-sudo gem install glynn
-
-To switch repo
---------------
-
-go to .git/config
-replace url with git@github.com:DrivenSoftware/Driven-Software-Website.git
-continue as usual
+Install Jekyll: `sudo gem install jekyll`
+Install node packages: `npm install`
+Generate stylesheets: `gulp style`
 
 To Add new page
 ---------------
 
 Set this tag for the layout page
-  ---
-  layout: default
-  ---
-
+<pre>
+---
+layout: default
+---
+</pre>
 
 To Test
 -------
 
-  jekyll --server
+  `jekyll serve -w`
 
-To Deploy
----------
-
-    glynn
