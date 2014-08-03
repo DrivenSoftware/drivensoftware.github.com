@@ -8,9 +8,9 @@ To Setup
 --------
 Have Node and Ruby installed.
 
-Install Jekyll: `sudo gem install jekyll`
-Install node packages: `npm install`
-Generate stylesheets: `gulp style`
+* Install Jekyll: `sudo gem install jekyll`
+* Install node packages: `npm install`
+* Generate stylesheets: `gulp style`
 
 To Add new page
 ---------------
