@@ -5978,6 +5978,9 @@ td.visible-print {
 .section-light {
   background-color: #fcfcfc;
 }
+.section-light p strong {
+  color: #c3522f;
+}
 .section-light-alt {
   background-color: #f8f8f8;
   border: 1px solid #e1e1e1;
@@ -5985,14 +5988,54 @@ td.visible-print {
 }
 .section-dark {
   background-color: #39342d;
+  color: #bfb7ac;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.section-dark h2 {
+  color: #bfb7ac;
+}
+.section-dark p strong {
+  color: #fff;
+}
+.section-dark .hr {
+  clear: both;
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  margin: 30px 0;
+  float: none;
+}
+.section-dark .hr .hr-inner {
+  position: absolute;
+  height: 1px;
+  top: 50%;
+  margin-top: -1px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  width: 32%;
+  left: 50%;
+  margin-left: -16%;
+  border-color: #e1e1e1;
+}
+.section-dark .hr .hr-inner .hr-inner-style {
+  border-radius: 20px;
+  height: 9px;
+  width: 9px;
+  border-width: 2px;
+  border-style: solid;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-color: #e1e1e1;
+  background-color: #39342d;
 }
 p {
   letter-spacing: 1px;
   line-height: 1.3em;
-  color: #7c6853;
-}
-p strong {
-  color: #c3522f;
 }
 .iconbox {
   letter-spacing: 1px;
@@ -6020,42 +6063,6 @@ p strong {
   text-transform: uppercase;
   text-align: center;
   padding-top: 30px;
-}
-#welcome .hr {
-  clear: both;
-  display: block;
-  width: 100%;
-  position: relative;
-  height: 20px;
-  line-height: 20px;
-  margin: 30px 0;
-  float: none;
-}
-#welcome .hr .hr-inner {
-  position: absolute;
-  height: 1px;
-  top: 50%;
-  margin-top: -1px;
-  border-top-width: 1px;
-  border-top-style: solid;
-  width: 32%;
-  left: 50%;
-  margin-left: -16%;
-  border-color: #e1e1e1;
-}
-#welcome .hr .hr-inner .hr-inner-style {
-  border-radius: 20px;
-  height: 9px;
-  width: 9px;
-  border-width: 2px;
-  border-style: solid;
-  display: block;
-  position: absolute;
-  left: 50%;
-  margin-left: -5px;
-  margin-top: -5px;
-  border-color: #e1e1e1;
-  background-color: #fff;
 }
 #welcome p {
   text-align: center;
