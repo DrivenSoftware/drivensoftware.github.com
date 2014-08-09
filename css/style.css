@@ -5967,7 +5967,7 @@ td.visible-print {
   line-height: 68px;
 }
 .navbar-nav li > a:hover {
-  border-bottom: 3px solid #c3522f;
+  border-bottom: 3px solid #c28c17;
 }
 .navbar-brand {
   line-height: 58px;
@@ -5982,7 +5982,7 @@ td.visible-print {
   background-color: #fcfcfc;
 }
 .section-light p strong {
-  color: #c3522f;
+  color: #c28c17;
 }
 .section-light-alt {
   background-color: #f8f8f8;
@@ -6050,7 +6050,7 @@ p {
   padding: 28px 48px;
 }
 .iconbox p strong {
-  color: #c3522f;
+  color: #c28c17;
 }
 .iconbox span {
   float: left;
