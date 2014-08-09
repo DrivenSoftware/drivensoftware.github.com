@@ -6309,7 +6309,7 @@ p {
 }
 footer {
   background-color: #000;
-  color: #fff;
+  color: #bfb7ac;
   padding: 5px;
 }
 footer em {
@@ -6329,4 +6329,5 @@ footer ul {
 footer ul li {
   float: left;
   padding: 0px 2px;
+  color: #bfb7ac;
 }
