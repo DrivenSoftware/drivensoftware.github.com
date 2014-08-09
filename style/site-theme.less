@@ -10,11 +10,19 @@
 
 .section-light {
 	background-color:	@section-light-bg; 
+	color: @brand-text;
+
 
 	p {
 		strong {
 			color: @brand-text-emp;
 		}
+	}
+
+	h3 {
+		font-size: 16px;
+		font-weight: 600;
+
 	}
 }
 
@@ -22,6 +30,8 @@
 	background-color:	@section-light-alt-bg;
 	border:			1px solid #e1e1e1;
 	box-shadow: 		inset 0 1px 3px rgba(0,0,0,0.1);	
+	color: @brand-text;
+
 }
 .section-dark {
 	background-color:	@section-dark-bg;
@@ -29,6 +39,7 @@
 	box-shadow: 		inset 0 1px 3px rgba(0,0,0,0.1);
 
 	h2 { color: #bfb7ac; }
+	h4 { color: #bfb7ac; }
 	p {
 		strong {
 			color: #fff;
@@ -84,6 +95,101 @@ p {
 	line-height: 1.3em;
 }
 
+#workshops {
+	padding: 25px 0 25px 0;
+
+	.list {
+		padding: 2px;
+
+		ul {
+			list-style: none;
+			border-left: 1px dashed @brand-primary;
+
+			li {
+				position: relative;
+
+				span {
+					position: absolute;
+					left: -72px;
+					top: -20px;
+					font-size: 34px;
+					background-color: lighten(@brand-primary, 45);
+					color: white;
+					width: 60px;
+					height: 60px;
+					text-align: center;
+					padding: 10px;
+					border-radius: 30px;
+					.transition(background-color 0.4s ease-in-out);
+				}
+
+				p { text-align: justify; }
+
+				&:hover {
+					span { background-color: @brand-text-emp; }
+				}
+			}
+		}
+	}	
+}
+
+#workshops-feedback {
+	h2 {
+		text-transform: uppercase;
+		text-align: center;
+	}
+	ul {
+		list-style: none;
+		padding: 0px;
+		overflow: hidden;
+		margin: 30px;
+		.clearfix;
+
+		li {
+			float: left;
+			width: 50%;
+			border-top: 1px dashed;
+			border-left: 1px dashed;
+			padding: 20px;
+			position: relative;
+			top: -1px;
+			left: -1px;
+
+			img {
+				float: left;
+				margin-right: 12px;
+				width: 70px;
+				height: 70px;
+				border-radius: 50%;
+			}
+
+			h4 {
+				margin: 2px 0;
+				margin-left: 85px;
+			}
+
+			p { margin-left: 85px; }
+			span { 
+				margin-left: 85px; 
+				display: block; 
+			}
+		}
+	}
+}
+
+#breadcrumb {
+	h2 {
+		margin: 17px 0;
+		font-size: 15px;
+		font-weight: 200;
+	}
+	p {
+		text-align: right;
+		margin: 17px 0;
+		font-size: 10px;
+	}
+}
+
 .iconbox {
 	letter-spacing: 1px;
 	line-height: 1.3em;
@@ -134,10 +240,11 @@ p {
 		float: left;
 		width: 280px;
 		height: 190px;
+		padding: 1px;
 	}
 	a {
 		display: block;
-		color: #7c6853;
+		color: @brand-text;
 		position: relative;
 
 		&:hover .image-overlay {
@@ -171,16 +278,16 @@ p {
 		}
 	}
 	img {
-		width: 280px;
+		width: 278px;
 		height: 175px;
 	}
 	.image-overlay {
-		left: -1px; 
+		left: 0px; 
 		top: 0px; 
 		overflow: hidden; 
 		display: block; 
 		height: 177px; 
-		width: 282px;
+		width: 278px;
 		position: absolute;
 		background: #fff;
 		z-index: 500;
@@ -190,7 +297,7 @@ p {
 		.image-overlay-inside {
 			position: absolute;
 			border-radius: 50px;
-			background: #C3522F;
+			background: @brand-text-emp;
 			height: 80px;
 			width: 80px;
 			line-height: 80px;
