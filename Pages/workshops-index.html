@@ -4,23 +4,13 @@ title: Workshops
 permalink: /workshops/index.html
 ---
 
-<section id="breadcrumb" class="section-dark">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<h2>Workshops</h2>
-			</div>
-			<div class="col-md-6">
-				<p>You are here: <a href="/">Home</a> / Workshops</p>
-			</div>
-		</div>
-	</div>
-</section>
+{% include breadcrumb.html title='Workshops' loc='<a href="/">Home</a> / Workshops' %}
 
 <section id="workshops" class="section-light">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
+				<img src="{{ site.url }}/images/workshops/IMG_9740.jpg" />
 			</div>
 			<div class="col-md-6">
 				<div class="list">
@@ -47,45 +37,5 @@ permalink: /workshops/index.html
 	</div>
 </section>
 
-
-<section id="workshops-feedback" class="section-dark">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2>What people who have attended have to say</h2>
-				<div class="hr hr-short hr-center">
-					<span class="hr-inner">
-						<span class="hr-inner-style"></span>
-					</span>
-				</div>
-				<ul>
-					<!-- <li>
-						<img src="{{ site.url }}/images/people/you.jpg"></img>
-						<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-						<h4 class="name">You Name</h4>
-						<span class="title">Title - <a href="#">Company</a></span>
-					</li>
-					<li>
-						<img src="{{ site.url }}/images/people/you.jpg"></img>
-						<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-						<h4 class="name">You Name</h4>
-						<span class="title">Title - <a href="#">Company</a></span>
-					</li>
-					<li>
-						<img src="{{ site.url }}/images/people/you.jpg"></img>
-						<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-						<h4>You Name</h4>
-						<span>Title - <a href="#">Company</a></span>
-					</li>
-					<li>
-						<img src="{{ site.url }}/images/people/you.jpg"></img>
-						<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-						<span class="name">You Name</span>
-						<span class="title">Title - <a href="#">Company</a></span>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
+{% include feedback.html title='What people who have attended have to say' type='workshops' %}
 

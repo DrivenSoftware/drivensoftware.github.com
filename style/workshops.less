@@ -1,0 +1,38 @@
+#workshops {
+	padding: 25px 0 25px 0;
+
+	.list {
+		padding: 2px;
+
+		ul {
+			list-style: none;
+			border-left: 1px dashed @brand-primary;
+
+			li {
+				position: relative;
+
+				span {
+					position: absolute;
+					left: -72px;
+					top: -20px;
+					font-size: 34px;
+					background-color: lighten(@brand-primary, 45);
+					color: white;
+					width: 60px;
+					height: 60px;
+					text-align: center;
+					padding: 10px;
+					border-radius: 30px;
+					.transition(background-color 0.4s ease-in-out);
+				}
+
+				p { text-align: justify; }
+
+				&:hover {
+					span { background-color: @brand-text-emp; }
+				}
+			}
+		}
+	}	
+}
+

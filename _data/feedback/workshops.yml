@@ -1,0 +1,15 @@
+
+- name: You
+  title: Developer
+  company: Company
+  companyurl: http://drivensoftware.com
+  pic: /images/people/you.jpg
+  comment: This is the comment from the person that has given the feedback.
+
+- name: You
+  title: Developer
+  company: Company
+  pic: /images/people/you.jpg
+  comment: This is the comment from the person that has given the feedback.
+
+
