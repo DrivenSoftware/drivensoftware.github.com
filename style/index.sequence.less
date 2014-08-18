@@ -30,40 +30,135 @@
 }
 
 .scene1 {
-	background-image: url('/images/index/floor.jpg');
-	background-size: 100% 100%;
+	//background-image: url('/images/index/grungy.jpg');
+	//background-size: 100% 100%;
 }
 
 .scene2 {
+	//background-image: url('/images/index/floor.jpg');
+	//background-size: 100% 100%;
+}
+
+.shoes-bg {
+	background-image: url('/images/index/floor.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	.transition-duration(1s);
+}
+
+.shoes-baby { 
+	background-image: url('/images/index/shoes_baby.png');
+	width: 763px;
+	height: 473px;	
+	right: -800px;
+	top: -103px;
+	.transition-duration(1s);
+}
+
+.driven-bg {
+	background-image: url('/images/index/grungy.jpg');
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	opacity: 0;
+	.transition-duration(1s);
+}
+
+.driven-info {
+	left: -100px;
+	.transition-duration(1s);
+}
+
+.shoes-info {
+	background-color: #000;
+	color: #fff;
+	opacity: 0.6;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.shoes1 {
+	top: 45px;
+	left: -1000px;
+	.transition-duration(1s);
+	font-size: 30px;
+}
+
+.shoes2 {
+	left: -1300px;
+	top: 130px;
+	.transition-duration(1s);
+}
+
+.shoes3 {
+	left: -1600px;
+	top: 180px;
+	.transition-duration(1s);
+}
+
+.shoes4 {
+	left: -1900px;
+	top: 230px;
+	.transition-duration(1s);
+}
+
+.shoes5 {
+	left: -2300px;
+	top: 300px;
+	.transition-duration(1s);
+}
+
+.animate-in {
+	.driven-bg {
+		opacity: 1;
+	}
+
+	.driven-info {
+		left: 0px;
+	}
+
+	.shoes-bg {
+		opacity: 1;
+	}
+
+	.shoes-baby {
+		right: 0px;
+	}
+
+	.shoes1 {
+		left: 100px;
+	}
+
+	.shoes2 {
+		left: 280px;
+	}
+	.shoes3 {
+		left: 316px;
+	}
+	.shoes4 {
+		left: 302px;
+	}
+	.shoes5 { left: 100px; }
+}
+/*
+.animate-out {
+	.driven-bg { 
+		opacity: 0;
+		.transition-duration(1s);
+	}
+
+	.driven-info { left: -100px; }
+
+	.shoes-baby {
+		right: -800px;
+		.transition-duration(1s);
+	}
+}
+*/
+.scene3 {
 	background-image: url('/images/index/grow.jpg');
 	background-size: 100% 100%;
 }
 
-.frame1,
-.frame2,
-.frame3 {
-	background: #3f7ad6;
-	color: white;
-	height: 95px;
-	padding: 5px;
-	width: 95px;
-}
-
-.frame1, 
-.frame2 {
-	left: -150px;
-	top: 10px;
-	.transition-duration(1s);
-}
-
-.animate-in .frame1,
-.animate-in .frame2 {
-	left: 165px;
-	.transition-duration(1s);
-}
-
-.animate-out .frame1,
-.animate-out .frame2 {
-	left: 500px;
-	.transition-duration(1s);
-} 

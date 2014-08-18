@@ -5,23 +5,31 @@ layout: newIndex
 <!-- Sequence -->
 <div id="index-sequence">
 	<ul class="sequence-canvas">
-		<li class="animate-in scene1">
-			<div class="frame1">
-				<h1> Driven Software </h1>
-				<p>Welcome to Driven Software</p>
-			</div>
+		<li class="scene1">
+			<div class="driven-bg"></div>
+			<div class="driven-info"</div>
 		</li>
 		<li class="scene2">
-			<div class="frame2">
-				<h1>Another</h1>
-			</div>
+			<div class="shoes-bg"></div>
+			<div class="shoes-baby"></div> 
+			<div class="shoes-info shoes1">There is no one size fits all solution to building software well</div>
+			<div class="shoes-info shoes2">Every Company</div>
+			<div class="shoes-info shoes3">Every Team</div>
+			<div class="shoes-info shoes4">Every Project</div>
+			<div class="shoes-info shoes5">Principles and practices used in the right combinations and circumstances will result in success</div>
 		</li>
 	</ul>
 </div>
 
 <script>
 	$(document).ready(function() {
-		var options = { autoPlay: true };
+		var options = { 
+			autoPlay: true, 
+			autoPlayDelay: 9000,
+			pauseOnHover: false,
+			animateStartingFrameIn: false,
+			transitionThreshold: false
+		};
 		var sequence = $("#index-sequence").sequence(options).data("sequence");
 	});
 </script>
@@ -38,18 +46,18 @@ layout: newIndex
 				</p>
 			</div>
 			<div class="col-md-4 iconbox">
-				<span class="glyphicon glyphicon-music"></span>
-				<h3>Driven 2 Distraction</h3>
+				<span class="glyphicon glyphicon-send"></span>
+				<h3>Driven Software</h3>
 				<p class="text-justify">
-					The best (not because it't the only) <strong>South African software development focussed podcast</strong>. Tune in to hear what is happening in the local industry and listen to interviews with leading local and visiting software experts.	
+				Driven Software's mission is to provide South African businesses with an independent technical partner with whom they can undertake their software solution development efforts. We believe <strong>our hands-on approach to working with our clients is a positive contrast to the 'ivory tower' style of consulting</strong> currently offered in the market
 				</p>
 
 			</div>
 			<div class="col-md-4 iconbox">
-				<span class="glyphicon glyphicon-send"></span>
-				<h3>Driven 2 Build</h3>
+				<span class="glyphicon glyphicon-music"></span>
+				<h3>Driven 2 Distraction</h3>
 				<p class="text-justify">
-					
+					The best (not because it't the only) <strong>South African software development focussed podcast</strong>. Tune in to hear what is happening in the local industry and listen to interviews with leading local and visiting software experts.	
 				</p>
 
 			</div>
@@ -78,6 +86,7 @@ layout: newIndex
 					We invite you to join us on the journey towards re-energising yourself and your team - towards honing the art of software development.
 				</p>
 			</div>
+			<!--
 			<div class="col-md-12 gallery-preview-3">
 				<div>
 					<a>
@@ -88,7 +97,7 @@ layout: newIndex
 					</a>
 					<h3>
 						<div class="arrow"></div>
-						<a href="#">Introduction to Agile - A business perspective</a>
+						<a href="/workshops">Introduction to Agile - A business perspective</a>
 					</h3>
 				</div>
 				<div>							
@@ -100,7 +109,7 @@ layout: newIndex
 					</a>
 					<h3>
 						<div class="arrow"></div>
-						<a href="#">Specification by Example (aka BDD)</a>
+						<a href="/workshops">Specification by Example (aka BDD)</a>
 					</h3>
 				</div>
 				<div>							
@@ -112,7 +121,7 @@ layout: newIndex
 					</a>
 					<h3>
 						<div class="arrow"></div>
-						<a href="#">Coderetreat</a>
+						<a href="/workshops">Coderetreat</a>
 					</h3>
 				</div>
 			</div>
@@ -124,6 +133,7 @@ layout: newIndex
 				</div>
 			</div>
 			<p><a href="/workshops">View All the Workshops here</a></p>
+			-->
 		</div>
 	</div>
 </section>
