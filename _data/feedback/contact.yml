@@ -1,15 +1,15 @@
 
-- name: You
+- name: Kutloisiso Mona
   title: Developer
-  company: Company
-  companyurl: http://drivensoftware.com
-  pic: /images/people/you.jpg
-  comment: This is the comment from the person that has given the feedback.
+  company: 
+  companyurl: 
+  pic: /images/people/feedback/Kutloisiso.jpeg
+  comment: Great meetup, loved the pairing and karta approach. Lets do it again
 
-- name: You
+- name: Ryan
   title: Developer
-  company: Company
-  pic: /images/people/you.jpg
-  comment: This is the comment from the person that has given the feedback.
+  company:
+  pic: /images/people/feedback/Ryan.jpeg
+  comment: Excellent, was my first hands-on workshop and it's great to learn about TDD and implement it yourself during a session.
 
 

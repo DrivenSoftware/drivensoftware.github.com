@@ -18,7 +18,9 @@
 						<span>{{ feed.title }}
 							{% if feed.companyurl %}
 								- <a href="{{ feed.companyurl }}">{{ feed.company }}</a>
-							{% else %}
+							{% endif %}
+
+							{% if feed.company %}
 								- {{ feed.company }}
 							{% endif %}
 						</span>
