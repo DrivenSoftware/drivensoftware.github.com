@@ -23,6 +23,9 @@
 #index-sequence .sequence-canvas li * {
   position: absolute;
 }
+.scene2 {
+  display: none;
+}
 .shoes-bg {
   background-image: url('/images/index/floor.jpg');
   background-size: 100% 100%;
