@@ -1,32 +1,36 @@
 
 - name: Kevin Trethewey
   title: Senior Coach
-  pic: /images/people/kevint.png
+  pic: /images/people/Kevin.jpg
 
 - name: Mark Pearl
   title: Developer Coach
-  pic: /images/people/markp.jpeg
+  pic: /images/people/Mark.jpg
 
 - name: Janco Wolmarans
   title: Senior Developer
-  pic: /images/people/jancow.jpeg
+  pic: /images/people/Janco.jpg
 
 - name: Coenie Beyers
   title: Developer
-  pic: /images/people/coenieb.jpg
+  pic: /images/people/Coenie.jpg
 
 - name: Candice Mesk
   title: Developer
-  pic: /images/people/candicem.jpeg
+  pic: /images/people/Candice.jpg
 
 - name: Terence Kruger
   title: Developer Coach
-  pic: /images/people/terencek.jpg
+  pic: /images/people/Terence.jpg
 
 - name: Theo Bohnen
   title: Developer
-  pic: /images/people/theob.jpg
+  pic: /images/people/Theo.jpg
 
 - name: Dani Mdleleni
   title: Developer
-  pic: /images/people/you.jpg
+  pic: /images/people/Dani.jpg
+
+- name: Mandla Magagula
+  title: Developer
+  pic: /images/people/Mandla.jpg
