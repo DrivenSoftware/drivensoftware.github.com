@@ -3,7 +3,7 @@ var path = require('path'),
     less = require('gulp-less');
 
 gulp.task('style', function() {
-	gulp.src(['./style/style.less', './style/index.sequence.less'])
+	gulp.src(['./style/style.less'])
 		.pipe(less({
 			paths: [
 				path.join(__dirname, 'node_modules/twitter-bootstrap-3.0.0/less'),
@@ -11,4 +11,9 @@ gulp.task('style', function() {
 			]
 		}))
 		.pipe(gulp.dest('./css'));
+});
+
+gulp.task('script', function() {
+	gulp.src(['./bower_components/jquery.stellar/jquery.stellar.js', './node_modules/twitter-bootstrap-3.0.0/js/tab.js'])
+		.pipe(gulp.dest('./scripts'));
 });

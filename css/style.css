@@ -5963,7 +5963,7 @@ td.visible-print {
   height: 88px;
 }
 .navbar-nav li > a {
-  height: 91px;
+  height: 99px;
   line-height: 68px;
 }
 .navbar-nav li > a:hover {
@@ -5971,6 +5971,11 @@ td.visible-print {
 }
 .navbar-brand {
   line-height: 58px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: #ddd;
 }
 .text-justify {
   text-align: justify;
@@ -5984,20 +5989,99 @@ td.visible-print {
 .text-caps {
   text-transform: uppercase;
 }
-h3 {
+.tabpanel {
+  padding: 20px 20px;
+}
+.tabpanel .tab-content {
+  padding: 20px;
+}
+.strip {
+  background-color: #ece7e2;
+  padding: 0px;
+}
+.strip h4 {
+  text-align: center;
+  text-decoration: underline;
+  color: #555555;
+  margin: 25px 0px;
+}
+.strip ul {
+  list-style: none;
+  padding: 0px;
+}
+.strip ul li {
+  padding: 8px;
+  margin: 10px 0px;
   color: #7c6853;
-  height: 25px;
+  text-align: justify;
 }
-h3 span {
-  background-color: white;
-  padding-right: 12px;
-  float: left;
+section:before,
+section:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
-h3 hr {
-  margin: 0px;
-  padding-top: 8px;
-  border: 0px;
-  border-bottom: 1px solid #ece7e2;
+section:after {
+  clear: both;
+}
+section:before,
+section:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+section:after {
+  clear: both;
+}
+.section-image {
+  height: 340px;
+}
+.section-image-alliance {
+  background-image: url(../images/index/alliance-bg.jpg);
+}
+.section-image-software {
+  background-image: url(../images/index/software-bg.jpg);
+}
+.section-image-studio {
+  background-image: url(../images/index/studio-bg.jpg);
+}
+.section-image-spark {
+  background-image: url(../images/index/spark-bg.jpg);
+}
+.section-image-systems {
+  background-image: url(../images/index/systems-bg.jpg);
+}
+.section-image-about {
+  background-image: url(../images/index/about-bg.jpg);
+}
+.section-logo {
+  width: 180px;
+  top: 20px;
+  padding-right: 30px;
+  padding-top: 10px;
+  float: right !important;
+}
+.section-watermark {
+  background-repeat: no-repeat;
+  background-position: 60px 65px;
+  min-height: 300px;
+}
+.section-watermark-alliance {
+  background-image: url(../images/index/alliance-watermark.png);
+}
+.section-watermark-software {
+  background-image: url(../images/index/software-watermark.png);
+}
+.section-watermark-studio {
+  background-image: url(../images/index/studio-watermark.png);
+}
+.section-watermark-spark {
+  background-image: url(../images/index/spark-watermark.png);
+}
+.section-watermark-systems {
+  background-image: url(../images/index/systems-watermark.png);
 }
 .section-light {
   background-color: #fcfcfc;
@@ -6010,225 +6094,64 @@ h3 hr {
   font-size: 16px;
   font-weight: 600;
 }
-.section-dark {
-  background-color: #39342d;
-  color: #bfb7ac;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-.section-dark h2 {
-  color: #bfb7ac;
-}
-.section-dark h4 {
-  color: #bfb7ac;
-}
-.section-dark p strong {
-  color: #fff;
-}
-.section-dark a {
-  color: #fff;
-}
-.section-dark .hr {
-  clear: both;
-  display: block;
-  width: 100%;
-  position: relative;
-  height: 20px;
-  line-height: 20px;
-  margin: 30px 0;
-  float: none;
-}
-.section-dark .hr .hr-inner {
-  position: absolute;
-  height: 1px;
-  top: 50%;
-  margin-top: -1px;
-  border-top-width: 1px;
-  border-top-style: solid;
-  width: 32%;
-  left: 50%;
-  margin-left: -16%;
-  border-color: #e1e1e1;
-}
-.section-dark .hr .hr-inner .hr-inner-style {
-  border-radius: 20px;
-  height: 9px;
-  width: 9px;
-  border-width: 2px;
-  border-style: solid;
-  display: block;
-  position: absolute;
-  left: 50%;
-  margin-left: -5px;
-  margin-top: -5px;
-  border-color: #e1e1e1;
-  background-color: #39342d;
+.section-light .container {
+  min-height: 250px;
 }
 p {
   letter-spacing: 1px;
   line-height: 1.3em;
 }
-#breadcrumb h2 {
-  margin: 17px 0;
-  font-size: 15px;
-  font-weight: 200;
+.teampic {
+  width: 200px;
+  height: 200px;
 }
-#breadcrumb p {
-  text-align: right;
-  margin: 17px 0;
-  font-size: 10px;
+.teampic-kevin {
+  background-image: url(../images/people/kevin.jpg);
 }
-.iconbox {
-  letter-spacing: 1px;
-  line-height: 1.3em;
-  color: #7c6853;
-  padding: 28px 48px;
+.teampic-kevin:hover {
+  background-image: url(../images/people/kevin-c.jpg);
 }
-.iconbox p strong {
-  color: #c28c17;
+.teampic-mark {
+  background-image: url(../images/people/mark.jpg);
 }
-.iconbox span {
-  float: left;
-  padding-top: 16px;
-  font-size: 16px;
-  padding-left: 8px;
-  color: #382410;
+.teampic-mark:hover {
+  background-image: url(../images/people/mark-c.jpg);
 }
-.iconbox h3 {
-  text-transform: uppercase;
-  padding-left: 30px;
-  font-size: 16px;
-  font-weight: 600;
+.teampic-janco {
+  background-image: url(../images/people/janco.jpg);
 }
-#welcome h2 {
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 30px;
+.teampic-janco:hover {
+  background-image: url(../images/people/janco-c.jpg);
 }
-#welcome p {
-  text-align: center;
+.teampic-coenie {
+  background-image: url(../images/people/coenie.jpg);
 }
-.gallery-preview-3 {
-  width: 870px;
-  margin-left: auto;
-  margin-right: auto;
+.teampic-coenie:hover {
+  background-image: url(../images/people/coenie-c.jpg);
 }
-.gallery-preview-3:before,
-.gallery-preview-3:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
+.teampic-candice {
+  background-image: url(../images/people/candice.jpg);
 }
-.gallery-preview-3:after {
-  clear: both;
+.teampic-candice:hover {
+  background-image: url(../images/people/candice-c.jpg);
 }
-.gallery-preview-3:before,
-.gallery-preview-3:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
+.teampic-terence {
+  background-image: url(../images/people/terence.jpg);
 }
-.gallery-preview-3:after {
-  clear: both;
+.teampic-theo {
+  background-image: url(../images/people/theo.jpg);
 }
-.gallery-preview-3 > div {
-  float: left;
-  width: 280px;
-  height: 190px;
-  padding: 1px;
+.teampic-dani {
+  background-image: url(../images/people/dani.jpg);
 }
-.gallery-preview-3 a {
-  display: block;
-  color: #7c6853;
-  position: relative;
+.teampic-mandla {
+  background-image: url(../images/people/mandla.jpg);
 }
-.gallery-preview-3 a:hover .image-overlay {
-  opacity: 0.7 !important;
+.teampic-shanaaz {
+  background-image: url(../images/people/shanaaz.jpg);
 }
-.gallery-preview-3 a:hover .image-overlay .image-overlay-inside {
-  -webkit-animation: pop_small 0.5s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  animation: pop_small 0.5s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.gallery-preview-3 h3 {
-  font-size: 12px;
-  text-align: center;
-  background: white;
-  padding: 12px;
-  margin: 0;
-  position: relative;
-}
-.gallery-preview-3 h3 .arrow {
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  top: -4px;
-  left: 50%;
-  margin-left: -5px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  border-width: 1px;
-  border-style: none;
-  background-color: white;
-}
-.gallery-preview-3 img {
-  width: 278px;
-  height: 175px;
-}
-.gallery-preview-3 .image-overlay {
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-  display: block;
-  height: 177px;
-  width: 278px;
-  position: absolute;
-  background: #fff;
-  z-index: 500;
-  opacity: 0;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
-}
-.gallery-preview-3 .image-overlay .image-overlay-inside {
-  position: absolute;
-  border-radius: 50px;
-  background: #c28c17;
-  height: 80px;
-  width: 80px;
-  line-height: 80px;
-  left: 50%;
-  top: 50%;
-  margin: -40px 0 0 -40px;
-  z-index: 500;
-  text-align: center;
-  font-size: 18px;
-  font-weight: normal;
-  color: white;
-}
-@-webkit-keyframes pop_small {
-  0% {
-    -webkit-transform: rotate(-175deg) scale(0.2);
-  }
-  100% {
-    -webkit-transform: rotate(0deg) scale(1);
-  }
-}
-@-moz-keyframes avia_pop_small {
-  0% {
-    -moz-transform: rotate(-175deg) scale(0.2);
-  }
-  100% {
-    -moz-transform: rotate(0deg) scale(1);
-  }
-}
-@keyframes avia_pop_small {
-  0% {
-    transform: rotate(-175deg) scale(0.2);
-  }
-  100% {
-    transform: rotate(0deg) scale(1);
-  }
+.teampic-steven {
+  background-image: url(../images/people/steven.jpg);
 }
 footer {
   background-color: #000;

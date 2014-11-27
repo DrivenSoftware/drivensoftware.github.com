@@ -1,37 +1,117 @@
 // http://www.kriesi.at/themedemo/?theme=enfold
 
-.text-justify {
-	text-align: justify;
-}
-
-.text-right {
-	text-align: right;
-}
-
+.text-justify { text-align: justify; }
+.text-right { text-align: right; }
 .text-center { text-align: center; }
 .text-caps { text-transform: uppercase; }
 
-h3 {
-	color: @brand-primary;
-	height: 25px;
 
-	span {
-		background-color: white;
-		padding-right: 12px;
-		float: left;
+.tabpanel {
+	padding: 20px 20px;
+
+	.tab-content {
+		padding: 20px;
 	}
-	hr {
-		margin: 0px;
-		padding-top: 8px;
-		border: 0px;
-		border-bottom: 1px solid lighten(@brand-primary,50);
+}
+
+.strip {
+	background-color: lighten(@brand-primary, 50%);
+	padding: 0px;
+
+	h4 {
+		text-align: center;
+		text-decoration: underline;
+		color: @gray;
+		margin: 25px 0px;
 	}
+
+	ul {
+		list-style: none;
+		padding: 0px;
+
+		li {
+			padding: 8px;
+			margin: 10px 0px;
+			color: @brand-primary;
+			text-align: justify;
+		}
+	}
+}
+
+section {
+	.section-light {
+		.container {
+		//	height: 250px;
+		}	
+	}
+	.clearfix;
+}
+
+.section-image {
+	height: 340px;
+}
+
+.section-image-alliance {
+	background-image: url(../images/index/alliance-bg.jpg); 
+}
+
+.section-image-software {
+	background-image: url(../images/index/software-bg.jpg); 
+}
+
+.section-image-studio {
+	background-image: url(../images/index/studio-bg.jpg); 
+}
+
+.section-image-spark {
+	background-image: url(../images/index/spark-bg.jpg); 
+}
+
+.section-image-systems {
+	background-image: url(../images/index/systems-bg.jpg); 
+}
+
+.section-image-about {
+	background-image: url(../images/index/about-bg.jpg);
+}
+
+.section-logo {
+	width: 180px;
+	top: 20px;
+	padding-right: 30px;
+	padding-top: 10px;
+	.pull-right;
+}
+
+.section-watermark {
+	background-repeat: no-repeat;
+	background-position: 60px 65px;
+	min-height: 300px;
+}
+
+.section-watermark-alliance {
+	background-image: url(../images/index/alliance-watermark.png);	
+}
+
+.section-watermark-software {
+	background-image: url(../images/index/software-watermark.png);	
+}
+
+.section-watermark-studio {
+	background-image: url(../images/index/studio-watermark.png);	
+}
+
+.section-watermark-spark {
+	background-image: url(../images/index/spark-watermark.png);	
+}
+
+.section-watermark-systems {
+	background-image: url(../images/index/systems-watermark.png);	
 }
 
 .section-light {
 	background-color:	@section-light-bg; 
 	color: @brand-text;
-
 
 	p {
 		strong {
@@ -44,62 +124,9 @@ h3 {
 		font-weight: 600;
 
 	}
-}
 
-.section-dark {
-	background-color:	@section-dark-bg;
-	color: #bfb7ac;
-	box-shadow: 		inset 0 1px 3px rgba(0,0,0,0.1);
-
-	h2 { color: #bfb7ac; }
-	h4 { color: #bfb7ac; }
-	p {
-		strong {
-			color: #fff;
-		}
-	}
-
-	a {
-		color: #fff;
-	}
-	
-	.hr {
-		clear: both;
-		display: block;
-		width: 100%;
-		position: relative;
-		height: 20px;
-		line-height: 20px;
-		margin: 30px 0;
-		float: none;
-
-		.hr-inner {
-			position: absolute;
-			height: 1px;
-			top: 50%;
-			margin-top: -1px;
-			border-top-width: 1px;
-			border-top-style: solid;
-			width: 32%;
-			left: 50%;
-			margin-left: -16%;
-			border-color: #e1e1e1;
-
-			.hr-inner-style {
-				border-radius: 20px;
-				height: 9px;
-				width: 9px;
-				border-width: 2px;
-				border-style: solid;
-				display: block;
-				position: absolute;
-				left: 50%;
-				margin-left: -5px;
-				margin-top: -5px;
-				border-color: #e1e1e1;
-				background-color: @section-dark-bg;
-			}
-		}
+	.container {
+		min-height: 250px;
 	}
 }
 
@@ -108,157 +135,98 @@ p {
 	line-height: 1.3em;
 }
 
-#breadcrumb {
-	h2 {
-		margin: 17px 0;
-		font-size: 15px;
-		font-weight: 200;
-	}
-	p {
-		text-align: right;
-		margin: 17px 0;
-		font-size: 10px;
-	}
+.teampic {
+	width: 200px;
+	height: 200px;
 }
 
-.iconbox {
-	letter-spacing: 1px;
-	line-height: 1.3em;
-	color: @brand-text;
-	padding: 28px 48px;
-
-	p {
-		strong {
-			color: @brand-text-emp;
-		}
-	}
-
-	span {
-		float: left;
-		padding-top: 16px;
-		font-size: 16px;
-		padding-left: 8px;
-		color: #382410;
-	}
-	
-	h3 {
-		text-transform: uppercase;
-		padding-left: 30px;
-		font-size: 16px;
-		font-weight: 600;
-	}
+.teampic-kevin {
+	background-image: url(../images/people/kevin.jpg);
 }
 
-#welcome {
-	h2 {
-		text-transform: uppercase;
-		text-align: center;
-		padding-top: 30px;
-	}	
-
-	p {
-		text-align: center;
-	}
+.teampic-kevin:hover {
+	background-image: url(../images/people/kevin-c.jpg);
 }
 
-.gallery-preview-3 {
-	width: 870px;
-	margin-left: auto;
-	margin-right: auto;
-	.clearfix;
-
-	> div {
-		float: left;
-		width: 280px;
-		height: 190px;
-		padding: 1px;
-	}
-	a {
-		display: block;
-		color: @brand-text;
-		position: relative;
-
-		&:hover .image-overlay {
-			opacity: 0.7 !important;
-
-			.image-overlay-inside {
-				-webkit-animation: pop_small 0.5s 1 cubic-bezier(0.175, 0.885, 0.320, 1.275);
-				animation: pop_small 0.5s 1 cubic-bezier(0.175, 0.885, 0.320, 1.275);
-			}
-		}
-	}
-	h3 {
-		font-size: 12px;
-		text-align: center;
-		background: white;
-		padding: 12px;
-		margin: 0;
-		position: relative;
-
-		.arrow {
-			height: 10px;
-			width: 10px;
-			position: absolute;
-			top: -4px;
-			left: 50%;
-			margin-left: -5px;
-			.rotate(45deg);
-			border-width: 1px;
-			border-style: none;
-			background-color: white;
-		}
-	}
-	img {
-		width: 278px;
-		height: 175px;
-	}
-	.image-overlay {
-		left: 0px; 
-		top: 0px; 
-		overflow: hidden; 
-		display: block; 
-		height: 177px; 
-		width: 278px;
-		position: absolute;
-		background: #fff;
-		z-index: 500;
-		opacity: 0;
-		.transition(opacity 0.4s ease-in-out);
-
-		.image-overlay-inside {
-			position: absolute;
-			border-radius: 50px;
-			background: @brand-text-emp;
-			height: 80px;
-			width: 80px;
-			line-height: 80px;
-			left: 50%;
-			top: 50%;
-			margin: -40px 0 0 -40px;
-			z-index: 500;
-			text-align: center;
-			font-size: 18px;
-			font-weight: normal;
-			color: white;
-		}
-	}
+.teampic-mark {
+	background-image: url(../images/people/mark.jpg);
 }
 
-@-webkit-keyframes pop_small {
-	0% {-webkit-transform:rotate(-175deg) scale(0.2)}
-	100% {-webkit-transform:rotate(0deg) scale(1)}
+.teampic-mark:hover {
+	background-image: url(../images/people/mark-c.jpg);
 }
 
-@-moz-keyframes avia_pop_small {
-	0% {-moz-transform:rotate(-175deg) scale(0.2)}
-	100% {-moz-transform:rotate(0deg) scale(1)}
-
+.teampic-janco {
+	background-image: url(../images/people/janco.jpg);
 }
 
-@keyframes avia_pop_small {
-	0% {transform:rotate(-175deg) scale(0.2)}
-	100% {transform:rotate(0deg) scale(1)}
+.teampic-janco:hover {
+	background-image: url(../images/people/janco-c.jpg);
 }
+
+.teampic-coenie {
+	background-image: url(../images/people/coenie.jpg);
+}
+
+.teampic-coenie:hover {
+	background-image: url(../images/people/coenie-c.jpg);
+}
+
+.teampic-candice {
+	background-image: url(../images/people/candice.jpg);
+}
+
+.teampic-candice:hover {
+	background-image: url(../images/people/candice-c.jpg);
+}
+
+.teampic-terence {
+	background-image: url(../images/people/terence.jpg);
+}
+
+//.teampic-terence:hover {
+//	background-image: url(../images/people/terence-c.jpg);
+//}
+
+.teampic-theo {
+	background-image: url(../images/people/theo.jpg);
+}
+
+//.teampic-theo:hover {
+//	background-image: url(../images/people/theo-c.jpg);
+//}
+
+.teampic-dani {
+	background-image: url(../images/people/dani.jpg);
+}
+
+//.teampic-dani:hover {
+//	background-image: url(../images/people/dani-c.jpg);
+//}
+
+.teampic-mandla {
+	background-image: url(../images/people/mandla.jpg);
+}
+
+//.teampic-mandla:hover {
+//	background-image: url(../images/people/mandla-c.jpg);
+//}
+
+.teampic-shanaaz {
+	background-image: url(../images/people/shanaaz.jpg);
+}
+
+//.teampic-shanaaz:hover {
+//	background-image: url(../images/people/shanaaz-c.jpg);
+//}
+
+.teampic-steven {
+	background-image: url(../images/people/steven.jpg);
+}
+
+//.teampic-steven:hover {
+//	background-image: url(../images/people/steven-c.jpg);
+//}
 
 footer {
 	background-color:	#000;

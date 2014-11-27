@@ -1,0 +1,26 @@
+<section id="team" class="section-light">
+	<div class="container">
+		<hr/>
+		{% for g in site.data.team %}
+		<div class="row">
+			{% for p in g.people %}
+			<div class="col-md-3 text-centre">
+				<div class="teampic teampic-{{p.id}}"></div>
+				<!--<img src="{{ site.url }}{{ p.pic }}" class="teampic" />-->
+				<!--<span class="overlay">
+					<ul>
+						<li>
+							<span class="glyphicon-label">Linked In</span>
+							<span class="glyphicon glyphicon-star"></span>
+						</li>
+					</ul>
+				</span>-->
+				<div class="name">{{ p.name }}</div>
+				<div class="title">{{ p.title }}</div>
+			</div>
+			{% endfor %}
+		</div>
+		{% endfor %}
+	</div>
+</section>
+

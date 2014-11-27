@@ -2,15 +2,30 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<em>&copy; Copyright 2014 - </em> <a href="/"> Driven Software. All rights reserved.</a>
+				<em>&copy; Copyright <span id="copyright">2014</span> - </em> <a href="/"> Driven Alliance. All rights reserved.</a>
 			</div>
 			<div class="col-md-6">
 				<ul class="pull-right">
-					<li><a href="/"> Home </a></li>
+					<li><a href="/#alliance">Driven</a></li>
 					<li> | </li>
-					<li><a href="/contact"> Contact </a></li>
+					<!-- <li><a href="/#software">Software</a></li>>
+					<li> | </li>
+					<li><a href="/#studio">Studio</a></li>>
+					<li> | </li>
+					<li><a href="/#spark">Spark</a></li>>
+					<li> | </li>
+					<li><a href="/#systems">Systems</a></li> 
+					<li> | </li -->
+					<li><a href="/#about">About</a></li>
 				</ul>
 			<div>
 		</div>	
 	</div>
 </footer>
+
+<script type="text/javascript">
+	var d = new Date();
+	var y = d.getFullYear();
+	var ys = y.toString();
+	$('#copyright').text(ys);
+</script>

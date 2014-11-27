@@ -1,0 +1,35 @@
+
+<section id="{{ include.param }}">
+<div class="section-image section-image-{{include.param}}" data-stellar-background-ratio="0.5">
+	<div class="container"></div>
+</div>
+
+<div class="section-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 section-watermark section-watermark-{{include.param}}">
+				<img src="images/index/{{include.param}}-logo-sml.png" class="section-logo" />
+				<div class="tabpanel" role="tabpanel">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Purpose</a></li>
+					</ul>
+				
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="home">
+							{% include_relative index/{{include.param}}-purpose.html%}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 strip">
+				<h4>Principles</h4>
+				{% include_relative index/{{include.param}}-principles.html %}
+			</div>
+			<div class="col-md-1">
+			</div>
+		</div>
+	</div>
+</div>
+</section>

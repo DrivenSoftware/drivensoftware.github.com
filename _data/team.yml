@@ -1,36 +1,56 @@
 
-- name: Kevin Trethewey
-  title: Senior Coach
-  pic: /images/people/Kevin.jpg
+- people:
 
-- name: Mark Pearl
-  title: Developer Coach
-  pic: /images/people/Mark.jpg
+  - id: kevin
+    name: Kevin Trethewey
+    title: Senior Coach
+    pic: /images/people/Kevin.jpg
 
-- name: Janco Wolmarans
-  title: Senior Developer
-  pic: /images/people/Janco.jpg
+  - id: mark
+    name: Mark Pearl
+    title: Developer Coach
+    pic: /images/people/Mark.jpg
 
-- name: Coenie Beyers
-  title: Developer
-  pic: /images/people/Coenie.jpg
+  - id: janco
+    name: Janco Wolmarans
+    title: Senior Developer
+    pic: /images/people/Janco.jpg
 
-- name: Candice Mesk
-  title: Developer
-  pic: /images/people/Candice.jpg
+  - id: coenie
+    name: Coenie Beyers
+    title: Developer
+    pic: /images/people/Coenie.jpg
 
-- name: Terence Kruger
-  title: Developer Coach
-  pic: /images/people/Terence.jpg
+- people:
 
-- name: Theo Bohnen
-  title: Developer
-  pic: /images/people/Theo.jpg
+  - id: candice
+    name: Candice Mesk
+    title: Developer
+    pic: /images/people/Candice.jpg
 
-- name: Dani Mdleleni
-  title: Developer
-  pic: /images/people/Dani.jpg
+  - id: terence
+    name: Terence Kruger
+    title: Developer Coach
+    pic: /images/people/Terence.jpg
 
-- name: Mandla Magagula
-  title: Developer
-  pic: /images/people/Mandla.jpg
+  - id: theo
+    name: Theo Bohnen
+    title: Developer
+    pic: /images/people/Theo.jpg
+
+  - id: dani
+    name: Dani Mdleleni
+    title: Developer
+    pic: /images/people/Dani.jpg
+
+- people:
+
+  - id: mandla
+    name: Mandla Magagula
+    title: Developer
+    pic: /images/people/Mandla.jpg
+
+  - id: shanaaz
+    name: Shanaaz Trethewey
+    title: Coach
+    pic: /images/people/Shanaaz.jpg
