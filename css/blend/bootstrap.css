@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: 'Zag Bold';
+    src: url('/css/Zag Bold.otf');
+}
+
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
@@ -6,7 +12,7 @@
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
-	font-family: sans-serif;
+	font-family: 'Zag Bold';
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
