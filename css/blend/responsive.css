@@ -111,6 +111,11 @@ nav#main-nav {
  .header-nav .dropdown-submenu > .dropdown-menu {
  margin-top: 0
 }
+
+.navbar-nav > li > a.white {
+	color: #3c3c3c;
+}
+
  .dropdown-submenu {
  position: relative
 }
