@@ -5856,10 +5856,17 @@ nav#main-nav ul li a:hover i, nav#main-nav ul li.current a i {
 }
 /* End CSS */
 
-.header-nav.basic.sticky .logo-dark img {
+/*.header-nav.basic.set {
+	background-color: white;
+}*/
+
+.header-nav.basic .logo-dark img,
+.header-nav.basic .logo-white img {
   height: 40px;
 }
 
-.header-nav.basic.sticky .logo-dark {
-  padding-top: 15px;
+.header-nav.basic .logo-dark,
+.header-nav.basic .logo-white {
+  padding-top: 30px;
 }
+

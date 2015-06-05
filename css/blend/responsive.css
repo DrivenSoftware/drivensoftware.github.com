@@ -322,7 +322,7 @@ nav#main-nav {
 	margin-top:6px;
 }
 .logo img, .logo-white img, .logo-dark img {	
-	height: 20px!important;
+	height: 40px!important;
 }
  .nav > li > a:hover:before, .navbar-nav > li.current:before {
  border-bottom: none!important;
@@ -428,7 +428,7 @@ nav#main-nav {
 	margin-top:6px;
 }
 .logo img, .logo-white img, .logo-dark img {	
-	height: 20px!important;
+	height: 40px!important;
 }
 .navbar-nav > li > a {
 	color: #333;
@@ -467,6 +467,10 @@ nav#main-nav {
 }
 .header-nav.basic .navbar-nav > li {
  margin-left: 0
+}
+.header-nav.basic .logo-dark,
+.header-nav.basic .logo-white {
+  padding-top: 25px;
 }
 .banner-container {
    	margin-top:0px!important;
@@ -659,3 +663,4 @@ img {
 	height:70px;	
 	margin-right:5px;
 }
+
