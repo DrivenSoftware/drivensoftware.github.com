@@ -1,0 +1,50 @@
+<div class="bg-white t-pad40 b-pad30">
+		
+    <div class="container pad-container">
+			
+         <div class="row col-md-12 text-center b-pad30">
+              <h2 class="heading">Dedicated Team Members</h2>
+              <p class="h-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+         </div>
+
+         {% for g in site.data.team %}
+         <div class="row b-mgr40">
+         	{% for p in g.people %}
+         		<div class="col-sm-3">
+					   <div class="team-box team-box-animated">
+        				<div class="inner">
+                             <div class="front">
+                                  <img src="/images/people/{{ p.id }}-c.jpg" alt="">
+                                  <h3>{{ p.name }}</h3>
+                                  <span>{{ p.title }}</span>
+                             </div>
+   							 <div class="back">
+                                  <h3>{{ p.name }}</h3>
+                                  <span>{{ p.title }}</span>
+                                  <p>
+              {% capture team_profile %}{{'/team/'}}{{p.id}}{{'.txt'}}{% endcapture %}
+              {% for static_file in site.static_files %}
+	         	{% if static_file.path == team_profile %}
+	         		{% include_relative kevin.txt %}
+	         	{% endif %}
+	         {% endfor %}
+                                  </p>
+                                 <div class="social-icons text-left">
+                                      <ul>
+                                          <li><a href="#" class="twitter-alt"><i class="icon-twitter"></i></a></li>
+                                          <li><a href="#" class="facebook-alt"><i class="icon-facebook"></i></a></li> 
+                                          <li><a href="#" class="google-alt"><i class="icon-gplus"></i></a></li>
+                                          <li><a href="#" class="linkedin-alt"><i class="icon-linkedin"></i></a></li>
+                                      </ul>
+                                 </div>
+   							 </div>
+						   </div>
+					  </div>
+				 </div>
+         	{% endfor %}
+         </div>
+         {% endfor %}
+
+   </div>
+
+</div>

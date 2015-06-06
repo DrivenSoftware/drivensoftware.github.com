@@ -26,12 +26,9 @@
 <div class="content-wrap">       
             
      <div class="content">
-        {% include_relative views/header.html %}
-        {% include_relative views/slider.html %}
-        {% include_relative views/principles.html %}
-        {% include_relative views/whatWeDo.html %}
-        {% include_relative views/team.html %}
-        {% include_relative views/footer.html %}
+        {% include header-blend.html %}
+        {{ content }}
+        {% include footer-blend.html %}
 <!--
                      
              

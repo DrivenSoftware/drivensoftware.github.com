@@ -1386,7 +1386,7 @@ blockquote small {
 	font-weight:300;
 }
 .pages {   
-    background: url(../images/content/pr-slider-bg1.jpg) center center no-repeat;
+    background: url(../../images/slider/pr-slider-bg1.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
