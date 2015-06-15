@@ -4,53 +4,70 @@
   - id: kevin
     name: Kevin Trethewey
     title: Senior Coach
-    pic: /images/people/Kevin.jpg
+    twitter: https://twitter.com/KevinTrethewey
+    facebook:
+    google: 
+    linkedin: https://www.linkedin.com/profile/view?id=3212139
 
   - id: mark
     name: Mark Pearl
     title: Developer Coach
-    pic: /images/people/Mark.jpg
+    twitter: https://twitter.com/MarkPearlCoZa
+    linkedin: https://www.linkedin.com/profile/view?id=49855797
 
   - id: janco
     name: Janco Wolmarans
     title: Senior Developer
-    pic: /images/people/Janco.jpg
+    twitter: https://twitter.com/jancowol
+    linkedin: https://www.linkedin.com/profile/view?id=9312534
 
   - id: coenie
     name: Coenie Beyers
     title: Developer
-    pic: /images/people/Coenie.jpg
+    twitter: https://twitter.com/coeniebeyers
+    linkedin: https://www.linkedin.com/profile/view?id=86664050
 
 - people:
 
   - id: candice
     name: Candice Mesk
     title: Developer
-    pic: /images/people/Candice.jpg
+    twitter: https://twitter.com/candicemesk
+    linkedin: https://www.linkedin.com/profile/view?id=117315286
 
   - id: terence
     name: Terence Kruger
     title: Developer Coach
-    pic: /images/people/Terence.jpg
+    twitter: https://twitter.com/tjmkruger
+    linkedin: https://www.linkedin.com/profile/view?id=82382743
 
   - id: theo
     name: Theo Bohnen
     title: Developer
-    pic: /images/people/Theo.jpg
+    twitter: https://twitter.com/tbohnenJnr
+    linkedin: https://www.linkedin.com/profile/view?id=93840703
 
   - id: dani
     name: Dani Mdleleni
     title: Developer
-    pic: /images/people/Dani.jpg
+    linkedin: https://www.linkedin.com/profile/view?id=401985079
 
 - people:
 
   - id: mandla
     name: Mandla Magagula
     title: Developer
-    pic: /images/people/Mandla.jpg
+    twitter: https://twitter.com/mandlamag
+    linkedin: 
 
   - id: shanaaz
     name: Shanaaz Trethewey
     title: Coach
-    pic: /images/people/Shanaaz.jpg
+    twitter: https://twitter.com/shanaazbt
+    linkedin: https://www.linkedin.com/profile/view?id=379564967
+
+  - id: steven
+    name: Steven McDonald
+    title: Developer
+    twitter: https://twitter.com/StevenMcD_code
+    linkedin: https://www.linkedin.com/profile/view?id=169764364

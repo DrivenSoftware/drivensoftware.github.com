@@ -14,7 +14,7 @@
 					   <div class="team-box team-box-animated">
         				<div class="inner">
                              <div class="front">
-                                  <img src="/images/team/{{ p.id }}-c.jpg" alt="">
+                                  <img src="/images/team/{{ p.id }}-n.jpg" alt="">
                                   <h3>{{ p.name }}</h3>
                                   <span>{{ p.title }}</span>
                              </div>
@@ -31,10 +31,20 @@
                                   </p>
                                  <div class="social-icons text-left">
                                       <ul>
-                                          <li><a href="#" class="twitter-alt"><i class="icon-twitter"></i></a></li>
-                                          <li><a href="#" class="facebook-alt"><i class="icon-facebook"></i></a></li> 
-                                          <li><a href="#" class="google-alt"><i class="icon-gplus"></i></a></li>
-                                          <li><a href="#" class="linkedin-alt"><i class="icon-linkedin"></i></a></li>
+
+{% if p.twitter != nil and p.twitter.to_s != '' %}
+<li><a href="{{ p.twitter }}" class="twitter-alt" target="_blank"><i class="icon-twitter"></i></a></li>
+{% endif %}
+{% if p.facebook != nil and p.facebook.to_s != '' %}
+<li><a href="{{ p.facebook }}" class="facebook-alt" target="_blank"><i class="icon-facebook"></i></a></li> 
+{% endif %}
+{% if p.google != nil and p.google.to_s != '' %}
+<li><a href="{{ p.google }}" class="google-alt" target="_blank"><i class="icon-gplus"></i></a></li>
+{% endif %}
+{% if p.linkedin != nil and p.linkedin.to_s != '' %}
+<li><a href="{{ p.linkedin }}" class="linkedin-alt" target="_blank"><i class="icon-linkedin"></i></a></li>
+{% endif %}
+
                                       </ul>
                                  </div>
    							 </div>
