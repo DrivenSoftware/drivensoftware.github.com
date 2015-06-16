@@ -100,97 +100,97 @@ jQuery(document).ready(function() {
 
 /* 04 Owl Carousel
 ================================================== */
-// $(document).ready(function () {
-// "use strict";    
-//      $(".owlcarousel").owlCarousel({
-//         navigation: true,
-//         navigationText : ['<i class="icon-left-open"></i>','<i class="icon-right-open"></i>'],
-//         pagination: false,
-//         rewindNav: false,
-//         items: 3,
-//         mouseDrag: true,
-//         itemsDesktop: [1200, 3],
-//         itemsDesktopSmall: [1024, 3],
-//         itemsTablet: [970, 2],
-//         itemsMobile: [767, 1]
-//     });
+$(document).ready(function () {
+"use strict";    
+  //    $(".owlcarousel").owlCarousel({
+  //       navigation: true,
+  //       navigationText : ['<i class="icon-left-open"></i>','<i class="icon-right-open"></i>'],
+  //       pagination: false,
+  //       rewindNav: false,
+  //       items: 3,
+  //       mouseDrag: true,
+  //       itemsDesktop: [1200, 3],
+  //       itemsDesktopSmall: [1024, 3],
+  //       itemsTablet: [970, 2],
+  //       itemsMobile: [767, 1]
+  //   });
 
-// 	 $(".owlcarousel-full").owlCarousel({
-//         navigation: true,
-//         navigationText : ['<i class="icon-left-open"></i>','<i class="icon-right-open"></i>'],
-//         pagination: true,
-//         rewindNav: true,
-//         items: 4,
-//         mouseDrag: true,
-// 		autoPlay: 4000,
-//         itemsDesktop: [1200, 4],
-//         itemsDesktopSmall: [1024, 4],
-//         itemsTablet: [970, 2],
-//         itemsMobile: [767, 1]
-//     });
+	 // $(".owlcarousel-full").owlCarousel({
+  //       navigation: true,
+  //       navigationText : ['<i class="icon-left-open"></i>','<i class="icon-right-open"></i>'],
+  //       pagination: true,
+  //       rewindNav: true,
+  //       items: 4,
+  //       mouseDrag: true,
+		// autoPlay: 4000,
+  //       itemsDesktop: [1200, 4],
+  //       itemsDesktopSmall: [1024, 4],
+  //       itemsTablet: [970, 2],
+  //       itemsMobile: [767, 1]
+  //   });
 	 
-// 	 $(".owlcarousel-full2").owlCarousel({
-//         navigation: true,
-//         navigationText : ['<i class="icon-left-open"></i>','<i class="icon-right-open"></i>'],
-//         pagination: false,
-//         rewindNav: false,
-//         items: 6,
-//         mouseDrag: true,
-//         itemsDesktop: [1200, 6],
-//         itemsDesktopSmall: [1024, 4],
-//         itemsTablet: [970, 2],
-//         itemsMobile: [767, 1]
-//     });
+	 // $(".owlcarousel-full2").owlCarousel({
+  //       navigation: true,
+  //       navigationText : ['<i class="icon-left-open"></i>','<i class="icon-right-open"></i>'],
+  //       pagination: false,
+  //       rewindNav: false,
+  //       items: 6,
+  //       mouseDrag: true,
+  //       itemsDesktop: [1200, 6],
+  //       itemsDesktopSmall: [1024, 4],
+  //       itemsTablet: [970, 2],
+  //       itemsMobile: [767, 1]
+  //   });
 	 
-// 	 $(".owl-testimonials").owlCarousel({
-// 		rewindNav: true,
-//         items: 1,
-//         itemsDesktop: [1200, 1],
-//         itemsDesktopSmall: [1024, 1],
-//         itemsTablet: [768, 1],
-//         itemsMobile: [480, 1],
-//         navigation: false,
-//         pagination: true,
-// 		autoPlay: 4000
+ 	 $(".owl-testimonials").owlCarousel({
+		rewindNav: true,
+        items: 1,
+        itemsDesktop: [1200, 1],
+        itemsDesktopSmall: [1024, 1],
+        itemsTablet: [768, 1],
+        itemsMobile: [480, 1],
+        navigation: false,
+        pagination: true,
+		autoPlay: 4000
 
-//     });
+    });
 
-//     $(".owl-clients").owlCarousel({
+  //   $(".owl-clients").owlCarousel({
 
-//         autoPlay: 9000,
-// 		rewindNav: true,
-//         items: 6,
-//         itemsDesktop: [1200, 6],
-//         itemsDesktopSmall: [1024, 5],
-//         itemsTablet: [768, 3],
-//         itemsMobile: [480, 2],
-//         navigation: false,
-//         pagination: false,
+  //       autoPlay: 9000,
+		// rewindNav: true,
+  //       items: 6,
+  //       itemsDesktop: [1200, 6],
+  //       itemsDesktopSmall: [1024, 5],
+  //       itemsTablet: [768, 3],
+  //       itemsMobile: [480, 2],
+  //       navigation: false,
+  //       pagination: false,
 
-//     });
+  //   });
     
-//     var owl = $(".owl-portfolio-slider");
+  //   var owl = $(".owl-portfolio-slider");
 
-//     owl.owlCarousel({
-//         navigation: false,
-//         autoHeight: true,
-//         slideSpeed: 300,
-//         paginationSpeed: 300,
-//         singleItem: true,
-// 		autoPlay: 4000,
-// 		pagination: false,
-//     });
+  //   owl.owlCarousel({
+  //       navigation: false,
+  //       autoHeight: true,
+  //       slideSpeed: 300,
+  //       paginationSpeed: 300,
+  //       singleItem: true,
+		// autoPlay: 4000,
+		// pagination: false,
+  //   });
 
-//     // Custom Navigation Events
-//     $(".slider-next").click(function () {
-//         owl.trigger('owl.next');
-//     })
-//     $(".slider-prev").click(function () {
-//         owl.trigger('owl.prev');
-//     })
+  //   // Custom Navigation Events
+  //   $(".slider-next").click(function () {
+  //       owl.trigger('owl.next');
+  //   })
+  //   $(".slider-prev").click(function () {
+  //       owl.trigger('owl.prev');
+  //   })
     
 
-// });
+});
 
 /* 05 Fancy Box
 ================================================== */
