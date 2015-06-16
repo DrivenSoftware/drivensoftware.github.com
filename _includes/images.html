@@ -1,18 +1,14 @@
 
 <div class="bg-white">
-           
+
     <div class="container pad-container b-mgr40">
-    
-    	 <div class="row col-md-12 t-mgr50 b-mgr40">
-             <h3 class="heading">Community</h3>
-             <p>Duis nec aliquet massa, sed dapibus mauris. Nulla vehicula nisl cum soluta nobis est eligendi optio fermentum qui dolor ipsum quia dolor sit amet. Nulla vehicula nisl cum soluta nobis est eligendi optio cumque nihil impedit non enim fermentum.</p>
-         </div>
          
     	<!-- projects filter -->                    
         <div class="filter" style="text-align:left;">
             <a href="#" class="filter active" data-filter="*">All</a>
-            {% for g in site.data.spark %}
-            	<a href="#" class="filter" data-filter=".{{ g.type }}">{{ g.name }}</a>
+            {% assign items_grouped = include.param | group_by: 'type' %}
+            {% for g in items_grouped %}
+            	<a href="#" class="filter" data-filter=".{{ g.name }}">{{ g.name }}</a>
             {% endfor %}
         </div>                    
         <!-- /projects filter -->
@@ -20,13 +16,13 @@
         <!-- projects grid -->
         <ul class="projects-grid-3 project-grid-gut hover-white hide-titles masonry" id="project-grid" style="position: relative; height: 780px;">
 
-        {% for g in site.data.spark %}
-        {% for i in g.items %}
+        {% assign items_ordered = include.param | sort: 'order' %}
+        {% for i in items_ordered %}
 
-<li class="project-item mix {{ g.type }}">
-    <div data-rel="{{ g.type }}" data-title-id="img-01" rel="{{ g.type }}">
+<li class="project-item mix {{ i.type }}">
+    <div data-rel="{{ i.type }}" data-title-id="img-01" rel="{{ i.type }}">
            <div class="project-img">
-                <img src="{{ site.url }}/images/spark/{{ i.img }}" alt="{{ i.title }}">
+                <img src="{{ site.url }}/images/{{ i.img }}" alt="{{ i.title }}">
            </div>
            <div class="project-intro">
                 <h3 class="project-title">{{ i.title }}</h3>
@@ -36,8 +32,6 @@
 </li>
 
         {% endfor %}
-        {% endfor %}
-            
             
         </ul>
         <!-- / projects grid -->
