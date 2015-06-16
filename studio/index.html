@@ -12,16 +12,7 @@ layout: blend
    </div>
    
 </div>
-
-<div class="bg-gray page-nav">          	   
-   <div class="container">
-   		<div class="row col-md-12 text-right">
-        	 <p><a href="{{site.url}}/"> Home</a> &nbsp;&nbsp;<i class="arrow_right"></i> &nbsp;&nbsp;
-                <span class="active">Studio</span>
-             </p>
-        </div>
-   </div>
-</div>
-          
+      
+{% include breadcrumb.html crumbs='Studio' %}    
 {% include_relative studio.html %}
 {% include images.html param=site.data.studio %}

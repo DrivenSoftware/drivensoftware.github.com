@@ -13,14 +13,5 @@ layout: blend
    
 </div>
 
-<div class="bg-gray page-nav">          	   
-   <div class="container">
-   		<div class="row col-md-12 text-right">
-        	 <p><a href="{{site.url}}/"> Home</a> &nbsp;&nbsp;<i class="arrow_right"></i> &nbsp;&nbsp;
-                <span class="active">Software</span>
-             </p>
-        </div>
-   </div>
-</div>
-          
+{% include breadcrumb.html crumbs='Software' %}
 {% include_relative software.html %}

@@ -13,15 +13,6 @@ layout: blend
    
 </div>
 
-<div class="bg-gray page-nav">          	   
-   <div class="container">
-   		<div class="row col-md-12 text-right">
-        	 <p><a href="#"> Home</a> &nbsp;&nbsp;<i class="arrow_right"></i> &nbsp;&nbsp;
-                <span class="active">Spark</span>
-             </p>
-        </div>
-   </div>
-</div>
-          
+{% include breadcrumb.html crumbs='Spark' %}
 {% include_relative spark.html %}
 {% include images.html param=site.data.spark %}
