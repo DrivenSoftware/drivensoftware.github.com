@@ -1,0 +1,20 @@
+
+- type: Sisonke
+  name: Sisonke Rising
+  items:
+
+  - title: Sisonke
+    desc: description
+    img: IMG_8523.jpg
+
+  - title: Sisonke
+    desc: description
+    img: IMG_8527.jpg
+
+- type: CodeRetreat
+  name: Code Retreat
+  items:
+
+  - title: Title
+    desc: description
+    img: 600_224157552.jpeg

@@ -194,87 +194,87 @@ jQuery(document).ready(function() {
 
 /* 05 Fancy Box
 ================================================== */
-// $(document).ready(function () {
-// "use strict";
-//     $(".fancybox").fancybox({
-//         arrows: true,
-//         padding: 0,
-//         closeBtn: true,
-//         openEffect: 'fade',
-//         closeEffect: 'fade',
-//         prevEffect: 'fade',
-//         nextEffect: 'fade',
-//         helpers: {
-//             media: {},
-//             overlay: {
-//                 locked: false
-//             },
-//             buttons: false,
-//             thumbs: {
-//                 width: 50,
-//                 height: 50
-//             },
-//             title: {
-//                 type: 'inside'
-//             }
-//         },
-//         beforeLoad: function () {
-//             var el, id = $(this.element).data('title-id');
-//             if (id) {
-//                 el = $('#' + id);
-//                 if (el.length) {
-//                     this.title = el.html();
-//                 }
-//             }
-//         }
-//     });
-// });
+$(document).ready(function () {
+"use strict";
+    $(".fancybox").fancybox({
+        arrows: true,
+        padding: 0,
+        closeBtn: true,
+        openEffect: 'fade',
+        closeEffect: 'fade',
+        prevEffect: 'fade',
+        nextEffect: 'fade',
+        helpers: {
+            media: {},
+            overlay: {
+                locked: false
+            },
+            buttons: false,
+            thumbs: {
+                width: 50,
+                height: 50
+            },
+            title: {
+                type: 'inside'
+            }
+        },
+        beforeLoad: function () {
+            var el, id = $(this.element).data('title-id');
+            if (id) {
+                el = $('#' + id);
+                if (el.length) {
+                    this.title = el.html();
+                }
+            }
+        }
+    });
+});
 
 /* 05 Portfolio
 ================================================== */
-// $(document).ready(function () {
-// "use strict";
-//         $(window).trigger("resize");        
-//         initWorkFilter();
-// });
+$(document).ready(function () {
+"use strict";
+        $(window).trigger("resize");        
+        initWorkFilter();
+});
 
-// // Projects filtering
-// var fselector = 0;
-// var work_grid = $("#project-grid");
+// Projects filtering
+var fselector = 0;
+var work_grid = $("#project-grid");
 
-// function initWorkFilter(){
-//     (function($){
-//      "use strict";
-//      var isotope_mode;
-//      if (work_grid.hasClass("masonry")){
-//          isotope_mode = "masonry";
-//      } else{
-//          isotope_mode = "fitRows"
-//      }
+function initWorkFilter(){
+    (function($){
+     "use strict";
+     var isotope_mode;
+     if (work_grid.hasClass("masonry")){
+         isotope_mode = "masonry";
+     } else{
+         isotope_mode = "fitRows"
+     }
      
-//      work_grid.imagesLoaded(function(){
-//             work_grid.isotope({
-//                 itemSelector: '.mix',
-//                 layoutMode: isotope_mode,
-//                 filter: fselector
-//             });
-//         });
+     work_grid.imagesLoaded(function(){
+            work_grid.isotope({
+                itemSelector: '.mix',
+                layoutMode: isotope_mode,
+                filter: fselector
+            });
+        });
         
-//         $(".filter").click(function(){
-//             $(".filter").removeClass("active");
-//             $(this).addClass("active");
-//             fselector = $(this).attr('data-filter');
+        $(".filter").click(function(){
+            $(".filter").removeClass("active");
+            $(this).addClass("active");
+            fselector = $(this).attr('data-filter');
             
-//             work_grid.isotope({
-//                 itemSelector: '.mix',
-//                 layoutMode: isotope_mode,
-//                 filter: fselector
-//             });
-//             return false;
-//         });
+            work_grid.isotope({
+                itemSelector: '.mix',
+                layoutMode: isotope_mode,
+                filter: fselector
+            });
+            return false;
+        });
         
-//     })(jQuery);
-// }
+    })(jQuery);
+}
 
 /* ---------------------------------------------
  Masonry
