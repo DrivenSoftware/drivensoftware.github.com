@@ -11,7 +11,7 @@
         	 	<a href="{{site.url}}/"> Home</a> &nbsp;&nbsp;
 {% for l in crumb_links %}
 	{% assign crumb_details = l | split: ':' %}
-		<i class="arrow_right"></i> &nbsp;&nbsp;
+		<i class="arrow_right">&rarr;</i> &nbsp;&nbsp;
 		{% if crumb_details[1] == nil %}
 		<span class="active">{{ crumb_details[0] }}</span>
 		{% endif %}
