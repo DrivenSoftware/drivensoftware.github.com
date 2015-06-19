@@ -1,19 +1,35 @@
-
-
-- title: Payload
+- type: HAB
+  title: The Balloon
   desc: 
-  type: Copters
-  order: 3
-  img: studio/0011-0682.jpg
-
-- title: The Balloon
-  desc: 
-  type: HAB
   order: 1
   img: studio/0015-0723.jpg
 
-- title: 17 000 m
+- type: HAB
+  title: 17 000 m
   desc: 
-  type: HAB
   order: 2
   img: studio/14.jpg
+
+- type: HAB
+  title: Payload
+  desc: 
+  order: 3
+  img: studio/0011-0682.jpg
+
+- type: UAV
+  title: Electronics
+  desc: X525 open source hardware
+  order: 2
+  img: studio/IMG_3387.jpg
+
+- type: UAV
+  title: Electronics
+  desc: X525 Quadcopter
+  order: 4
+  img: studio/IMG_3382.jpg
+
+- type: UAV
+  title: Electronics
+  desc: X525 Quadcopter
+  order: 4
+  img: studio/20140215_092153.jpg
