@@ -1392,6 +1392,27 @@ blockquote small {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.pages-software {
+	background: url(../../images/slider/pg-slider-software.jpg) center center no-repeat;
+}
+
+.pages-studio {
+	background: url(../../images/slider/pg-slider-studio.jpg) center center no-repeat;
+}
+
+.pages-spark {
+	background: url(../../images/slider/pg-slider-spark.jpg) center center no-repeat;
+}
+
+.pages-systems {
+	background: url(../../images/slider/pg-slider-systems.jpg) center center no-repeat;
+}
+
+.pages-people {
+	background: url(../../images/slider/pg-slider-people.jpg) center center no-repeat;
+}
+
 .features {   
     background: url(../images/content/img-features.jpg) center center no-repeat;
 	-webkit-background-size: cover;
