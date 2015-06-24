@@ -41,6 +41,7 @@
     ================================================== -->
 
     <script src="{{ site.url }}/scripts/js/jquery.min.js"></script>
+    <script src="{{ site.url }}/scripts/js/jquery.inview.js"></script>
     <script src="{{ site.url }}/scripts/js/jquery.themepunch.plugins.min.js"></script>
     <script src="{{ site.url }}/scripts/js/jquery.themepunch.revolution.min.js"></script>
     <script src="{{ site.url }}/scripts/js/bootstrap.min.js"></script>
@@ -52,6 +53,19 @@
     <script src="{{ site.url }}/scripts/js/scripts.js"></script> 
 
 
+{% if page.url == "/new/" or page.url == "/" %}
+
+<script>
+    var CR_CALLBACK = function(data) {
+        var code_retreats = data.meta.total_count;
+        $('#counter-coderetreat').attr('data-perc', code_retreats);
+        $('#counter-coderetreat > span').val(code_retreats);
+    };
+</script>
+
+<script src="https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=coderetreat&photo-host=public&page=0&fields=&order=time&status=past&desc=false&sig_id=41810252&sig=c76c098ace7e2c49cee206bbccabc006a4ed9dbe&callback=CR_CALLBACK"></script>
+
+{% endif %}
 
 </body>
 </html>

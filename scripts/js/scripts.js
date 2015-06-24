@@ -6,22 +6,22 @@
 /* Table of Content
 ================================================== 
 
-    01. Sticky Header
+  01. Sticky Header
 	02. Main Menu
 	03. Revolution slider
-    04. Owl carousel
+  04. Owl carousel
 	05. Fancybox    
 	06. Portfolio Section
-    07. Tabs
-    08. Data Rel
-    09. Tooltip
+  07. Tabs
+  08. Data Rel
+  09. Tooltip
 	10. Fact Counter
 	11. Progress Bar
 	12. Flick Feeds
 	13. Form Validation
-    14. Preloader
+  14. Preloader
 	15. Pie chart
-    16. Right Sidebar Panel
+  16. Right Sidebar Panel
 
 */
 
@@ -361,74 +361,83 @@ function initWorkFilter(){
 /* 10 Fact Counter
 ================================================== */
 		
-// 	 $(document).ready(function () {
-// "use strict";	
-// 	/* Counter */
-//     $.fn.countTo = function(options) {
-//         // merge the default plugin settings with the custom options
-//         options = $.extend({}, $.fn.countTo.defaults, options || {});
+$(document).ready(function () {
+  
+  var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
+  var firstDate = new Date(2007,04,12);
+  var secondDate = new Date();
+  var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
+  var coffees = diffDays * 7;
+  $('#counter-coffee').attr('data-perc', coffees);
+  $('#counter-coffee > span').val(coffees);
 
-//         // how many times to update the value, and how much to increment the value on each update
-//         var loops = Math.ceil(options.speed / options.refreshInterval),
-//             increment = (options.to - options.from) / loops;
+"use strict";
+	/* Counter */
+    $.fn.countTo = function(options) {
+        // merge the default plugin settings with the custom options
+        options = $.extend({}, $.fn.countTo.defaults, options || {});
+
+        // how many times to update the value, and how much to increment the value on each update
+        var loops = Math.ceil(options.speed / options.refreshInterval),
+            increment = (options.to - options.from) / loops;
 			
-//         return $(this).each(function() {
-//             var _this = this,
-//                 loopCount = 0,
-//                 value = options.from,
-//                 interval = setInterval(updateTimer, options.refreshInterval);
+        return $(this).each(function() {
+            var _this = this,
+                loopCount = 0,
+                value = options.from,
+                interval = setInterval(updateTimer, options.refreshInterval);
 
-//             function updateTimer() {
-//                 value += increment;
-//                 loopCount++;
-//                 $(_this).html(value.toFixed(options.decimals));
+            function updateTimer() {
+                value += increment;
+                loopCount++;
+                $(_this).html(value.toFixed(options.decimals));
 
-//                 if (typeof(options.onUpdate) == 'function') {
-//                     options.onUpdate.call(_this, value);
-//                 }
+                if (typeof(options.onUpdate) == 'function') {
+                    options.onUpdate.call(_this, value);
+                }
 
-//                 if (loopCount >= loops) {
-//                     clearInterval(interval);
-//                     value = options.to;
+                if (loopCount >= loops) {
+                    clearInterval(interval);
+                    value = options.to;
 
-//                     if (typeof(options.onComplete) == 'function') {
-//                         options.onComplete.call(_this, value);
-//                     }
-//                 }
-//             }
-//         })
-//     };
+                    if (typeof(options.onComplete) == 'function') {
+                        options.onComplete.call(_this, value);
+                    }
+                }
+            }
+        })
+    };
 	
 
-// 		var count=0;
-// 		var dataperc;
+		var count=0;
+		var dataperc;
 		
-// 		//mobile counter
-// 		if($(window).width()>479){		
-// 			$('.milestone-counter').bind('inview', function (event, visible) {
-// 				if (visible === true & count===0) {
-// 				// element is now visible in the viewport
-// 				count++;
-// 				$('.milestone-counter').each(function(){
-// 					dataperc = $(this).attr('data-perc'),
-// 					$(this).find('.milestone-count').delay(6000).countTo({
-// 					from: 0,
-// 					to: dataperc,
-// 					speed: 2500,
-// 					refreshInterval: 80
-// 					});
-// 				});
-// 				} else {
-// 				// element has gone out of viewport
-// 				}
-// 			});
-// 		}else{
-// 			$('.milestone-count.highlight').each(function(){
-// 				$(this).html($(this).parent().attr('data-perc'))
-// 			})
-// 		}
+		//mobile counter
+		if($(window).width()>479){		
+			$('.milestone-counter').bind('inview', function (event, visible) {
+				if (visible === true & count===0) {
+				// element is now visible in the viewport
+				count++;
+				$('.milestone-counter').each(function(){
+					dataperc = $(this).attr('data-perc'),
+					$(this).find('.milestone-count').delay(6000).countTo({
+					from: 0,
+					to: dataperc,
+					speed: 2500,
+					refreshInterval: 80
+					});
+				});
+				} else {
+				// element has gone out of viewport
+				}
+			});
+		}else{
+			$('.milestone-count.highlight').each(function(){
+				$(this).html($(this).parent().attr('data-perc'))
+			})
+		}
 		
-// 	});
+	});
  
  
 /* 11 Progress Bar

@@ -131,6 +131,9 @@ ul.circled span,
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{ background: #c7952a; }
 
+.bg-color {
+	background: #89875c;
+}
 
 
 .social-top li a:hover i {
