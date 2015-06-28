@@ -8,7 +8,7 @@
   title: 17 000 m
   desc: 
   order: 2
-  img: studio/14.jpg
+  img: studio/IMG_9749.JPG
 
 - type: HAB
   title: Payload
@@ -21,6 +21,13 @@
   desc: 
   order: 3
   img: studio/2015-05-02 08.18.30.jpg
+
+- type: HAB
+  title: Flight Path
+  desc: 
+  order: 3
+  img: studio/DrivenUp01.jpg
+
 
 - type: UAV
   title: Electronics
