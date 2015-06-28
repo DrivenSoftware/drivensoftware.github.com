@@ -4,7 +4,7 @@
         <!--
          <div class="row col-md-12 text-center b-pad30">
               <h2 class="heading">The Driven Team</h2>
-              <p class="h-sub">We're not big on boxing people into titles, so always expect the unexpected.</p>
+              <p class="h-sub">We're not big on titles. Expect the unexpected.</p>
          </div>
 
         -->
@@ -17,14 +17,14 @@
 		
     <div class="container">
 
-         {% for g in site.data.team %}
+         {% for g in site.data.people-headshots %}
          <div class="row b-mgr40">
          	{% for p in g.people %}
          		<div class="col-sm-3">
 					   <div class="team-box team-box-animated">
         				<div class="inner">
                              <div class="front">
-                                  <img src="/images/team/{{ p.id }}-n.jpg" alt="">
+                                  <img src="/images/people/{{ p.id }}-n.jpg" alt="">
                                   <h3>{{ p.name }}</h3>
                                   <span>{{ p.title }}</span>
                              </div>
@@ -32,7 +32,7 @@
                                   <h3>{{ p.name }}</h3>
                                   <span>{{ p.title }}</span>
                                   <p>
-              {% capture team_profile %}{{'/team/'}}{{p.id}}{{'.txt'}}{% endcapture %}
+              {% capture team_profile %}{{'/people/'}}{{p.id}}{{'.txt'}}{% endcapture %}
               {% for static_file in site.static_files %}
 	         	{% if static_file.path == team_profile %}
 	         		{% include_relative kevin.txt %}

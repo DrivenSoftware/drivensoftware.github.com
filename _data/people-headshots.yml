@@ -1,9 +1,8 @@
-
 - people:
 
   - id: kevin
     name: Kevin Trethewey
-    title: Founder, Lead Coach
+    title: "001"
     twitter: https://twitter.com/KevinTrethewey
     facebook:
     google: 
@@ -11,63 +10,63 @@
 
   - id: mark
     name: Mark Pearl
-    title: Developer Coach
+    title: "003"
     twitter: https://twitter.com/MarkPearlCoZa
     linkedin: https://www.linkedin.com/profile/view?id=49855797
 
+  - id: shanaaz
+    name: Shanaaz Trethewey
+    title: "004"
+    twitter: https://twitter.com/shanaazbt
+    linkedin: https://www.linkedin.com/profile/view?id=379564967
+
   - id: janco
     name: Janco Wolmarans
-    title: Developer
+    title: "006"
     twitter: https://twitter.com/jancowol
     linkedin: https://www.linkedin.com/profile/view?id=9312534
-
-  - id: coenie
-    name: Coenie Beyers
-    title: Developer
-    twitter: https://twitter.com/coeniebeyers
-    linkedin: https://www.linkedin.com/profile/view?id=86664050
 
 - people:
 
   - id: candice
     name: Candice Mesk
-    title: Developer Coach
+    title: "008"
     twitter: https://twitter.com/candicemesk
     linkedin: https://www.linkedin.com/profile/view?id=117315286
 
+  - id: coenie
+    name: Coenie Beyers
+    title: "010"
+    twitter: https://twitter.com/coeniebeyers
+    linkedin: https://www.linkedin.com/profile/view?id=86664050
+
   - id: terence
     name: Terence Kruger
-    title: Developer Coach
+    title: "012"
     twitter: https://twitter.com/tjmkruger
     linkedin: https://www.linkedin.com/profile/view?id=82382743
 
-  - id: theo
-    name: Theo Bohnen
-    title: Developer
-    twitter: https://twitter.com/tbohnenJnr
-    linkedin: https://www.linkedin.com/profile/view?id=93840703
-
   - id: dani
     name: Dani Mdleleni
-    title: Developer
+    title: "013"
     linkedin: https://www.linkedin.com/profile/view?id=401985079
 
 - people:
 
+  - id: theo
+    name: Theo Bohnen
+    title: "015"
+    twitter: https://twitter.com/tbohnenJnr
+    linkedin: https://www.linkedin.com/profile/view?id=93840703
+
   - id: mandla
     name: Mandla Magagula
-    title: Developer
+    title: "016"
     twitter: https://twitter.com/mandlamag
     linkedin: 
 
-  - id: shanaaz
-    name: Shanaaz Trethewey
-    title: Personal Systems Coach, FD
-    twitter: https://twitter.com/shanaazbt
-    linkedin: https://www.linkedin.com/profile/view?id=379564967
-
   - id: steven
     name: Steven McDonald
-    title: Developer
+    title: "017"
     twitter: https://twitter.com/StevenMcD_code
     linkedin: https://www.linkedin.com/profile/view?id=169764364

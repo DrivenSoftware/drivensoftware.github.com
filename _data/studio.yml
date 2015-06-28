@@ -16,6 +16,12 @@
   order: 3
   img: studio/0011-0682.jpg
 
+- type: HAB
+  title: Electronics
+  desc: 
+  order: 3
+  img: studio/2015-05-02 08.18.30.jpg
+
 - type: UAV
   title: Electronics
   desc: X525 open source hardware
@@ -33,3 +39,27 @@
   desc: X525 Quadcopter
   order: 4
   img: studio/20140215_092153.jpg
+
+- type: UAV
+  title: Electronics
+  desc: Octocopter
+  order: 4
+  img: studio/IMG_6478-001.jpg
+
+- type: UAV
+  title: Electronics
+  desc: Quadcopter
+  order: 4
+  img: studio/20150501_070634.jpg
+
+- type: 3D_Printing
+  title: Ultimaker
+  desc: xxxxxxx
+  order: 5
+  img: studio/IMG_8387.JPG
+
+- type: 3D_Printing
+  title: Ultimaker
+  desc: xxxxxxx
+  order: 5
+  img: studio/IMG_8406.JPG

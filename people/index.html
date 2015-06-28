@@ -7,11 +7,12 @@ layout: blend
    <div class="container pad-container">
    		<div class="row col-md-12">
         	 <h1>The Driven Team</h1>
-             <h3>We don't believe in boxing people into titles, so always expect the unexpected.</h3>
+             <h3>We're not big on titles. Expect the unexpected.</h3>
         </div>
    </div>
    
 </div>
 
 {% include breadcrumb.html crumbs='People' %}          
-{% include_relative team.html %}
+{% include_relative people.html %}
+{% include images.html param=site.data.people %}

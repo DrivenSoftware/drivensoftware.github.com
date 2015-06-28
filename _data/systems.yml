@@ -1,0 +1,43 @@
+
+- type: Spine_Model
+  title:
+  desc: 
+  order: 1
+  img: systems/IMG_7876.JPG
+
+- type: Systemic_Thinking
+  title:
+  desc: 
+  order: 2
+  img: systems/IMG_8288.JPG
+
+- type: Team_Facilitation
+  title:
+  desc: 
+  order: 3
+  img: systems/IMG_8369.JPG
+
+- type: Team_Facilitation
+  title:
+  desc: 
+  order: 3
+  img: systems/IMG_8475.JPG
+
+- type: Simulations
+  title:
+  desc: 
+  order: 4
+  img: systems/2014-06-20 11.16.13.JPG
+
+- type: Simulations
+  title:
+  desc: 
+  order: 4
+  img: systems/IMG_0976.JPG
+
+- type: Simulations
+  title:
+  desc: 
+  order: 4
+  img: systems/WP_20140908_001.JPG
+  

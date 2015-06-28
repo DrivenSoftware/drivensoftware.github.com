@@ -11,6 +11,12 @@
   order: 2
   img: spark/IMG_8527.jpg
 
+- type: Sisonke
+  title:
+  desc: 
+  order: 2
+  img: spark/IMG_7818.jpg
+
 - type: CodeRetreat
   title:
   desc: 
@@ -41,47 +47,62 @@
   order: 3
   img: spark/2013-04-13 11.18.35.jpg
 
-- type: Unconference-2014
+- type: Conferences
   title:
   desc: 
   order: 4
+  img: spark/IMG_8005.jpg
+
+- type: Conferences
+  title:
+  desc: 
+  order: 4
+  img: spark/IMG_8010.jpg
+
+- type: Conferences
+  title:
+  desc: 
+  order: 4
+  img: spark/IMG_8011.jpg
+
+- type: Unconference-2014
+  title:
+  desc: 
+  order: 5
   img: spark/0204-3412.jpg
 
 - type: Unconference-2014
   title:
   desc: 
-  order: 4
+  order: 5
   img: spark/0159-3498.jpg
 
 - type: Unconference-2014
   title:
   desc: 
-  order: 4
+  order: 5
   img: spark/0209-3470.jpg
 
 - type: Unconference-2014
   title:
   desc: 
-  order: 4
+  order: 5
   img: spark/0161-3401.jpg
 
 - type: Unconference-2014
   title:
   desc: 
-  order: 4
+  order: 5
   img: spark/0170-3388.jpg
 
 - type: Unconference-2014
   title:
   desc: 
-  order: 4
+  order: 5
   img: spark/0187-3475.jpg
 
 - type: Unconference-2014
   title:
   desc: 
-  order: 4
+  order: 5
   img: spark/0184-3465.jpg
-
-
-
