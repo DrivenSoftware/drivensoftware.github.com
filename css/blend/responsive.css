@@ -527,7 +527,7 @@ nav#main-nav {
 }
 .inner-banner {
  	max-height:350px;
-	padding:35% 0px 0%;
+	/*padding:35% 0px 0%;*/
 }
 .inner-banner h1 {
     font-size:36px;
