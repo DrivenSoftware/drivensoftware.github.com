@@ -33,11 +33,12 @@
                                   <span>{{ p.title }}</span>
                                   <p>
               {% capture team_profile %}{{'/people/'}}{{p.id}}{{'.txt'}}{% endcapture %}
+              {% capture team_file %}{{p.id}}{{'.txt'}}{% endcapture %}
               {% for static_file in site.static_files %}
-	         	{% if static_file.path == team_profile %}
-	         		{% include_relative kevin.txt %}
-	         	{% endif %}
-	         {% endfor %}
+    	         	{% if static_file.path == team_profile %}
+    	         		{% include_relative {{team_file}} %}
+    	         	{% endif %}
+    	         {% endfor %}
                                   </p>
                                  <div class="social-icons text-left">
                                       <ul>
