@@ -49,6 +49,8 @@
 		- Search Canvas
 		
 	21. Footer
+
+	22. Custom
 	
 
 */
@@ -5889,4 +5891,16 @@ nav#main-nav ul li a:hover i, nav#main-nav ul li.current a i {
 .header-nav.basic .logo-dark,
 .header-nav.basic .logo-white {
   padding-top: 30px;
+}
+
+/* 22 General Properties
+================================================== */
+
+.pages .pad-container {
+	padding-top: 10px;
+}
+
+img.page-banner {
+	height: 150px;
+	width: 200px;
 }
