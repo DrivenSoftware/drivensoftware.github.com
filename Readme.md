@@ -6,11 +6,9 @@ Website
 
 To Setup
 --------
-Have Node and Ruby installed.
+Have Ruby installed.
 
 * Install Jekyll: `sudo gem install jekyll`
-* Install node packages: `npm install`
-* Generate stylesheets: `gulp style`
 
 To Add new page
 ---------------
@@ -18,7 +16,7 @@ To Add new page
 Set this tag for the layout page
 <pre>
 ---
-layout: new
+layout: blend
 ---
 </pre>
 
