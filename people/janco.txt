@@ -1,1 +1,1 @@
-Duis nec aliquet massa, sed dapibus mauris. Nulla vehicula nisl cum soluta nobis est eligendi optio cumque nihil impedit non enim fermentum.
+Janco has spent nearly two decades learning how NOT to build software. He likes to understand the driving principles behind the way developers think, work, and design code. Through technical workshops, code retreats, and other community events, he works to help raise the level of craftsmanship in the South African developer community.
