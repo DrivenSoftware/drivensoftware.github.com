@@ -19,9 +19,14 @@
     <div class="container">      
         <div class="basic-wrapper"> 
             <a class="btn mobile-menu right" data-toggle="collapse" data-target=".navbar-collapse"><i class="icon-menu-1"></i></a> 
+            {% if page.section != null %}
+            <a class="logo-white logo-section" href="/"><img src="/images/{{page.section}}/logo.png" alt=""></a>
+            <a class="logo-dark logo-section-dark" href="/"><img src="/images/{{page.section}}/logo.png" alt=""></a>
+            {% else %}
             <a class="logo-white" href="/"><img src="/images/logo.png" alt=""></a>
             <a class="logo-dark" href="/"><img src="/images/logo.png" alt=""></a>
-        </div>
+            {% endif %}
+        </div>  
 
         <div class="collapse navbar-collapse right">
             <ul class="nav navbar-nav">
@@ -34,7 +39,7 @@
                 <li class="dropdown"><a href="{{ site.url }}/software" class="dropdown-toggle white">Software</a>
                 </li>
 
-                <li class="dropdown"><a href="{{ site.url }}/studio" class="dropdown-toggle white">Studios</a>
+                <li class="dropdown"><a href="{{ site.url }}/studio" class="dropdown-toggle white">Studio</a>
                 </li>
 
                 <li class="dropdown"><a href="{{ site.url }}/spark" class="dropdown-toggle white">Spark</a>
